@@ -7,7 +7,7 @@ authors:
 - family-names: "Cohen"
   given-names: "Koby"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "FLARE: An open source software of FLARE available"
+title: "FLARE: An open source software of FLARE"
 doi: 10.5281/zenodo.10207395
 date-released: 2023-11-26
 url: "https://github.com/RanGreidi/FLARE"
