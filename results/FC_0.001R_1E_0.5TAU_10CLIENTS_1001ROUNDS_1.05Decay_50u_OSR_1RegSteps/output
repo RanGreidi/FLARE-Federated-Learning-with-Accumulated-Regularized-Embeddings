@@ -1,0 +1,20 @@
+round: 0
+FederatedAlgo evaluation:   0.1062999963760376
+FedAvg evaluation:   0.1062999963760376
+
+second_algo_server_state:   0.1062999963760376
+
+
+round: 10
+FederatedAlgo evaluation:   0.11500000208616257
+FedAvg evaluation:   0.1973000019788742
+
+second_algo_server_state:   0.10660000145435333
+
+
+round: 20
+FederatedAlgo evaluation:   0.1467999964952469
+FedAvg evaluation:   0.32359999418258667
+
+second_algo_server_state:   0.10700000077486038
+

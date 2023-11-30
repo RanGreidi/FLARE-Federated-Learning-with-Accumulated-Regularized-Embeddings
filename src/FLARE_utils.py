@@ -67,52 +67,48 @@ def client_update_my_algo(models, dataset, server_weights, accumolator, client_o
   """Performs training (using the server model weights) on the client's dataset."""
   
   model_0 = models[0]
+  model_1 = models[1]  
   # Initialize the client model with the current server weights.
-  client_weights_new = tff.learning.ModelWeights.from_model(model_0)
+  client_weights_new_0 = tff.learning.ModelWeights.from_model(model_0)
+  client_weights_new_1 = tff.learning.ModelWeights.from_model(model_1)
   # Assign the server weights to the client model.
   tf.nest.map_structure(lambda x, y: x.assign(y),
-                        client_weights_new, server_weights)
-  for e in range(config.K):
+                        client_weights_new_0, server_weights)
+  steps_counter = 0
+  for e in range(E):
     # first epoch
     for batch in dataset:
-      with tf.GradientTape() as tape:
-        # Compute a forward pass on the batch of data
-        outputs = model_0.forward_pass(batch)
+        if steps_counter < K:
+          with tf.GradientTape() as tape:
+            # Compute a forward pass on the batch of data
+            outputs = model_0.forward_pass(batch)
 
-      # Compute the corresponding gradient
-      grads = tape.gradient(outputs.loss, client_weights_new.trainable)
-      grads_and_vars = zip(grads, client_weights_new.trainable)
+          # Compute the corresponding gradient
+          grads = tape.gradient(outputs.loss, client_weights_new_0.trainable)
+          grads_and_vars = zip(grads, client_weights_new_0.trainable)
 
-      # Apply the gradient using a client optimizer.
-      client_optimizer.apply_gradients(grads_and_vars)
+          # Apply the gradient using a client optimizer.
+          client_optimizer.apply_gradients(grads_and_vars)
+          # Assign the server weights to the client model.
+          tf.nest.map_structure(lambda x, y: x.assign(y),
+                                client_weights_new_1, client_weights_new_0)  
+          steps_counter +=1
+        else:
+          with tf.GradientTape() as tape:
+            # Compute a forward pass on the batch of data
+            outputs = model_1.forward_pass(batch)
+
+          # Compute the corresponding gradient
+          grads = tape.gradient(outputs.loss, client_weights_new_1.trainable)
+          grads_and_vars = zip(grads, client_weights_new_1.trainable)
+
+          # Apply the gradient using a client optimizer.
+          client_optimizer.apply_gradients(grads_and_vars)
+          steps_counter +=1  
   
-  client_weights_old = client_weights_new
-
-
-  model_1 = models[1]
-  client_weights_new = tff.learning.ModelWeights.from_model(model_1)
-  # Assign the server weights to the client model.
-  tf.nest.map_structure(lambda x, y: x.assign(y),
-                        client_weights_new, client_weights_old)  
-
-  for e in range(int(E-config.K)):      
-      # second epoch
-      for batch in dataset:
-        with tf.GradientTape() as tape:
-          # Compute a forward pass on the batch of data
-          outputs = model_1.forward_pass(batch)
-
-        # Compute the corresponding gradient
-        grads = tape.gradient(outputs.loss, client_weights_new.trainable)
-        grads_and_vars = zip(grads, client_weights_new.trainable)
-
-        # Apply the gradient using a client optimizer.
-        client_optimizer.apply_gradients(grads_and_vars)
-
-
   #substructe new and old weights
   diference_client_weights = tf.nest.map_structure(lambda x, y: tf.subtract(x,y),
-                                                    client_weights_new, server_weights)
+                                                    client_weights_new_1, server_weights)
 
   #add accumolator to the diference_client_weights
   diff_plus_acc = tf.nest.map_structure(lambda x, y: tf.add(x,y),
@@ -260,7 +256,7 @@ def client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, lear
 def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
   #model = model_fn_for_clients(accumolator,server_weights,tau,u)  
   model = model_fn() #build regular model
-  client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM, decay=0.01)
+  client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
   pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
@@ -271,7 +267,7 @@ def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_p
 @tff.tf_computation(tf_dataset_type, model_weights_type, prun_percent_type)
 def FedAvg_client_update_fn(tf_dataset, server_weights, E):
   model = model_fn()
-  client_optimizer = tf.keras.optimizers.SGD(learning_rate=lr, momentum=MOMENTUM, decay=0.01)
+  client_optimizer = tf.keras.optimizers.SGD(learning_rate=lr, momentum=MOMENTUM)
   client_weights = FedAvg_client_update(model, tf_dataset, server_weights, client_optimizer, E)
   return client_weights
 
