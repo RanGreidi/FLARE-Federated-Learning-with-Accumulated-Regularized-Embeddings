@@ -1,6 +1,6 @@
 # FLARE-Federated-Learning-with-Accumulated-Regularized-Embeddings
 
-This repository contains code, data, and documentation for our research project on federated learning. The project explores [brief description of your research focus].
+This repository is our simulation for __
 
 ## Table of Contents
 
