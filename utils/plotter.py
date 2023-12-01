@@ -35,12 +35,12 @@ def exp_plotter(history_federeted,
         plot_second_algo_loss.append(loss)
 
     fig,ax = plt.subplots(1,1,figsize=(15,8),gridspec_kw={'height_ratios': [5]})
-    x_axis = np.array([10*i for i in range(0,len(plot_fedAvG_acc))])      #if evalute every 10, change 10 here if evaluate_every is changed
+    x_axis = np.array([10*i for i in range(0,len(plot_fedAvG_acc))])      
 
     #fig 1s
-    ax.plot(x_axis,plot_fedAvG_acc, label='FEDavg' ,color="orange",linestyle='dashed')  
-    ax.plot(x_axis,plot_fed_alg_acc, label='My' ,color="red")
-    ax.plot(x_axis,plot_second_algo_acc, label='FFL' ,color="blue")
+    ax.plot(x_axis,plot_fedAvG_acc, label='FedAvg' ,color="orange",linestyle='dashed')  
+    ax.plot(x_axis,plot_fed_alg_acc, label='FLARE' ,color="red")
+    ax.plot(x_axis,plot_second_algo_acc, label='Error Correction' ,color="blue")
     #ax.get_xaxis().set_ticks([])  # supress x axis label
     ax.legend(loc='lower left',fontsize=28)
     ax.set_ylabel("Top-1 Accuracy", fontsize=28)

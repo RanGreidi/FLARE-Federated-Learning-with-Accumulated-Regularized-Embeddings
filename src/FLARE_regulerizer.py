@@ -3,8 +3,8 @@ from tensorflow.keras import regularizers
 import tensorflow as tf
 import tensorflow_probability as tfp
 
-@tf.keras.utils.register_keras_serializable(package='Custom', name='MyRegulariztion')
-class MyRegulariztion(regularizers.Regularizer):
+@tf.keras.utils.register_keras_serializable(package='Custom', name='FLARE_REGULARIZATION')
+class FLARE_REGULARIZATION(regularizers.Regularizer):
     def __init__(self, tau,u, accumolator_tensor,server_weights_tensor):
         self.tau = tau
         self.u = u

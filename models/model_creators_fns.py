@@ -1,7 +1,7 @@
 
 import tensorflow as tf
 import data_handler.data_fuctions as data_fuctions
-from src.FLARE_regulerizer import MyRegulariztion
+from src.FLARE_regulerizer import FLARE_REGULARIZATION
 
 # %%
 def create_keras_model():
@@ -28,11 +28,11 @@ def create_keras_model_2(accumolator,server_weights,tau,u):
           if hasattr(new_layer, 'kernel_regularizer'):
               #print("acc shape: ",accumolator.trainable[2*i].shape)
               #print("layer kernel shape: ",new_layer.output_shape)          
-              new_layer.kernel_regularizer = MyRegulariztion(tau,u,accumolator.trainable[2*i],server_weights.trainable[2*i])
+              new_layer.kernel_regularizer = FLARE_REGULARIZATION(tau,u,accumolator.trainable[2*i],server_weights.trainable[2*i])
           if hasattr(new_layer, 'bias_regularizer'):
               #print("acc shape: ",accumolator.trainable[2*i+1].shape)
               #print("layer bias shape: ",new_layer.bias.shape)
-              new_layer.bias_regularizer = MyRegulariztion(tau,u,accumolator.trainable[2*i+1],server_weights.trainable[2*i+1])
+              new_layer.bias_regularizer = FLARE_REGULARIZATION(tau,u,accumolator.trainable[2*i+1],server_weights.trainable[2*i+1])
               i +=1
         x = new_layer(x)
       
