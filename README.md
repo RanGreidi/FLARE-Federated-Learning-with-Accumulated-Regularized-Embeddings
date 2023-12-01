@@ -41,3 +41,6 @@ To set up the project environment, follow these steps:
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+
+## Results
+![Project Image](Results/)
