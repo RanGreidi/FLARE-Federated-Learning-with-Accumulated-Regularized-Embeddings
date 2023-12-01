@@ -4,7 +4,7 @@ This repository contains code, data, and documentation for our research project 
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Abstract](#Abstract)
 - [Directory Structure](#directory-structure)
 - [Setup and Dependencies](#setup-and-dependencies)
 - [Usage](#usage)
@@ -13,7 +13,7 @@ This repository contains code, data, and documentation for our research project 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Overview
+## Abstract
 
 [Provide a concise description of your research project, including its objectives, scope, and any relevant background information.]
 
