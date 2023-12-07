@@ -23,11 +23,10 @@ Sparse training schemes gain increasing attention in order to scale down the dim
 
 Here's an overview of the project's directory structure:
 
-- `data/`: Raw and processed data files.
-- `notebooks/`: Jupyter notebooks for exploratory data analysis and experiments.
-- `src/`: Python source code for data preprocessing, model training, and evaluation.
-- `src/federated_learning/`: Code specific to federated learning implementation.
-- `experiments/`: Configuration files, results, and logs for different experiments.
+- `data_handler/`: Raw and processed data files.
+- `main/`: main script for experiments grid runs.
+- `src/`: Python source code for federtaed training with FLARE algorithm and evaluation of Error Correction.
+- `results/`: Configuration files, results, and logs for different experiments.
 - `models/`: Saved model files.
 - `requirements.txt`: List of required Python packages.
 - `README.md`: Documentation providing an overview of the project.
