@@ -23,6 +23,7 @@ train_dataset, test_dataset = DataLoaderAndDistributer()
 federated_train_data = federated_data_preprocess(train_dataset)
 central_test = test_dataset.create_tf_dataset_from_all_clients()
 central_test = preprocess(central_test)
+
 # %%
 #print numbers of non zero and numbers of total weights of all layers according to predefined R
 R = 0.001
@@ -42,9 +43,9 @@ NUM_CLIENTS = config.NUM_CLIENTS
 experiments = {              
               'ROUNDS':               [1001,1001,1001,1001,1001,1001,1001,1001,201],
               'R' :                   [0.001,0.001,0.001,0.001,0.0001,0.0001,0.0001,0.0001,0.0001],
-              'E':                    [4,8,16,32,1,4,8,16,1],
+              'E':                    [1,8,16,32,1,4,8,16,1],
               'TAU':                  [0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5],                  
-              'tau_decay_const':      [1.05,1.05,1.05,1.05,1.05,1.005,1.005,1.005,0],
+              'c':                    [1.05,1.05,1.05,1.05,1.05,1.005,1.005,1.005,0],
               't':                    [50,50,50,50,50,50,50,50,50]
               }
 
@@ -55,10 +56,10 @@ for experiment in range(num_of_experiments):
     ROUNDS = experiments['ROUNDS'][experiment]
     E = experiments['E'][experiment]
     TAU = experiments['TAU'][experiment]
-    TAU_DECAY_CONST = experiments['tau_decay_const'][experiment]
+    c = experiments['c'][experiment]
     t = experiments['t'][experiment]
 
-    experiment_name = 'FC_{}R_{}E_{}TAU_{}CLIENTS_{}ROUNDS_{}Decay_{}t_{}p'.format(R,E,TAU,NUM_CLIENTS,ROUNDS,TAU_DECAY_CONST,t,config.p)
+    experiment_name = '{}R_{}E_{}TAU_{}CLIENTS_{}ROUNDS_{}Decay_{}t_{}p'.format(R,E,TAU,NUM_CLIENTS,ROUNDS,c,t,config.p)
     exp_name_list.append(experiment_name)
     
     #make dir for experiment results
@@ -90,15 +91,15 @@ for experiment in range(num_of_experiments):
       #evaluate every 10 rounds
       print("round:",round)
       if round % 10 == 0 :           
-          print('FederatedAlgo evaluation')
-          a = evaluate(server_state_FLARE, central_test)
-          history_federeted.append(a)            
+          print('FLARE evaluation')
+          A = evaluate(server_state_FLARE, central_test)
+          history_federeted.append(A)            
           print('FedAvg evaluation')
-          b = evaluate(server_state_FedAvg, central_test)
-          history_FedAvg.append(b)  
-          print('Second Algo evaluation')
-          c = evaluate(second_algo_server_state, central_test)
-          history_second_algo_server_state.append(c)
+          B = evaluate(server_state_FedAvg, central_test)
+          history_FedAvg.append(B)  
+          print('Error Correcton evaluation')
+          C = evaluate(second_algo_server_state, central_test)
+          history_second_algo_server_state.append(C)
 
           log_writer(experiment_name,
                       history_federeted,
@@ -108,25 +109,26 @@ for experiment in range(num_of_experiments):
                       E_logger,
                       prun_precent_logger_FFL,
                       E_logger_FFL,
-                      output_list, a,b,c,round)
+                      output_list, A,B,C,round)
       
-      R_FFL, E_FFL =  calc_multypliers_FFL(history_federeted,
-                                          second_algo_server_state,
-                                          R,
-                                          E,
-                                          central_test)                       
+      # #apply FFL optiononal for Error Correcton
+      # R_FFL, E_FFL =  calc_multypliers_FFL(history_federeted,
+      #                                     second_algo_server_state,
+      #                                     R,
+      #                                     E,
+      #                                     central_test)                       
       
-      tau_decay = tau_decay*TAU_DECAY_CONST
-
+      tau_decay = tau_decay*c
       learning_rate  = [config.lr for i in range(NUM_CLIENTS)]
+
       #FLARE
       tau_cleints = [TAU/tau_decay for i in range(NUM_CLIENTS)]  
       t_cleints = [t for i in range (NUM_CLIENTS)] 
       clients_R_FLARE = [R for i in range(NUM_CLIENTS)]                   
       cleints_E_FLARE = [E for i in range(NUM_CLIENTS)]                            
-      #FFL
-      clients_R_second_algo = [R_FFL for i in range(NUM_CLIENTS)]
-      cleints_E_second_algo = [E_FFL for i in range(NUM_CLIENTS)]
+      #Error Correcton
+      clients_R_second_algo = [R for i in range(NUM_CLIENTS)]
+      cleints_E_second_algo = [E for i in range(NUM_CLIENTS)]
       #FedAvg
       cleints_E = [E for i in range(NUM_CLIENTS)]
 
