@@ -221,3 +221,10 @@ FedAvg evaluation:   0.891700029373169
 
 second_algo_server_state:   0.6945000290870667
 
+
+round: 320
+FederatedAlgo evaluation:   0.8238999843597412
+FedAvg evaluation:   0.8919000029563904
+
+second_algo_server_state:   0.699999988079071
+

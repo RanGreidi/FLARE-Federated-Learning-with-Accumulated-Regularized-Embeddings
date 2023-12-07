@@ -15,7 +15,7 @@ def create_keras_model():
         tf.keras.layers.Softmax(),
     ])
 
-def create_keras_model_2(accumolator,server_weights,tau,u):
+def create_keras_model_for_FLARE(accumolator,server_weights,tau,u):
       keras_model = create_keras_model() 
       new_input_layer = tf.keras.layers.Input(shape=data_fuctions.Input_shape)
       x = new_input_layer

@@ -22,10 +22,10 @@ def suppress_stdout():
 NUM_CLIENTS = config.NUM_CLIENTS
 lr = config.lr
 MOMENTUM = config.MOMENTUM
-K = config.K
+p = config.p
 
 def model_fn_for_clients(accumolator,server_weights,tau,u):
-    keras_model = create_keras_model_2(accumolator,server_weights,tau,u)           
+    keras_model = create_keras_model_for_FLARE(accumolator,server_weights,tau,u)           
     return tff.learning.from_keras_model(
                                 keras_model,
                                 input_spec=data.input_spec,
@@ -48,7 +48,7 @@ def acc_init():
   return [accumolator for i in range(config.NUM_CLIENTS)]
 
 @tf.function
-def prun_layer(layer, prun_percent):
+def sparsify_layer(layer, prun_percent):
   #current bug: canot excid 85%
   #input:   tff.learning.ModelWeights.from_model(model)
   #output:  tff.learning.ModelWeights.from_model(model)
@@ -64,7 +64,6 @@ def prun_layer(layer, prun_percent):
 
 @tf.function
 def client_update_my_algo(models, dataset, server_weights, accumolator, client_optimizer, prun_percent, E):
-  """Performs training (using the server model weights) on the client's dataset."""
   
   model_0 = models[0]
   model_1 = models[1]  
@@ -78,7 +77,7 @@ def client_update_my_algo(models, dataset, server_weights, accumolator, client_o
   for e in range(E):
     # first epoch
     for batch in dataset:
-        if steps_counter < K:
+        if steps_counter < p:
           with tf.GradientTape() as tape:
             # Compute a forward pass on the batch of data
             outputs = model_0.forward_pass(batch)
@@ -115,7 +114,7 @@ def client_update_my_algo(models, dataset, server_weights, accumolator, client_o
                                         diference_client_weights, accumolator)
   
   #create pruned weights diference
-  pruned_client_diference_weights = tf.nest.map_structure(lambda x: prun_layer(x, prun_percent), 
+  pruned_client_diference_weights = tf.nest.map_structure(lambda x: sparsify_layer(x, prun_percent), 
                                                           diff_plus_acc)
   
   #create inverse pruned weights diference (by substructe the pruned from the not pruned)
@@ -129,7 +128,6 @@ def client_update_my_algo(models, dataset, server_weights, accumolator, client_o
 
 @tf.function
 def client_update(model, dataset, server_weights, accumolator, client_optimizer, prun_percent, E):
-  """Performs training (using the server model weights) on the client's dataset."""
   # Initialize the client model with the current server weights.
   client_weights = tff.learning.ModelWeights.from_model(model)
 
@@ -160,7 +158,7 @@ def client_update(model, dataset, server_weights, accumolator, client_optimizer,
                                         diference_client_weights, accumolator)
   
   #create pruned weights diference
-  pruned_client_diference_weights = tf.nest.map_structure(lambda x: prun_layer(x, prun_percent), 
+  pruned_client_diference_weights = tf.nest.map_structure(lambda x: sparsify_layer(x, prun_percent), 
                                                           diff_plus_acc)
   
   #create inverse pruned weights diference (by substructe the pruned from the not pruned)
@@ -174,7 +172,6 @@ def client_update(model, dataset, server_weights, accumolator, client_optimizer,
 
 @tf.function
 def FedAvg_client_update(model, dataset, server_weights, client_optimizer, E):
-  """Performs training (using the server model weights) on the client's dataset."""
   # Initialize the client model with the current server weights.
   client_weights = tff.learning.ModelWeights.from_model(model)
   # Assign the server weights to the client model.
@@ -207,14 +204,9 @@ def initialize_fn():
 
 @tf.function
 def server_update(model, mean_client_diference, server_weights):
-  ''' 
-  input: (tf.model - model like meam diference, tf.model.trainable_variables - mean_client_diference , tf.model.trainable_variables - server_state)
-  output: tf.model.trainable_variables - with the sum of deference and the server state model
-  '''
   return tf.nest.map_structure(lambda x, y: tf.add(x,y),
                                     mean_client_diference, server_weights)
 
-#%%
 #types defenition
 whimsy_model = model_fn()
 tf_dataset_type = tff.SequenceType(whimsy_model.input_spec)
@@ -229,7 +221,7 @@ federated_server_type = tff.FederatedType(model_weights_type, tff.SERVER)
 federated_dataset_type = tff.FederatedType(tf_dataset_type, tff.CLIENTS)
 federated_clients_type = tff.FederatedType(model_weights_type, tff.CLIENTS)
 federated_prun_percent_type = tff.FederatedType(prun_percent_type, tff.CLIENTS)
-#%%
+
 @tff.tf_computation(model_weights_type, model_weights_type)
 def server_update_fn(weights_difference_mean, server_weights):
   model = model_fn()
@@ -277,7 +269,6 @@ def FedAvg_client_update_fn(tf_dataset, server_weights, E):
 
 @tf.function
 def FedAvg_server_update(model, mean_client_weights):
-  """Updates the server model weights as the average of the client model weights."""
   return mean_client_weights
 
 @tff.tf_computation(model_weights_type)
@@ -330,7 +321,6 @@ def FedAvg_next_fn(server_weights, federated_dataset, E):
   client_weights = FedAvg_client_update_fn(federated_dataset, server_weights_at_client, E)
 
   # The server averages these updates.
-  #mean_client_weights = tff.federated_mean(pruned_client_weights)
   mean_client_weights = tff.federated_mean(client_weights)
 
   # The server updates its model.
@@ -342,14 +332,11 @@ def calc_multypliers_FFL(history_federeted,second_algo_server_state,PRUN_PERCENT
         with suppress_stdout():
                 eval = evaluate(second_algo_server_state,central_emnist_test)
         current_loss = eval[0]
-        #print('loss FFL ',eval[0], 'acc FFL', eval[1])
         First_loss = np.array(history_federeted)[:,0][0]
         prun_percent_FFL = PRUN_PERCENT * np.power((First_loss/current_loss),1/3)
         E_FFL = np.round(E * np.power((current_loss/First_loss),1/3))
         if E_FFL < 1:
                 E_FFL = 1  
-        #print(current_loss) 
-        #print(First_loss)
                                
         return prun_percent_FFL, E_FFL
 
