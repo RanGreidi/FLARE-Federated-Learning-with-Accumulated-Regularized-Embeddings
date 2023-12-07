@@ -41,11 +41,13 @@ To set up the project environment and follow these steps:
    ```bash
    git clone https://github.com/RanGreidi/FLARE.git
 
-2. cd repo and edit main.py to set all paramerter
+2. cd repo and edit main.py with the desired paramerters.
 
-3. run main.py
+3. run main.py.
 
-4. results are created at results dir
+4. main scripts iterates on experiments, each experiments runs on it's paramerters.
+
+5. results are created at results directory for each experiment.
 
 
 
@@ -57,8 +59,10 @@ To Reconstruct FLAER paper results, follow these steps:
 
    ```bash
    git clone https://github.com/RanGreidi/FLARE.git
-   cd your-repo
-   cd 
+
+2. cd to repo and cd into paper_experiments _reconstruction/CNN or paper_experiments _reconstruction/VGG
+
+3. run main.py
 
 ## Results
 ![Project Image](results/FC_0.001R_1E_0.5TAU_10CLIENTS_1001ROUNDS_1.05Decay_50u_OSR_1RegSteps.png)
