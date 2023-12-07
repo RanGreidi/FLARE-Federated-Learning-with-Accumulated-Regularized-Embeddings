@@ -26,10 +26,14 @@ Here's an overview of the project's directory structure:
 - `data_handler/`: Raw and processed data files.
 - `main/`: main script for experiments grid runs.
 - `src/`: Python source code for federtaed training with FLARE algorithm and evaluation of Error Correction.
-- `results/`: Configuration files, results, and logs for different experiments.
-- `models/`: Saved model files.
+- `utils/`: utilities functions and congifs.
 - `requirements.txt`: List of required Python packages.
 - `README.md`: Documentation providing an overview of the project.
+
+## Special Notes
+
+
+## Modules
 
 ## Setup and Dependencies
 
@@ -40,7 +44,7 @@ To set up the project environment and follow these steps:
    ```bash
    git clone https://github.com/RanGreidi/FLARE.git
 
-2. cd repo and edit main.py with the desired paramerters.
+2. cd repo and edit main.py with the desired FLARE paramerters (for example, set Sparsity as 0.001%) .
 
 3. run main.py.
 
