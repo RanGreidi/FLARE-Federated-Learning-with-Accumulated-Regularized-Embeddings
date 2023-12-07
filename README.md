@@ -34,13 +34,31 @@ Here's an overview of the project's directory structure:
 
 ## Setup and Dependencies
 
-To set up the project environment, follow these steps:
+To set up the project environment and follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/RanGreidi/FLARE.git
+
+2. cd repo and edit main.py to set all paramerter
+
+3. run main.py
+
+4. results are created at results dir
+
+
+
+## Reconstruct Paper Results
+
+To Reconstruct FLAER paper results, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RanGreidi/FLARE.git
    cd your-repo
+   cd 
 
 ## Results
 ![Project Image](results/FC_0.001R_1E_0.5TAU_10CLIENTS_1001ROUNDS_1.05Decay_50u_OSR_1RegSteps.png)
