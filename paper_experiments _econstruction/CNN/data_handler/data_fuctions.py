@@ -41,13 +41,11 @@ def DataLoaderAndDistributer():
   
   return train_dataset,test_dataset
 
+# %%
 def preprocess(dataset):
   def batch_format_fn(element):
-    """Flatten a batch of EMNIST data and return a (features, label) tuple."""
-    return (tf.reshape(element['pixels'], [-1, 784]) /255., 
-            tf.cast( tf.reshape(element['label'], [-1, 1]), dtype=tf.float32) )
-
-  return dataset.batch(BATCH_SIZE).map(batch_format_fn)
+    return (element['pixels']/255., tf.reshape(element['label'], [1]))
+  return dataset.map(batch_format_fn).batch(BATCH_SIZE)
 
 def federated_data_preprocess(train_dataset):
 

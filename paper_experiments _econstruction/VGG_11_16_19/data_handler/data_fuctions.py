@@ -1,4 +1,4 @@
-from tensorflow.keras.datasets import mnist
+from tensorflow.keras.datasets import cifar10
 import collections
 import utils.config as config
 import tensorflow as tf
@@ -12,7 +12,7 @@ Input_shape = config.Input_shape
 
 def DataLoaderAndDistributer():
 
-  (x_train, y_train), (x_test, y_test) = mnist.load_data()
+  (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
   x_train = x_train.astype(np.float32)
   y_train = y_train.astype(np.int32)
@@ -20,8 +20,9 @@ def DataLoaderAndDistributer():
   y_test = y_test.astype(np.int32)
 
   total_image_count = len(x_train)
-  image_per_set = 600#int(np.floor(total_image_count/TOTAL_NUM_CLIENTS))
-
+  #image_per_set = 600#int(np.floor(total_image_count/TOTAL_NUM_CLIENTS))
+  image_per_set = int(np.floor(total_image_count/NUM_CLIENTS))
+  
   client_train_dataset = collections.OrderedDict()
   client_test_dataset = collections.OrderedDict()
   for i in range(1, TOTAL_NUM_CLIENTS+1):
@@ -41,13 +42,11 @@ def DataLoaderAndDistributer():
   
   return train_dataset,test_dataset
 
+# %%
 def preprocess(dataset):
   def batch_format_fn(element):
-    """Flatten a batch of EMNIST data and return a (features, label) tuple."""
-    return (tf.reshape(element['pixels'], [-1, 784]) /255., 
-            tf.cast( tf.reshape(element['label'], [-1, 1]), dtype=tf.float32) )
-
-  return dataset.batch(BATCH_SIZE).map(batch_format_fn)
+    return (element['pixels']/255., tf.reshape(element['label'], [1]))
+  return dataset.map(batch_format_fn).batch(BATCH_SIZE)
 
 def federated_data_preprocess(train_dataset):
 
