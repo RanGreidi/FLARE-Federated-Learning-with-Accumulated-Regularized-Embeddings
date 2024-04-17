@@ -350,3 +350,61 @@ def evaluate(server_state,central_emnist_test):
   server_state.assign_weights_to(keras_model)
   res = keras_model.evaluate(central_emnist_test)
   return res
+
+############# Third algo ##############
+@tff.tf_computation(tf_dataset_type, model_weights_type, model_weights_type, prun_percent_type, prun_percent_type, prun_percent_type)
+def Third_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
+  #model = model_fn_for_clients(accumolator,server_weights,tau,u)  
+  model = model_fn() #build regular model
+  client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
+  pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
+  return pruned_client_weights, accumolator
+ 
+@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
+def Third_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
+  return tff.federated_map(Third_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E))
+
+@tff.federated_computation(federated_server_type, federated_clients_type, federated_dataset_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
+def Third_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_percent, learning_rate, E):
+  # Broadcast the server weights to the clients. server -> clients
+  server_weights_at_client = tff.federated_broadcast(server_weights)
+
+  # Each client computes their updated weights. clients -> clients
+  pruned_client_weights_diference, accumoltors = Third_algo_client_update_fn(federated_dataset, server_weights_at_client, accumoltors, prun_percent, learning_rate,E)
+
+  # The server averages these weights_difference. clients -> server
+  weights_difference_mean = tff.federated_mean(pruned_client_weights_diference)
+
+  #the server adds the old weights to weights_difference and updates its model. server -> server
+  server_weights = server_update_fn(weights_difference_mean ,server_weights)
+
+  return server_weights, accumoltors
+
+############# Fourth algo ##############
+@tff.tf_computation(tf_dataset_type, model_weights_type, model_weights_type, prun_percent_type, prun_percent_type, prun_percent_type)
+def Fourth_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
+  #model = model_fn_for_clients(accumolator,server_weights,tau,u)  
+  model = model_fn() #build regular model
+  client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
+  pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
+  return pruned_client_weights, accumolator
+ 
+@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
+def Fourth_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
+  return tff.federated_map(Fourth_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E))
+
+@tff.federated_computation(federated_server_type, federated_clients_type, federated_dataset_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
+def Fourth_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_percent, learning_rate, E):
+  # Broadcast the server weights to the clients. server -> clients
+  server_weights_at_client = tff.federated_broadcast(server_weights)
+
+  # Each client computes their updated weights. clients -> clients
+  pruned_client_weights_diference, accumoltors = Fourth_algo_client_update_fn(federated_dataset, server_weights_at_client, accumoltors, prun_percent, learning_rate,E)
+
+  # The server averages these weights_difference. clients -> server
+  weights_difference_mean = tff.federated_mean(pruned_client_weights_diference)
+
+  #the server adds the old weights to weights_difference and updates its model. server -> server
+  server_weights = server_update_fn(weights_difference_mean ,server_weights)
+
+  return server_weights, accumoltors
