@@ -42,8 +42,8 @@ NUM_CLIENTS = config.NUM_CLIENTS
 
 experiments = {              
               'ROUNDS':               [1001,1001,1001,1001,1001,1001,1001,1001,201],
-              'R' :                   [0.01,0.001,0.001,0.001,0.0001,0.0001,0.0001,0.0001,0.0001],
-              'E':                    [1,8,16,32,1,4,8,16,1],
+              'R' :                   [10,0.001,0.001,0.001,0.0001,0.0001,0.0001,0.0001,0.0001],
+              'E':                    [5,8,16,32,1,4,8,16,1],
               'TAU':                  [0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5],                  
               'c':                    [1.05,1.05,1.05,1.05,1.05,1.005,1.005,1.005,0],
               't':                    [50,50,50,50,50,50,50,50,50]
@@ -107,10 +107,10 @@ for experiment in range(num_of_experiments):
           print('FedAvg evaluation')
           B = evaluate(server_state_FedAvg, central_test)
           history_FedAvg.append(B)  
-          print('Error Correcton evaluation')
+          print('FedProx evaluation')
           C = evaluate(second_algo_server_state, central_test)
           history_second_algo_server_state.append(C)
-          print('Third ALgo evaluation')
+          print('EF21 evaluation')
           D = evaluate(third_algo_server_state, central_test)
           history_third_algo_server_state.append(D)
           print('Fourth ALgo evaluation')
@@ -144,14 +144,14 @@ for experiment in range(num_of_experiments):
       t_cleints = [t for i in range (NUM_CLIENTS)] 
       clients_R_FLARE = [R for i in range(NUM_CLIENTS)]                   
       cleints_E_FLARE = [E for i in range(NUM_CLIENTS)]                            
-      #Error Correcton
+      #Error Correcton algo 2 - FedProx
       clients_R_second_algo = [R for i in range(NUM_CLIENTS)]
       cleints_E_second_algo = [E for i in range(NUM_CLIENTS)]
-      #Third Algo
+      #Error Correcton + sparsification
       clients_R_third_algo = [R for i in range(NUM_CLIENTS)]
       cleints_E_third_algo = [E for i in range(NUM_CLIENTS)]  
-      #Fourth Algo
-      clients_R_fourth_algo = [250*R for i in range(NUM_CLIENTS)]
+      #Error Correcton algo 4
+      clients_R_fourth_algo = [R for i in range(NUM_CLIENTS)]
       cleints_E_fourth_algo = [E for i in range(NUM_CLIENTS)]   
       #FedAvg
       cleints_E = [E for i in range(NUM_CLIENTS)]
@@ -176,12 +176,12 @@ for experiment in range(num_of_experiments):
       #server_state_FLARE, accumolators = next_fn(server_state_FLARE, accumolators, federated_train_data, clients_R_FLARE, learning_rate, cleints_E_FLARE,tau_cleints,t_cleints)      
       #conventional federated training in the round
       server_state_FedAvg = FedAvg_next_fn(server_state_FedAvg, federated_train_data, cleints_E)       
-      #Second Algorithem
-      second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo)
-      #Third Algorithem
+      #Error Correcton algo 2 - FedProx
+      #second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo,tau_cleints,t_cleints)
+      #Error Correcton algo 3 - EF21
       third_algo_server_state, accumolators_third_algo = Third_algo_next_fn(third_algo_server_state, accumolators_third_algo, federated_train_data, clients_R_third_algo, learning_rate, cleints_E_third_algo)
-      #Fourth Algorithem
-      fourth_algo_server_state, accumolators_fourth_algo = Fourth_algo_next_fn(fourth_algo_server_state, accumolators_fourth_algo, federated_train_data, clients_R_fourth_algo, learning_rate, cleints_E_fourth_algo)
+      #Error Correcton algo 4
+      #fourth_algo_server_state, accumolators_fourth_algo = Fourth_algo_next_fn(fourth_algo_server_state, accumolators_fourth_algo, federated_train_data, clients_R_fourth_algo, learning_rate, cleints_E_fourth_algo)
 
       
       # #----------------- plot experiment -----------------------

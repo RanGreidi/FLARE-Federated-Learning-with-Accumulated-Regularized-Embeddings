@@ -7,6 +7,8 @@ import os
 from contextlib import contextmanager
 import sys
 import numpy as np
+from src.EF21_utils import *
+from src.general_utils import *
 
 #OUTPUT SUPRESSION
 @contextmanager
@@ -24,21 +26,6 @@ lr = config.lr
 MOMENTUM = config.MOMENTUM
 p = config.p
 
-def model_fn_for_clients(accumolator,server_weights,tau,u):
-    keras_model = create_keras_model_for_FLARE(accumolator,server_weights,tau,u)           
-    return tff.learning.from_keras_model(
-                                keras_model,
-                                input_spec=data.input_spec,
-                                loss=tf.keras.losses.SparseCategoricalCrossentropy(),
-                                metrics=[tf.keras.metrics.SparseCategoricalAccuracy()])        
-
-def model_fn():
-  keras_model = create_keras_model()
-  return tff.learning.from_keras_model(
-                                keras_model,
-                                input_spec=data.input_spec,
-                                loss=tf.keras.losses.SparseCategoricalCrossentropy(),
-                                metrics=[tf.keras.metrics.SparseCategoricalAccuracy()])
 
 def acc_init():
   model = model_fn()
@@ -46,21 +33,6 @@ def acc_init():
   accumolator =   tf.nest.map_structure(lambda x, y: x.assign(tf.zeros(tf.shape(y))),
                                         client_weights, client_weights)
   return [accumolator for i in range(config.NUM_CLIENTS)]
-
-@tf.function
-def sparsify_layer(layer, prun_percent):
-  #current bug: canot excid 85%
-  #input:   tff.learning.ModelWeights.from_model(model)
-  #output:  tff.learning.ModelWeights.from_model(model)
-    precent_to_zero = prun_percent # as %, its the precentege of the element to keep, if equal to 10, than only 10 largest will remain
-    flat_layer =  tf.reshape(layer,[-1])
-    k = tf.get_static_value(tf.size(flat_layer)) * (precent_to_zero/100)   # k is the number of eleement that is the top k
-    b = tf.nn.top_k(tf.abs(flat_layer), tf.cast(tf.round(k)+2,tf.int32))
-    kth = tf.reduce_min(b.values)
-    #print(kth)
-    mask = tf.greater(tf.abs(layer), kth * tf.ones_like(layer))
-    prunned_layer = tf.multiply(layer, tf.cast(mask, tf.float32))
-    return prunned_layer
 
 @tf.function
 def client_update_my_algo(models, dataset, server_weights, accumolator, client_optimizer, prun_percent, E):
@@ -193,35 +165,6 @@ def FedAvg_client_update(model, dataset, server_weights, client_optimizer, E):
       client_optimizer.apply_gradients(grads_and_vars)
   return client_weights
 
-@tff.tf_computation
-def server_init():
-  model = model_fn()
-  return tff.learning.ModelWeights.from_model(model)
-
-@tff.federated_computation
-def initialize_fn():
-  return tff.federated_value(server_init(), tff.SERVER)
-
-@tf.function
-def server_update(model, mean_client_diference, server_weights):
-  return tf.nest.map_structure(lambda x, y: tf.add(x,y),
-                                    mean_client_diference, server_weights)
-
-#types defenition
-whimsy_model = model_fn()
-tf_dataset_type = tff.SequenceType(whimsy_model.input_spec)
-#print(str(tf_dataset_type))
-model_weights_type = server_init.type_signature.result
-#print(str(model_weights_type))
-prun_percent_type = tf.constant(1, dtype = tf.float32).dtype
-#print(str(prun_percent_type))
-
-#federated types
-federated_server_type = tff.FederatedType(model_weights_type, tff.SERVER)
-federated_dataset_type = tff.FederatedType(tf_dataset_type, tff.CLIENTS)
-federated_clients_type = tff.FederatedType(model_weights_type, tff.CLIENTS)
-federated_prun_percent_type = tff.FederatedType(prun_percent_type, tff.CLIENTS)
-
 @tff.tf_computation(model_weights_type, model_weights_type)
 def server_update_fn(weights_difference_mean, server_weights):
   model = model_fn()
@@ -244,17 +187,17 @@ def client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, lear
 def client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u):
   return tff.federated_map(client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u))
 
-@tff.tf_computation(tf_dataset_type, model_weights_type, model_weights_type, prun_percent_type, prun_percent_type, prun_percent_type)
-def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
-  #model = model_fn_for_clients(accumolator,server_weights,tau,u)  
-  model = model_fn() #build regular model
+@tff.tf_computation(tf_dataset_type, model_weights_type, model_weights_type, prun_percent_type, prun_percent_type, prun_percent_type, prun_percent_type,prun_percent_type)
+def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u):
+  model = model_fn_for_FedProx(server_weights,tau,u)  
+  #model = model_fn() #build regular model
   client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
   pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
-@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
-def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
-  return tff.federated_map(Second_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E))
+@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type,federated_prun_percent_type,federated_prun_percent_type)
+def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u):
+  return tff.federated_map(Second_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u))
 
 @tff.tf_computation(tf_dataset_type, model_weights_type, prun_percent_type)
 def FedAvg_client_update_fn(tf_dataset, server_weights, E):
@@ -296,13 +239,13 @@ def next_fn(server_weights, accumoltors, federated_dataset, prun_percent, learni
 
   return server_weights, accumoltors
 
-@tff.federated_computation(federated_server_type, federated_clients_type, federated_dataset_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
-def Second_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_percent, learning_rate, E):
+@tff.federated_computation(federated_server_type, federated_clients_type, federated_dataset_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type,federated_prun_percent_type)
+def Second_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_percent, learning_rate, E, tau,u):
   # Broadcast the server weights to the clients. server -> clients
   server_weights_at_client = tff.federated_broadcast(server_weights)
 
   # Each client computes their updated weights. clients -> clients
-  pruned_client_weights_diference, accumoltors = Second_algo_client_update_fn(federated_dataset, server_weights_at_client, accumoltors, prun_percent, learning_rate,E)
+  pruned_client_weights_diference, accumoltors = Second_algo_client_update_fn(federated_dataset, server_weights_at_client, accumoltors, prun_percent, learning_rate,E, tau,u)
 
   # The server averages these weights_difference. clients -> server
   weights_difference_mean = tff.federated_mean(pruned_client_weights_diference)
@@ -357,7 +300,7 @@ def Third_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_pe
   #model = model_fn_for_clients(accumolator,server_weights,tau,u)  
   model = model_fn() #build regular model
   client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
-  pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
+  pruned_client_weights, accumolator = client_update_EF21(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
 @tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
@@ -376,7 +319,7 @@ def Third_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_perc
   weights_difference_mean = tff.federated_mean(pruned_client_weights_diference)
 
   #the server adds the old weights to weights_difference and updates its model. server -> server
-  server_weights = server_update_fn(weights_difference_mean ,server_weights)
+  server_weights = server_update_fn_EF21(weights_difference_mean ,server_weights)
 
   return server_weights, accumoltors
 
@@ -408,3 +351,5 @@ def Fourth_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_per
   server_weights = server_update_fn(weights_difference_mean ,server_weights)
 
   return server_weights, accumoltors
+
+
