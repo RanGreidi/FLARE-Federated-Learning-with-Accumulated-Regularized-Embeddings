@@ -70,30 +70,20 @@ for experiment in range(num_of_experiments):
     history_federeted = []
     history_FedAvg = []
     history_second_algo_server_state = []
-    history_third_algo_server_state = []
-    history_fourth_algo_server_state = []
-
+    
     output_list = []
     prun_precent_logger = []
     E_logger = []
     prun_precent_logger_FFL = []
     E_logger_FFL = []
-    prun_precent_logger_third = []
-    E_logger_third = []
-    prun_precent_logger_fourth = []
-    E_logger_fourth = []
 
     server_state = initial_server_state
     accumolators = acc_init()
     accumolators_second_algo = acc_init()
-    accumolators_third_algo = acc_init()
-    accumolators_fourth_algo = acc_init()
 
     server_state_FedAvg = server_state
     server_state_FLARE = server_state
     second_algo_server_state = server_state
-    third_algo_server_state = server_state
-    fourth_algo_server_state = server_state
 
     tau_decay = 1
 
@@ -107,27 +97,19 @@ for experiment in range(num_of_experiments):
           print('FedAvg evaluation')
           B = evaluate(server_state_FedAvg, central_test)
           history_FedAvg.append(B)  
-          print('FedProx evaluation')
+          print('Error Correcton evaluation')
           C = evaluate(second_algo_server_state, central_test)
           history_second_algo_server_state.append(C)
-          print('EF21 evaluation')
-          D = evaluate(third_algo_server_state, central_test)
-          history_third_algo_server_state.append(D)
-          print('Fourth ALgo evaluation')
-          _E_ = evaluate(fourth_algo_server_state, central_test)
-          history_fourth_algo_server_state.append(E)
 
           log_writer(experiment_name,
                       history_federeted,
                       history_FedAvg,
                       history_second_algo_server_state,
-                      history_third_algo_server_state,
-                      history_fourth_algo_server_state,
                       prun_precent_logger,
                       E_logger,
                       prun_precent_logger_FFL,
                       E_logger_FFL,
-                      output_list, A,B,C,D,_E_,round)
+                      output_list, A,B,C,round)
       
       # #apply FFL optiononal for Error Correcton
       # R_FFL, E_FFL =  calc_multypliers_FFL(history_federeted,
@@ -144,15 +126,9 @@ for experiment in range(num_of_experiments):
       t_cleints = [t for i in range (NUM_CLIENTS)] 
       clients_R_FLARE = [R for i in range(NUM_CLIENTS)]                   
       cleints_E_FLARE = [E for i in range(NUM_CLIENTS)]                            
-      #Error Correcton algo 2 - FedProx
+      #Error Correcton
       clients_R_second_algo = [R for i in range(NUM_CLIENTS)]
       cleints_E_second_algo = [E for i in range(NUM_CLIENTS)]
-      #Error Correcton + sparsification
-      clients_R_third_algo = [R for i in range(NUM_CLIENTS)]
-      cleints_E_third_algo = [E for i in range(NUM_CLIENTS)]  
-      #Error Correcton algo 4
-      clients_R_fourth_algo = [R for i in range(NUM_CLIENTS)]
-      cleints_E_fourth_algo = [E for i in range(NUM_CLIENTS)]   
       #FedAvg
       cleints_E = [E for i in range(NUM_CLIENTS)]
 
@@ -161,10 +137,7 @@ for experiment in range(num_of_experiments):
       E_logger.append(cleints_E_FLARE[0])                            
       prun_precent_logger_FFL.append(clients_R_second_algo[0])
       E_logger_FFL.append(cleints_E_second_algo[0])      
-      prun_precent_logger_third.append(clients_R_third_algo[0])
-      E_logger_third.append(cleints_E_third_algo[0])  
-      prun_precent_logger_fourth.append(clients_R_fourth_algo[0])
-      E_logger_fourth.append(cleints_E_fourth_algo[0]) 
+
 
       # #Choose cleints randomly option
       # shufled_clients = train_dataset.client_ids
@@ -172,29 +145,25 @@ for experiment in range(num_of_experiments):
       # client_ids = shufled_clients[:NUM_CLIENTS]
       # federated_train_data = [preprocess(train_dataset.create_tf_dataset_for_client(x)) for x in client_ids]      
 
-      #Flare
+      #algorithmed federeted training in the round
       server_state_FLARE, accumolators = next_fn(server_state_FLARE, accumolators, federated_train_data, clients_R_FLARE, learning_rate, cleints_E_FLARE,tau_cleints,t_cleints)      
-      #FedAvg
+      #conventional federated training in the round
       server_state_FedAvg = FedAvg_next_fn(server_state_FedAvg, federated_train_data, cleints_E)       
-      #Error Correcton algo 2 - FedProx
-      second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo,tau_cleints,t_cleints)
-      #Error Correcton algo 3 - EF21
-      third_algo_server_state, accumolators_third_algo = Third_algo_next_fn(third_algo_server_state, accumolators_third_algo, federated_train_data, clients_R_third_algo, learning_rate, cleints_E_third_algo)
-      #Error Correcton algo 4 - Currently implementing EC and TopK.
-      fourth_algo_server_state, accumolators_fourth_algo = Fourth_algo_next_fn(fourth_algo_server_state, accumolators_fourth_algo, federated_train_data, clients_R_fourth_algo, learning_rate, cleints_E_fourth_algo)
+      #Other Algorithem
+      second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo)
 
       
-      # #----------------- plot experiment -----------------------
-      # if round % 10 == 0 :
-      #     exp_plotter(history_federeted,
-      #                 history_FedAvg,
-      #                 history_second_algo_server_state,
-      #                 prun_precent_logger,
-      #                 prun_precent_logger_FFL,
-      #                 E_logger,
-      #                 E_logger_FFL,
-      #                 ROUNDS,
-      #                 experiment_name)
+      #----------------- plot experiment -----------------------
+      if round % 10 == 0 :
+          exp_plotter(history_federeted,
+                      history_FedAvg,
+                      history_second_algo_server_state,
+                      prun_precent_logger,
+                      prun_precent_logger_FFL,
+                      E_logger,
+                      E_logger_FFL,
+                      ROUNDS,
+                      experiment_name)
 
 # %%
 # measure in numbers, how much non zeros weights in a layer fater sparsification during training

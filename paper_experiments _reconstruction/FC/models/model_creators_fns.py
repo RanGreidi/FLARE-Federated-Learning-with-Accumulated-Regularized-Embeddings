@@ -5,23 +5,18 @@ import data_handler.data_fuctions as data_fuctions
 from src.FLARE_regulerizer import FLARE_REGULARIZATION
 from src.FedProx_regulerizer import FedProx_REGULARIZATION
 import data_handler.data_fuctions as data
-import utils.config as config
 #from src.general_utils import *
 # %%
 def create_keras_model():
-  initializer = tf.keras.initializers.GlorotNormal(seed=0)
-  return tf.keras.models.Sequential([
-      tf.keras.layers.Input(shape=config.Input_shape),
-      tf.keras.layers.Conv2D(32, kernel_size=(5, 5), activation="relu", kernel_initializer=initializer),
-      tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
-      tf.keras.layers.Conv2D(64, kernel_size=(5, 5), activation="relu", kernel_initializer=initializer),
-      tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
-      tf.keras.layers.Flatten(),
-      tf.keras.layers.Dense(512, activation="relu", kernel_initializer=initializer),
-      tf.keras.layers.Dense(10, activation="softmax", kernel_initializer=initializer),
-      tf.keras.layers.Softmax(),
-  ])
-
+    initializer = tf.keras.initializers.GlorotNormal#(seed=0)
+    return tf.keras.models.Sequential([
+        tf.keras.layers.Input(shape=data_fuctions.Input_shape),
+        tf.keras.layers.Dense(4069, kernel_initializer=initializer),
+        #tf.keras.layers.Dense(4069, kernel_initializer=initializer),
+        #tf.keras.layers.Dense(4069, kernel_initializer=initializer),
+        tf.keras.layers.Dense(10, kernel_initializer=initializer),
+        tf.keras.layers.Softmax(),
+    ])
 def create_keras_model_for_FLARE(accumolator,server_weights,tau,u):
       keras_model = create_keras_model() 
       new_input_layer = tf.keras.layers.Input(shape=data_fuctions.Input_shape)
