@@ -11,7 +11,7 @@ def create_keras_model():
     initializer = tf.keras.initializers.GlorotNormal#(seed=0)
     return tf.keras.models.Sequential([
         tf.keras.layers.Input(shape=data_fuctions.Input_shape),
-        tf.keras.layers.Dense(32, kernel_initializer=initializer),
+        tf.keras.layers.Dense(4069, kernel_initializer=initializer),
         #tf.keras.layers.Dense(4069, kernel_initializer=initializer),
         #tf.keras.layers.Dense(4069, kernel_initializer=initializer),
         tf.keras.layers.Dense(10, kernel_initializer=initializer),

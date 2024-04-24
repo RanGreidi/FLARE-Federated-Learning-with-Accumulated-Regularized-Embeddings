@@ -42,8 +42,8 @@ NUM_CLIENTS = config.NUM_CLIENTS
 
 experiments = {              
               'ROUNDS':               [1001,1001,1001,1001,1001,1001,1001,1001,201],
-              'R' :                   [0.1,0.001,0.001,0.001,0.0001,0.0001,0.0001,0.0001,0.0001],
-              'E':                    [5,8,16,32,1,4,8,16,1],
+              'R' :                   [0.001,0.001,0.001,0.001,0.0001,0.0001,0.0001,0.0001,0.0001],
+              'E':                    [1,8,16,32,1,4,8,16,1],
               'TAU':                  [0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5],                  
               'c':                    [1.05,1.05,1.05,1.05,1.05,1.005,1.005,1.005,0],
               't':                    [50,50,50,50,50,50,50,50,50]
@@ -172,16 +172,16 @@ for experiment in range(num_of_experiments):
       # client_ids = shufled_clients[:NUM_CLIENTS]
       # federated_train_data = [preprocess(train_dataset.create_tf_dataset_for_client(x)) for x in client_ids]      
 
-      #algorithmed federeted training in the round
-      #server_state_FLARE, accumolators = next_fn(server_state_FLARE, accumolators, federated_train_data, clients_R_FLARE, learning_rate, cleints_E_FLARE,tau_cleints,t_cleints)      
-      #conventional federated training in the round
+      #Flare
+      server_state_FLARE, accumolators = next_fn(server_state_FLARE, accumolators, federated_train_data, clients_R_FLARE, learning_rate, cleints_E_FLARE,tau_cleints,t_cleints)      
+      #FedAvg
       server_state_FedAvg = FedAvg_next_fn(server_state_FedAvg, federated_train_data, cleints_E)       
       #Error Correcton algo 2 - FedProx
-      #second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo,tau_cleints,t_cleints)
+      second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo,tau_cleints,t_cleints)
       #Error Correcton algo 3 - EF21
       third_algo_server_state, accumolators_third_algo = Third_algo_next_fn(third_algo_server_state, accumolators_third_algo, federated_train_data, clients_R_third_algo, learning_rate, cleints_E_third_algo)
-      #Error Correcton algo 4
-      #fourth_algo_server_state, accumolators_fourth_algo = Fourth_algo_next_fn(fourth_algo_server_state, accumolators_fourth_algo, federated_train_data, clients_R_fourth_algo, learning_rate, cleints_E_fourth_algo)
+      #Error Correcton algo 4 - Currently implementing EC and TopK.
+      fourth_algo_server_state, accumolators_fourth_algo = Fourth_algo_next_fn(fourth_algo_server_state, accumolators_fourth_algo, federated_train_data, clients_R_fourth_algo, learning_rate, cleints_E_fourth_algo)
 
       
       # #----------------- plot experiment -----------------------
