@@ -174,6 +174,15 @@ def server_update_fn(weights_difference_mean, server_weights):
 def server_update_fn(weights_difference_mean ,server_weights):
   return tff.federated_map(server_update_fn, (weights_difference_mean ,server_weights))
 
+# @tff.tf_computation(model_weights_type, model_weights_type)
+# def server_update_fn_EF21(weights_difference_mean, server_weights):
+#   model = model_fn()
+#   return server_update(model, weights_difference_mean ,server_weights)
+
+# @tff.federated_computation(federated_server_type,federated_server_type)
+# def server_update_fn_EF21(weights_difference_mean ,server_weights):
+#   return tff.federated_map(server_update_fn, (weights_difference_mean ,server_weights))
+
 @tff.tf_computation(tf_dataset_type, model_weights_type, model_weights_type, prun_percent_type, prun_percent_type, prun_percent_type, prun_percent_type,prun_percent_type)
 def client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u):
   models_0 = model_fn_for_clients(accumolator,server_weights,tau,u)
@@ -319,7 +328,7 @@ def Third_algo_next_fn(server_weights, accumoltors, federated_dataset, prun_perc
   weights_difference_mean = tff.federated_mean(pruned_client_weights_diference)
 
   #the server adds the old weights to weights_difference and updates its model. server -> server
-  server_weights = server_update_fn_EF21(weights_difference_mean ,server_weights)
+  server_weights = server_update_fn(weights_difference_mean ,server_weights)
 
   return server_weights, accumoltors
 

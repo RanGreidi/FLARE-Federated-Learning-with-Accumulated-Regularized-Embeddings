@@ -3,7 +3,7 @@ import tensorflow_federated as tff
 from src.general_utils import *
 
 @tf.function
-def client_update_EF21(model, dataset, server_weights, prev_difference, client_optimizer, prun_percent, E):
+def client_update_EF21(model, dataset, server_weights, prev_state, client_optimizer, prun_percent, E):
   # Initialize the client model with the current server weights.
   client_weights = tff.learning.ModelWeights.from_model(model)
 
@@ -31,29 +31,23 @@ def client_update_EF21(model, dataset, server_weights, prev_difference, client_o
 
   #sub prev_difference to the diference_client_weights
   new_diff_minus_pref_diff = tf.nest.map_structure(lambda x, y: tf.subtract(x,y),
-                                        new_diference_client_weights, prev_difference)
+                                        new_diference_client_weights, prev_state)
   
   #create pruned weights diference
   pruned_new_diff_minus_pref_diff = tf.nest.map_structure(lambda x: sparsify_layer(x, prun_percent), 
                                                           new_diff_minus_pref_diff)
   
-  
   #add prev diff to new compressed diff
-  next_diff = tf.nest.map_structure(lambda x, y: tf.add(x,y),
-                                                pruned_new_diff_minus_pref_diff, prev_difference)
-  
-  return pruned_new_diff_minus_pref_diff, next_diff
+  next_state = tf.nest.map_structure(lambda x, y: tf.add(x,y),
+                                                pruned_new_diff_minus_pref_diff, prev_state)
+
+  #cheet
+  pruned_new_diff_minus_pref_diff_cheet = tf.nest.map_structure(lambda x, y: tf.add(x,y),
+                                                                pruned_new_diff_minus_pref_diff, prev_state) 
+
+  return pruned_new_diff_minus_pref_diff_cheet, next_state
 
 @tf.function
 def server_update_EF21(model, mean_client_diference, server_weights):
   return tf.nest.map_structure(lambda x, y: tf.add(x,y),
                                     mean_client_diference, server_weights)
-
-@tff.tf_computation(model_weights_type, model_weights_type)
-def server_update_fn_EF21(weights_difference_mean, server_weights):
-  model = model_fn()
-  return server_update_EF21(model, weights_difference_mean ,server_weights)
-
-@tff.federated_computation(federated_server_type,federated_server_type)
-def server_update_fn_EF21(weights_difference_mean ,server_weights):
-  return tff.federated_map(server_update_EF21, (weights_difference_mean ,server_weights))
