@@ -3,6 +3,9 @@ import collections
 import tensorflow.keras as keras
 import utils.config as config
 import tensorflow as tf
+import os
+import shutil
+import random
 import tensorflow_federated as tff
 import numpy as np
 import string
@@ -21,68 +24,104 @@ embedding_dim = 128
 sequence_length = 500
 
 
+
 def DataLoaderAndDistributer():
+  os.umask(0)
+  data_dir = "/home/rangrei/Desktop/FLARE/FLARE/LSTM/data_handler/data/aclImdb/train"  
+  clients_dir = "/home/rangrei/Desktop/FLARE/FLARE/LSTM/data_handler/data/client_dir" 
+  if os.path.exists(clients_dir):
+    shutil.rmtree(clients_dir)
+  # Create directories for clients
+  for i in range(1, NUM_CLIENTS):
+      client_dir = os.path.join(clients_dir, f"client_{i}")
+      os.makedirs(client_dir, exist_ok=True, mode=0o777)
+  # List the files in the 'neg' and 'pos' directories
+  neg_files = os.listdir(os.path.join(data_dir, 'neg'))
+  pos_files = os.listdir(os.path.join(data_dir, 'pos'))
+  # Calculate the number of files per client
+  samples_per_set = 600
+  neg_files_per_client = 300#len(neg_files) // NUM_CLIENTS
+  pos_files_per_client = 300#len(pos_files) // NUM_CLIENTS
+  client_train_dataset = collections.OrderedDict()
+  client_test_dataset = collections.OrderedDict()
+  # Distribute files to clients
+  for i in range(0,NUM_CLIENTS-1):
+      client_neg_files = neg_files[i * neg_files_per_client: (i + 1) * neg_files_per_client]
+      client_pos_files = pos_files[i * pos_files_per_client: (i + 1) * pos_files_per_client]
+      client_dir = os.path.join(clients_dir, f"client_{i+1}")
+      # Copy 'neg' files to client directory
+      for file_name in client_neg_files:
+          src_path = os.path.join(data_dir, 'neg', file_name)
+          dst_path = os.path.join(client_dir, file_name)
+          shutil.copy(src_path, dst_path)
+      
+      # Copy 'pos' files to client directory
+      for file_name in client_pos_files:
+          src_path = os.path.join(data_dir, 'pos', file_name)
+          dst_path = os.path.join(client_dir, file_name)
+          shutil.copy(src_path, dst_path)
+      
+      client_name = "client_" + str(i)
+      print(f"Adding data from {i * samples_per_set} to {samples_per_set + i * samples_per_set} for client : {client_name}")
+      
+      client_train_dataset[client_name] = # (path_to_txts,labels)
+
+#from here and down it preprocess
   raw_train_ds = tf.keras.utils.text_dataset_from_directory(
       "data_handler/data/aclImdb/train",
-      #BATCH_SIZE=BATCH_SIZE,
+      batch_size=None,
       validation_split=0.2,
       subset="training",
       seed=1337,
   )
-  raw_val_ds = tf.keras.utils.text_dataset_from_directory(
-      "data_handler/data/aclImdb/train",
-      #batch_size=BATCH_SIZE,
-      validation_split=0.2,
-      subset="validation",
-      seed=1337,
-  )
   raw_test_ds = keras.utils.text_dataset_from_directory(
-      "data_handler/data/aclImdb/test"#, batch_size=BATCH_SIZE
+      "data_handler/data/aclImdb/test",
+       batch_size=None
   )
 
   print(f"Number of batches in raw_train_ds: {raw_train_ds.cardinality()}")
-  print(f"Number of batches in raw_val_ds: {raw_val_ds.cardinality()}")
   print(f"Number of batches in raw_test_ds: {raw_test_ds.cardinality()}")
   
-  global vectorize_layer
-  vectorize_layer = tf.keras.layers.TextVectorization(
-                                                          standardize=custom_standardization,
-                                                          max_tokens=max_features,
-                                                          output_mode="int",
-                                                          output_sequence_length=sequence_length,
-                                                        )
+  # Distributer
+  samples_per_set = 600#int(np.floor(total_image_count/TOTAL_NUM_CLIENTS))
+  client_train_dataset = collections.OrderedDict()
+  client_test_dataset = collections.OrderedDict()
+  for i in range(0, TOTAL_NUM_CLIENTS):
+    client_name = "client_" + str(i)
+    print(f"Adding data from {i * samples_per_set} to {samples_per_set + i * samples_per_set} for client : {client_name}")
+    
+    data_train = raw_train_ds.skip(i * samples_per_set).take(samples_per_set)
+    client_train_dataset[client_name] = data_train.batch(BATCH_SIZE)
+
+    data_test = raw_test_ds.skip(i * samples_per_set).take(samples_per_set)
+    client_test_dataset[client_name] = data_test.batch(BATCH_SIZE)
+
+  train_dataset = tff.simulation.datasets.TestClientData(client_train_dataset)
+  test_dataset = tff.simulation.datasets.TestClientData(client_test_dataset)
   
-  text_ds = raw_train_ds.map(lambda x, y: x)
-  vectorize_layer.adapt(text_ds)
+  # global vectorize_layer
+  # vectorize_layer = tf.keras.layers.TextVectorization(
+  #                                                         standardize=custom_standardization,
+  #                                                         max_tokens=max_features,
+  #                                                         output_mode="int",
+  #                                                         output_sequence_length=sequence_length,
+  #                                                       )
+  
+  # text_ds = raw_train_ds.map(lambda x, y: x)
+  # vectorize_layer.adapt(text_ds)
 
   # x_train = x_train.astype(np.float32)
   # y_train = y_train.astype(np.int32)
   # x_test = x_test.astype(np.float32)
   # y_test = y_test.astype(np.int32)
-  train_ds = raw_train_ds.map(vectorize_text).unbatch
-  val_ds = raw_val_ds.map(vectorize_text).unbatch
-  test_ds = raw_test_ds.map(vectorize_text).unbatch
+
+  # train_ds = raw_train_ds.map(vectorize_text).unbatch
+  # val_ds = raw_val_ds.map(vectorize_text).unbatch
+  # test_ds = raw_test_ds.map(vectorize_text).unbatch
 
   #TODO: move the preprocess to after each client is distibuted with data, first distribute data, than preprocess
 
-  # Distributer
-  samples_per_set = 600#int(np.floor(total_image_count/TOTAL_NUM_CLIENTS))
-  client_train_dataset = collections.OrderedDict()
-  client_test_dataset = collections.OrderedDict()
-  for i in range(1, TOTAL_NUM_CLIENTS+1):
-      client_name = "client_" + str(i)
-      start = samples_per_set * (i-1)
-      end = samples_per_set * i
 
-      print(f"Adding data from {start} to {end} for client : {client_name}")
-      data_train = collections.OrderedDict((('label', y_train[start:end]), ('pixels', x_train[start:end])))
-      client_train_dataset[client_name] = data_train
-
-      data_test = collections.OrderedDict((('label', y_test[start:end]), ('pixels', x_test[start:end])))
-      client_test_dataset[client_name] = data_test
-
-  train_dataset = tff.simulation.datasets.TestClientData(client_train_dataset)
-  test_dataset = tff.simulation.datasets.TestClientData(client_test_dataset)
   
   return train_dataset,test_dataset
 
