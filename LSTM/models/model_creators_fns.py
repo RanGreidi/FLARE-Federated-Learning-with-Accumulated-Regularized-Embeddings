@@ -1,4 +1,4 @@
-
+from keras import layers
 import tensorflow as tf
 import tensorflow_federated as tff
 import data_handler.data_fuctions as data_fuctions
@@ -17,6 +17,7 @@ def create_keras_model():
         tf.keras.layers.Dense(10, kernel_initializer=initializer),
         tf.keras.layers.Softmax(),
     ])
+
 def create_keras_model_for_FLARE(accumolator,server_weights,tau,u):
       keras_model = create_keras_model() 
       new_input_layer = tf.keras.layers.Input(shape=data_fuctions.Input_shape)
