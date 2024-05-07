@@ -5,7 +5,7 @@ from src.general_utils import *
 @tf.function
 def client_update_EF21(model, dataset, server_weights, prev_state, client_optimizer, prun_percent, E):
   # Initialize the client model with the current server weights.
-  client_weights = tff.learning.ModelWeights.from_model(model)
+  client_weights = tff.learning.models.ModelWeights.from_model(model)
 
   # Assign the server weights to the client model.
   tf.nest.map_structure(lambda x, y: x.assign(y),

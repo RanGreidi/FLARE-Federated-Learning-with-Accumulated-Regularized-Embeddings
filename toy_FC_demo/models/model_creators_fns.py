@@ -66,21 +66,21 @@ def create_keras_model_for_FedProx(server_weights,tau,u):
 # %%
 def model_fn_for_clients(accumolator,server_weights,tau,u):
     keras_model = create_keras_model_for_FLARE(accumolator,server_weights,tau,u)           
-    return tff.learning.from_keras_model(
+    return tff.learning.models.from_keras_model(
                                 keras_model,
                                 input_spec=data.input_spec,
                                 loss=tf.keras.losses.SparseCategoricalCrossentropy(),
                                 metrics=[tf.keras.metrics.SparseCategoricalAccuracy()])        
 def model_fn_for_FedProx(server_weights,tau,u):
     keras_model = create_keras_model_for_FedProx(server_weights,tau,u)           
-    return tff.learning.from_keras_model(
+    return tff.learning.models.from_keras_model(
                                 keras_model,
                                 input_spec=data.input_spec,
                                 loss=tf.keras.losses.SparseCategoricalCrossentropy(),
                                 metrics=[tf.keras.metrics.SparseCategoricalAccuracy()])   
 def model_fn():
   keras_model = create_keras_model()
-  return tff.learning.from_keras_model(
+  return tff.learning.models.from_keras_model(
                                 keras_model,
                                 input_spec=data.input_spec,
                                 loss=tf.keras.losses.SparseCategoricalCrossentropy(),

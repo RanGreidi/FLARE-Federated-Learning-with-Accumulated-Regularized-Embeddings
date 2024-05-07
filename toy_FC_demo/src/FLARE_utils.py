@@ -29,7 +29,7 @@ p = config.p
 
 def acc_init():
   model = model_fn()
-  client_weights = tff.learning.ModelWeights.from_model(model)
+  client_weights = tff.learning.models.ModelWeights.from_model(model)
   accumolator =   tf.nest.map_structure(lambda x, y: x.assign(tf.zeros(tf.shape(y))),
                                         client_weights, client_weights)
   return [accumolator for i in range(config.NUM_CLIENTS)]
@@ -40,8 +40,8 @@ def client_update_my_algo(models, dataset, server_weights, accumolator, client_o
   model_0 = models[0]
   model_1 = models[1]  
   # Initialize the client model with the current server weights.
-  client_weights_new_0 = tff.learning.ModelWeights.from_model(model_0)
-  client_weights_new_1 = tff.learning.ModelWeights.from_model(model_1)
+  client_weights_new_0 = tff.learning.models.ModelWeights.from_model(model_0)
+  client_weights_new_1 = tff.learning.models.ModelWeights.from_model(model_1)
   # Assign the server weights to the client model.
   tf.nest.map_structure(lambda x, y: x.assign(y),
                         client_weights_new_0, server_weights)
@@ -101,7 +101,7 @@ def client_update_my_algo(models, dataset, server_weights, accumolator, client_o
 @tf.function
 def client_update(model, dataset, server_weights, accumolator, client_optimizer, prun_percent, E):
   # Initialize the client model with the current server weights.
-  client_weights = tff.learning.ModelWeights.from_model(model)
+  client_weights = tff.learning.models.ModelWeights.from_model(model)
 
   # Assign the server weights to the client model.
   tf.nest.map_structure(lambda x, y: x.assign(y),
@@ -145,7 +145,7 @@ def client_update(model, dataset, server_weights, accumolator, client_optimizer,
 @tf.function
 def FedAvg_client_update(model, dataset, server_weights, client_optimizer, E):
   # Initialize the client model with the current server weights.
-  client_weights = tff.learning.ModelWeights.from_model(model)
+  client_weights = tff.learning.models.ModelWeights.from_model(model)
   # Assign the server weights to the client model.
   tf.nest.map_structure(lambda x, y: x.assign(y),
                         client_weights, server_weights)
@@ -188,11 +188,11 @@ def client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, lear
   models_0 = model_fn_for_clients(accumolator,server_weights,tau,u)
   models_1 = model_fn()
   models = [models_0,models_1]
-  client_optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
+  client_optimizer = tf.keras.optimizers.legacy.SGD(learning_rate=learning_rate, momentum=MOMENTUM)
   pruned_client_weights, accumolator = client_update_my_algo(models, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
-@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type,federated_prun_percent_type,federated_prun_percent_type)
+@tff.federated_computation(federated_dataset_type,federated_clients_type, federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type,federated_prun_percent_type,federated_prun_percent_type)
 def client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u):
   return tff.federated_map(client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u))
 
@@ -204,7 +204,7 @@ def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_p
   pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
-@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type,federated_prun_percent_type,federated_prun_percent_type)
+@tff.federated_computation(federated_dataset_type, federated_clients_type, federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type,federated_prun_percent_type,federated_prun_percent_type)
 def Second_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u):
   return tff.federated_map(Second_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E, tau,u))
 
@@ -215,7 +215,7 @@ def FedAvg_client_update_fn(tf_dataset, server_weights, E):
   client_weights = FedAvg_client_update(model, tf_dataset, server_weights, client_optimizer, E)
   return client_weights
 
-@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_prun_percent_type)
+@tff.federated_computation(federated_dataset_type,federated_clients_type, federated_prun_percent_type)
 def FedAvg_client_update_fn(tf_dataset, server_weights, E):
   return tff.federated_map(FedAvg_client_update_fn, (tf_dataset, server_weights, E))
 
@@ -312,7 +312,7 @@ def Third_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_pe
   pruned_client_weights, accumolator = client_update_EF21(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
-@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
+@tff.federated_computation(federated_dataset_type, federated_clients_type, federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
 def Third_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
   return tff.federated_map(Third_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E))
 
@@ -341,7 +341,7 @@ def Fourth_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_p
   pruned_client_weights, accumolator = client_update(model, tf_dataset, server_weights, accumolator, client_optimizer, prun_percent, E) 
   return pruned_client_weights, accumolator
  
-@tff.federated_computation(federated_dataset_type, tff.type_at_clients(model_weights_type), federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
+@tff.federated_computation(federated_dataset_type, federated_clients_type, federated_clients_type, federated_prun_percent_type, federated_prun_percent_type, federated_prun_percent_type)
 def Fourth_algo_client_update_fn(tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E):
   return tff.federated_map(Fourth_algo_client_update_fn, (tf_dataset, server_weights, accumolator, prun_percent, learning_rate, E))
 

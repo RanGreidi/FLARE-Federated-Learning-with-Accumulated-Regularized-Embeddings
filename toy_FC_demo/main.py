@@ -28,7 +28,7 @@ central_test = preprocess(central_test)
 #print numbers of non zero and numbers of total weights of all layers according to predefined R
 R = 0.001
 pruned = tf.nest.map_structure(lambda x: sparsify_layer(x, R),
-                            tff.learning.ModelWeights.from_model(model_fn()))
+                            tff.learning.models.ModelWeights.from_model(model_fn()))
 for i in range(len(pruned.trainable)):
   print('number of non zeros weights: ',tf.math.count_nonzero(pruned.trainable[i]).numpy() , '     total weights number in layer:' , pruned.trainable[i].numpy().size  , '     layer shape: ',tf.shape(pruned.trainable[i]).numpy())
 

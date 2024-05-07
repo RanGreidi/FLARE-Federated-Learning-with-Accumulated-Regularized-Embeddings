@@ -20,7 +20,7 @@ def sparsify_layer(layer, prun_percent):
 
 def server_init():
   model = model_fn()
-  return tff.learning.ModelWeights.from_model(model)
+  return tff.learning.models.ModelWeights.from_model(model)
 
 @tff.federated_computation
 def initialize_fn():
@@ -33,9 +33,12 @@ def server_update(model, mean_client_diference, server_weights):
 
 #types defenition
 whimsy_model = model_fn()
-tf_dataset_type = tff.SequenceType(whimsy_model.input_spec)
+#tf_dataset_type = tff.SequenceType(whimsy_model.input_spec)
+#tf_dataset_type = tff.types.tensorflow_to_type(whimsy_model.input_spec)
+tf_dataset_type = tff.SequenceType(tff.types.tensorflow_to_type(whimsy_model.input_spec))
 model_weights_type = server_init.type_signature.result
 prun_percent_type = tf.constant(1, dtype = tf.float32).dtype
+prun_percent_type = tff.types.tensorflow_to_type(prun_percent_type)
 
 #federated types
 federated_server_type = tff.FederatedType(model_weights_type, tff.SERVER)
