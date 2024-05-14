@@ -1,6 +1,6 @@
 import tensorflow as tf
 import tensorflow_federated as tff
-from models.model_creators_fns import model_fn
+from models.model_creators_fns import model_fn,load_initial_model
 
 @tf.function
 def sparsify_layer(layer, prun_percent):
@@ -19,7 +19,7 @@ def sparsify_layer(layer, prun_percent):
 @tff.tf_computation
 
 def server_init():
-  model = model_fn()
+  model = load_initial_model()
   return tff.learning.ModelWeights.from_model(model)
 
 @tff.federated_computation
