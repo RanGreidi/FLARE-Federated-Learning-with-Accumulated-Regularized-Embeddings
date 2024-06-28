@@ -5,6 +5,6 @@ BATCH_SIZE = 500
 lr = 0.002
 MOMENTUM = 0.99
 #Reg parms
-p = 1
+p = 5
 #data related
 Input_shape = (32,32,3)

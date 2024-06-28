@@ -37,15 +37,15 @@ initial_server_state = initialize_fn()
 
 ploter_dic = {}
 exp_name_list = []
-num_of_experiments = 1
+num_of_experiments = 4
 NUM_CLIENTS = config.NUM_CLIENTS
 
 experiments = {              
-              'ROUNDS':               [501,501,501,501,1001,1001,1001,1001,201],
-              'R' :                   [0.001,0.001,0.001,0.001,0.0001,0.0001,0.0001,0.0001,0.0001], 
-              'E':                    [1,8,16,32,1,4,8,16,1],
-              'TAU':                  [0.05,0.05,0.05,0.05,0.0005,0.05,0.05,0.05,0],                     
-              'c':                    [1.1,1.1,1.1,1.1,1.01,1.01,1.01,1.01,0],
+              'ROUNDS':               [1001,501,501,501,501,1001,1001,1001,201],
+              'R' :                   [0.001,0.001,0.001,0.001,0.01,0.0001,0.0001,0.0001,0.0001], 
+              'E':                    [1,4,8,16,32,4,8,16,1],
+              'TAU':                  [0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0],                     
+              'c':                    [1.1,1.1,1.1,1.1,1.1,1.01,1.01,1.01,0],
               't':                    [50,50,50,50,50,50,50,50,50]
               }
 
@@ -59,7 +59,7 @@ for experiment in range(num_of_experiments):
     c = experiments['c'][experiment]
     t = experiments['t'][experiment]
 
-    experiment_name = '{}R_{}E_{}TAU_{}CLIENTS_{}ROUNDS_{}Decay_{}t_{}p'.format(R,E,TAU,NUM_CLIENTS,ROUNDS,c,t,config.p)
+    experiment_name = '{}R_{}E_{}TAU_{}CLIENTS_{}ROUNDS_{}Decay_{}t_{}p_fix_FedProx_EF21_EF'.format(R,E,TAU,NUM_CLIENTS,ROUNDS,c,t,config.p)
     exp_name_list.append(experiment_name)
     
     #make dir for experiment results
@@ -115,7 +115,7 @@ for experiment in range(num_of_experiments):
           history_third_algo_server_state.append(D)
           print('Fourth ALgo evaluation')
           _E_ = evaluate(fourth_algo_server_state, central_test)
-          history_fourth_algo_server_state.append(E)
+          history_fourth_algo_server_state.append(_E_)
 
           log_writer(experiment_name,
                       history_federeted,

@@ -1,0 +1,706 @@
+round: 0
+FLARE evaluation:   0.07890000194311142
+FedAvg evaluation:   0.07890000194311142
+second_algo_server_state:   0.07890000194311142
+third_algo_server_state:   0.07890000194311142
+
+
+round: 10
+FLARE evaluation:   0.08349999785423279
+FedAvg evaluation:   0.19030000269412994
+second_algo_server_state:   0.07880000025033951
+third_algo_server_state:   0.07880000025033951
+
+
+round: 20
+FLARE evaluation:   0.09799999743700027
+FedAvg evaluation:   0.37400001287460327
+second_algo_server_state:   0.07900000363588333
+third_algo_server_state:   0.07919999957084656
+
+
+round: 30
+FLARE evaluation:   0.12380000203847885
+FedAvg evaluation:   0.48910000920295715
+second_algo_server_state:   0.07940000295639038
+third_algo_server_state:   0.07970000058412552
+
+
+round: 40
+FLARE evaluation:   0.16590000689029694
+FedAvg evaluation:   0.5669999718666077
+second_algo_server_state:   0.07989999651908875
+third_algo_server_state:   0.08020000159740448
+
+
+round: 50
+FLARE evaluation:   0.22689999639987946
+FedAvg evaluation:   0.6158000230789185
+second_algo_server_state:   0.08089999854564667
+third_algo_server_state:   0.08079999685287476
+
+
+round: 60
+FLARE evaluation:   0.2978000044822693
+FedAvg evaluation:   0.6492999792098999
+second_algo_server_state:   0.08079999685287476
+third_algo_server_state:   0.08089999854564667
+
+
+round: 70
+FLARE evaluation:   0.3481000065803528
+FedAvg evaluation:   0.6723999977111816
+second_algo_server_state:   0.08150000125169754
+third_algo_server_state:   0.08150000125169754
+
+
+round: 80
+FLARE evaluation:   0.3882000148296356
+FedAvg evaluation:   0.6941999793052673
+second_algo_server_state:   0.0820000022649765
+third_algo_server_state:   0.08250000327825546
+
+
+round: 90
+FLARE evaluation:   0.4207000136375427
+FedAvg evaluation:   0.7109000086784363
+second_algo_server_state:   0.08259999752044678
+third_algo_server_state:   0.08330000191926956
+
+
+round: 100
+FLARE evaluation:   0.4496000111103058
+FedAvg evaluation:   0.7229999899864197
+second_algo_server_state:   0.08380000293254852
+third_algo_server_state:   0.08449999988079071
+
+
+round: 110
+FLARE evaluation:   0.4763000011444092
+FedAvg evaluation:   0.7351999878883362
+second_algo_server_state:   0.08470000326633453
+third_algo_server_state:   0.08560000360012054
+
+
+round: 120
+FLARE evaluation:   0.4984000027179718
+FedAvg evaluation:   0.743399977684021
+second_algo_server_state:   0.08590000122785568
+third_algo_server_state:   0.08640000224113464
+
+
+round: 130
+FLARE evaluation:   0.5181000232696533
+FedAvg evaluation:   0.7519999742507935
+second_algo_server_state:   0.0869000032544136
+third_algo_server_state:   0.08789999783039093
+
+
+round: 140
+FLARE evaluation:   0.5358999967575073
+FedAvg evaluation:   0.7576000094413757
+second_algo_server_state:   0.08820000290870667
+third_algo_server_state:   0.08910000324249268
+
+
+round: 150
+FLARE evaluation:   0.551800012588501
+FedAvg evaluation:   0.7633000016212463
+second_algo_server_state:   0.08950000256299973
+third_algo_server_state:   0.09139999747276306
+
+
+round: 160
+FLARE evaluation:   0.5676000118255615
+FedAvg evaluation:   0.76910001039505
+second_algo_server_state:   0.09120000153779984
+third_algo_server_state:   0.09260000288486481
+
+
+round: 170
+FLARE evaluation:   0.5809999704360962
+FedAvg evaluation:   0.7745000123977661
+second_algo_server_state:   0.09279999881982803
+third_algo_server_state:   0.09539999812841415
+
+
+round: 180
+FLARE evaluation:   0.592199981212616
+FedAvg evaluation:   0.7781000137329102
+second_algo_server_state:   0.09510000050067902
+third_algo_server_state:   0.09700000286102295
+
+
+round: 190
+FLARE evaluation:   0.6051999926567078
+FedAvg evaluation:   0.7838000059127808
+second_algo_server_state:   0.0966000035405159
+third_algo_server_state:   0.09939999878406525
+
+
+round: 200
+FLARE evaluation:   0.6151000261306763
+FedAvg evaluation:   0.7894999980926514
+second_algo_server_state:   0.09870000183582306
+third_algo_server_state:   0.10050000250339508
+
+
+round: 210
+FLARE evaluation:   0.6251999735832214
+FedAvg evaluation:   0.7932999730110168
+second_algo_server_state:   0.10010000318288803
+third_algo_server_state:   0.10360000282526016
+
+
+round: 220
+FLARE evaluation:   0.6351000070571899
+FedAvg evaluation:   0.7958999872207642
+second_algo_server_state:   0.10239999741315842
+third_algo_server_state:   0.10599999874830246
+
+
+round: 230
+FLARE evaluation:   0.6417999863624573
+FedAvg evaluation:   0.7986000180244446
+second_algo_server_state:   0.10540000349283218
+third_algo_server_state:   0.1096000000834465
+
+
+round: 240
+FLARE evaluation:   0.6488999724388123
+FedAvg evaluation:   0.8014000058174133
+second_algo_server_state:   0.10790000110864639
+third_algo_server_state:   0.1128000020980835
+
+
+round: 250
+FLARE evaluation:   0.6557000279426575
+FedAvg evaluation:   0.8043000102043152
+second_algo_server_state:   0.11150000244379044
+third_algo_server_state:   0.11559999734163284
+
+
+round: 260
+FLARE evaluation:   0.6617000102996826
+FedAvg evaluation:   0.805899977684021
+second_algo_server_state:   0.11389999836683273
+third_algo_server_state:   0.1185000017285347
+
+
+round: 270
+FLARE evaluation:   0.666700005531311
+FedAvg evaluation:   0.8083000183105469
+second_algo_server_state:   0.11649999767541885
+third_algo_server_state:   0.12330000102519989
+
+
+round: 280
+FLARE evaluation:   0.6743000149726868
+FedAvg evaluation:   0.8105000257492065
+second_algo_server_state:   0.12030000239610672
+third_algo_server_state:   0.12770000100135803
+
+
+round: 290
+FLARE evaluation:   0.6796000003814697
+FedAvg evaluation:   0.8133000135421753
+second_algo_server_state:   0.12430000305175781
+third_algo_server_state:   0.13230000436306
+
+
+round: 300
+FLARE evaluation:   0.6851000189781189
+FedAvg evaluation:   0.8162000179290771
+second_algo_server_state:   0.12860000133514404
+third_algo_server_state:   0.13850000500679016
+
+
+round: 310
+FLARE evaluation:   0.6895999908447266
+FedAvg evaluation:   0.8177000284194946
+second_algo_server_state:   0.13379999995231628
+third_algo_server_state:   0.14399999380111694
+
+
+round: 320
+FLARE evaluation:   0.6956999897956848
+FedAvg evaluation:   0.8187000155448914
+second_algo_server_state:   0.13920000195503235
+third_algo_server_state:   0.15029999613761902
+
+
+round: 330
+FLARE evaluation:   0.7014999985694885
+FedAvg evaluation:   0.8198999762535095
+second_algo_server_state:   0.1446000039577484
+third_algo_server_state:   0.155799999833107
+
+
+round: 340
+FLARE evaluation:   0.7067000269889832
+FedAvg evaluation:   0.821399986743927
+second_algo_server_state:   0.14959999918937683
+third_algo_server_state:   0.16189999878406525
+
+
+round: 350
+FLARE evaluation:   0.7109000086784363
+FedAvg evaluation:   0.8230999708175659
+second_algo_server_state:   0.1559000015258789
+third_algo_server_state:   0.16850000619888306
+
+
+round: 360
+FLARE evaluation:   0.715399980545044
+FedAvg evaluation:   0.8246999979019165
+second_algo_server_state:   0.16099999845027924
+third_algo_server_state:   0.17589999735355377
+
+
+round: 370
+FLARE evaluation:   0.7202000021934509
+FedAvg evaluation:   0.82669997215271
+second_algo_server_state:   0.1680999994277954
+third_algo_server_state:   0.18369999527931213
+
+
+round: 380
+FLARE evaluation:   0.7245000004768372
+FedAvg evaluation:   0.828499972820282
+second_algo_server_state:   0.17499999701976776
+third_algo_server_state:   0.19329999387264252
+
+
+round: 390
+FLARE evaluation:   0.7283999919891357
+FedAvg evaluation:   0.8299999833106995
+second_algo_server_state:   0.18170000612735748
+third_algo_server_state:   0.2003999948501587
+
+
+round: 400
+FLARE evaluation:   0.7321000099182129
+FedAvg evaluation:   0.8309999704360962
+second_algo_server_state:   0.1882999986410141
+third_algo_server_state:   0.20829999446868896
+
+
+round: 410
+FLARE evaluation:   0.7383999824523926
+FedAvg evaluation:   0.8312000036239624
+second_algo_server_state:   0.19789999723434448
+third_algo_server_state:   0.2167000025510788
+
+
+round: 420
+FLARE evaluation:   0.7426000237464905
+FedAvg evaluation:   0.8327000141143799
+second_algo_server_state:   0.20630000531673431
+third_algo_server_state:   0.22660000622272491
+
+
+round: 430
+FLARE evaluation:   0.7465999722480774
+FedAvg evaluation:   0.8338000178337097
+second_algo_server_state:   0.2142000049352646
+third_algo_server_state:   0.23759999871253967
+
+
+round: 440
+FLARE evaluation:   0.7498999834060669
+FedAvg evaluation:   0.8349999785423279
+second_algo_server_state:   0.2231999933719635
+third_algo_server_state:   0.24950000643730164
+
+
+round: 450
+FLARE evaluation:   0.7544000148773193
+FedAvg evaluation:   0.8360000252723694
+second_algo_server_state:   0.2320999950170517
+third_algo_server_state:   0.2597000002861023
+
+
+round: 460
+FLARE evaluation:   0.7583000063896179
+FedAvg evaluation:   0.8371000289916992
+second_algo_server_state:   0.24169999361038208
+third_algo_server_state:   0.2694000005722046
+
+
+round: 470
+FLARE evaluation:   0.7620000243186951
+FedAvg evaluation:   0.838699996471405
+second_algo_server_state:   0.2506999969482422
+third_algo_server_state:   0.27950000762939453
+
+
+round: 480
+FLARE evaluation:   0.765500009059906
+FedAvg evaluation:   0.8392999768257141
+second_algo_server_state:   0.2623000144958496
+third_algo_server_state:   0.28790000081062317
+
+
+round: 490
+FLARE evaluation:   0.7684999704360962
+FedAvg evaluation:   0.8399999737739563
+second_algo_server_state:   0.2734000086784363
+third_algo_server_state:   0.2971000075340271
+
+
+round: 500
+FLARE evaluation:   0.772599995136261
+FedAvg evaluation:   0.840399980545044
+second_algo_server_state:   0.2816999852657318
+third_algo_server_state:   0.30469998717308044
+
+
+round: 510
+FLARE evaluation:   0.7759000062942505
+FedAvg evaluation:   0.8416000008583069
+second_algo_server_state:   0.290800005197525
+third_algo_server_state:   0.31349998712539673
+
+
+round: 520
+FLARE evaluation:   0.7800999879837036
+FedAvg evaluation:   0.8427000045776367
+second_algo_server_state:   0.2994000017642975
+third_algo_server_state:   0.31940001249313354
+
+
+round: 530
+FLARE evaluation:   0.7831000089645386
+FedAvg evaluation:   0.8440999984741211
+second_algo_server_state:   0.30790001153945923
+third_algo_server_state:   0.3271999955177307
+
+
+round: 540
+FLARE evaluation:   0.7857000231742859
+FedAvg evaluation:   0.845300018787384
+second_algo_server_state:   0.31619998812675476
+third_algo_server_state:   0.3343000113964081
+
+
+round: 550
+FLARE evaluation:   0.7882999777793884
+FedAvg evaluation:   0.8456000089645386
+second_algo_server_state:   0.3231000006198883
+third_algo_server_state:   0.34060001373291016
+
+
+round: 560
+FLARE evaluation:   0.7900000214576721
+FedAvg evaluation:   0.8463000059127808
+second_algo_server_state:   0.3301999866962433
+third_algo_server_state:   0.34630000591278076
+
+
+round: 570
+FLARE evaluation:   0.79339998960495
+FedAvg evaluation:   0.8467000126838684
+second_algo_server_state:   0.3370000123977661
+third_algo_server_state:   0.3504999876022339
+
+
+round: 580
+FLARE evaluation:   0.7954000234603882
+FedAvg evaluation:   0.8481000065803528
+second_algo_server_state:   0.3434000015258789
+third_algo_server_state:   0.35659998655319214
+
+
+round: 590
+FLARE evaluation:   0.7972999811172485
+FedAvg evaluation:   0.8483999967575073
+second_algo_server_state:   0.3497999906539917
+third_algo_server_state:   0.3628000020980835
+
+
+round: 600
+FLARE evaluation:   0.7989000082015991
+FedAvg evaluation:   0.848800003528595
+second_algo_server_state:   0.35569998621940613
+third_algo_server_state:   0.3675000071525574
+
+
+round: 610
+FLARE evaluation:   0.8001999855041504
+FedAvg evaluation:   0.8489999771118164
+second_algo_server_state:   0.36169999837875366
+third_algo_server_state:   0.37400001287460327
+
+
+round: 620
+FLARE evaluation:   0.8023999929428101
+FedAvg evaluation:   0.8496000170707703
+second_algo_server_state:   0.3666999936103821
+third_algo_server_state:   0.3790999948978424
+
+
+round: 630
+FLARE evaluation:   0.8033000230789185
+FedAvg evaluation:   0.8501999974250793
+second_algo_server_state:   0.37299999594688416
+third_algo_server_state:   0.384799987077713
+
+
+round: 640
+FLARE evaluation:   0.8061000108718872
+FedAvg evaluation:   0.8510000109672546
+second_algo_server_state:   0.3792000114917755
+third_algo_server_state:   0.3898000121116638
+
+
+round: 650
+FLARE evaluation:   0.8068000078201294
+FedAvg evaluation:   0.8514000177383423
+second_algo_server_state:   0.384799987077713
+third_algo_server_state:   0.3946000039577484
+
+
+round: 660
+FLARE evaluation:   0.8100000023841858
+FedAvg evaluation:   0.8522999882698059
+second_algo_server_state:   0.3905999958515167
+third_algo_server_state:   0.40059998631477356
+
+
+round: 670
+FLARE evaluation:   0.8108999729156494
+FedAvg evaluation:   0.8531000018119812
+second_algo_server_state:   0.39660000801086426
+third_algo_server_state:   0.40630000829696655
+
+
+round: 680
+FLARE evaluation:   0.8136000037193298
+FedAvg evaluation:   0.8537999987602234
+second_algo_server_state:   0.4020000100135803
+third_algo_server_state:   0.41100001335144043
+
+
+round: 690
+FLARE evaluation:   0.8149999976158142
+FedAvg evaluation:   0.8537999987602234
+second_algo_server_state:   0.40939998626708984
+third_algo_server_state:   0.4171999990940094
+
+
+round: 700
+FLARE evaluation:   0.8155999779701233
+FedAvg evaluation:   0.8550000190734863
+second_algo_server_state:   0.41530001163482666
+third_algo_server_state:   0.4212000072002411
+
+
+round: 710
+FLARE evaluation:   0.8158000111579895
+FedAvg evaluation:   0.8561999797821045
+second_algo_server_state:   0.41999998688697815
+third_algo_server_state:   0.4251999855041504
+
+
+round: 720
+FLARE evaluation:   0.8176000118255615
+FedAvg evaluation:   0.8564000129699707
+second_algo_server_state:   0.424699991941452
+third_algo_server_state:   0.4302000105381012
+
+
+round: 730
+FLARE evaluation:   0.8190000057220459
+FedAvg evaluation:   0.8575999736785889
+second_algo_server_state:   0.429500013589859
+third_algo_server_state:   0.43380001187324524
+
+
+round: 740
+FLARE evaluation:   0.8203999996185303
+FedAvg evaluation:   0.8579999804496765
+second_algo_server_state:   0.4343999922275543
+third_algo_server_state:   0.4381999969482422
+
+
+round: 750
+FLARE evaluation:   0.8219000101089478
+FedAvg evaluation:   0.8583999872207642
+second_algo_server_state:   0.4383000135421753
+third_algo_server_state:   0.44190001487731934
+
+
+round: 760
+FLARE evaluation:   0.8223999738693237
+FedAvg evaluation:   0.8585000038146973
+second_algo_server_state:   0.44279998540878296
+third_algo_server_state:   0.44600000977516174
+
+
+round: 770
+FLARE evaluation:   0.8234999775886536
+FedAvg evaluation:   0.859000027179718
+second_algo_server_state:   0.44909998774528503
+third_algo_server_state:   0.45019999146461487
+
+
+round: 780
+FLARE evaluation:   0.824999988079071
+FedAvg evaluation:   0.8593999743461609
+second_algo_server_state:   0.4535999894142151
+third_algo_server_state:   0.45509999990463257
+
+
+round: 790
+FLARE evaluation:   0.8263000249862671
+FedAvg evaluation:   0.8607000112533569
+second_algo_server_state:   0.4569000005722046
+third_algo_server_state:   0.45989999175071716
+
+
+round: 800
+FLARE evaluation:   0.8271999955177307
+FedAvg evaluation:   0.8604000210762024
+second_algo_server_state:   0.46160000562667847
+third_algo_server_state:   0.4643999934196472
+
+
+round: 810
+FLARE evaluation:   0.8278999924659729
+FedAvg evaluation:   0.8605999946594238
+second_algo_server_state:   0.4659000039100647
+third_algo_server_state:   0.46880000829696655
+
+
+round: 820
+FLARE evaluation:   0.8291000127792358
+FedAvg evaluation:   0.86080002784729
+second_algo_server_state:   0.4699999988079071
+third_algo_server_state:   0.4729999899864197
+
+
+round: 830
+FLARE evaluation:   0.8300999999046326
+FedAvg evaluation:   0.8614000082015991
+second_algo_server_state:   0.47519999742507935
+third_algo_server_state:   0.4772999882698059
+
+
+round: 840
+FLARE evaluation:   0.8306999802589417
+FedAvg evaluation:   0.8622999787330627
+second_algo_server_state:   0.48100000619888306
+third_algo_server_state:   0.4812000095844269
+
+
+round: 850
+FLARE evaluation:   0.83160001039505
+FedAvg evaluation:   0.862500011920929
+second_algo_server_state:   0.4853000044822693
+third_algo_server_state:   0.48559999465942383
+
+
+round: 860
+FLARE evaluation:   0.832099974155426
+FedAvg evaluation:   0.8629000186920166
+second_algo_server_state:   0.4909999966621399
+third_algo_server_state:   0.4894999861717224
+
+
+round: 870
+FLARE evaluation:   0.8331999778747559
+FedAvg evaluation:   0.863099992275238
+second_algo_server_state:   0.4950000047683716
+third_algo_server_state:   0.4945000112056732
+
+
+round: 880
+FLARE evaluation:   0.8345999717712402
+FedAvg evaluation:   0.8640000224113464
+second_algo_server_state:   0.5002999901771545
+third_algo_server_state:   0.4986000061035156
+
+
+round: 890
+FLARE evaluation:   0.8352000117301941
+FedAvg evaluation:   0.864300012588501
+second_algo_server_state:   0.5048999786376953
+third_algo_server_state:   0.503000020980835
+
+
+round: 900
+FLARE evaluation:   0.8360999822616577
+FedAvg evaluation:   0.8651000261306763
+second_algo_server_state:   0.5083000063896179
+third_algo_server_state:   0.5073000192642212
+
+
+round: 910
+FLARE evaluation:   0.8364999890327454
+FedAvg evaluation:   0.8651000261306763
+second_algo_server_state:   0.5123999714851379
+third_algo_server_state:   0.5110999941825867
+
+
+round: 920
+FLARE evaluation:   0.8384000062942505
+FedAvg evaluation:   0.8654999732971191
+second_algo_server_state:   0.5163000226020813
+third_algo_server_state:   0.5131000280380249
+
+
+round: 930
+FLARE evaluation:   0.8381999731063843
+FedAvg evaluation:   0.8657000064849854
+second_algo_server_state:   0.5217000246047974
+third_algo_server_state:   0.5169000029563904
+
+
+round: 940
+FLARE evaluation:   0.8389999866485596
+FedAvg evaluation:   0.8661999702453613
+second_algo_server_state:   0.5234000086784363
+third_algo_server_state:   0.5203999876976013
+
+
+round: 950
+FLARE evaluation:   0.8399999737739563
+FedAvg evaluation:   0.866599977016449
+second_algo_server_state:   0.5271999835968018
+third_algo_server_state:   0.5249000191688538
+
+
+round: 960
+FLARE evaluation:   0.8407999873161316
+FedAvg evaluation:   0.8669999837875366
+second_algo_server_state:   0.5303999781608582
+third_algo_server_state:   0.52920001745224
+
+
+round: 970
+FLARE evaluation:   0.8411999940872192
+FedAvg evaluation:   0.867900013923645
+second_algo_server_state:   0.5338000059127808
+third_algo_server_state:   0.5320000052452087
+
+
+round: 980
+FLARE evaluation:   0.8417999744415283
+FedAvg evaluation:   0.8680999875068665
+second_algo_server_state:   0.5385000109672546
+third_algo_server_state:   0.5354999899864197
+
+
+round: 990
+FLARE evaluation:   0.8428999781608582
+FedAvg evaluation:   0.868399977684021
+second_algo_server_state:   0.5422999858856201
+third_algo_server_state:   0.5385000109672546
+
+
+round: 1000
+FLARE evaluation:   0.8439000248908997
+FedAvg evaluation:   0.8686000108718872
+second_algo_server_state:   0.5480999946594238
+third_algo_server_state:   0.5426999926567078
+

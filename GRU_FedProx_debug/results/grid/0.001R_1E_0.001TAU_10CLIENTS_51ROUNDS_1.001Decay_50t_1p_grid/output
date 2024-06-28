@@ -1,0 +1,47 @@
+round: 0
+FLARE evaluation:   0.011250000447034836
+FedAvg evaluation:   0.011250000447034836
+FedProx_evaluation:   0.008750000037252903
+EF21_evaluation:   0.010625000111758709
+EF_And_Sparsification:   0.011874999850988388
+
+
+round: 10
+FLARE evaluation:   0.22312499582767487
+FedAvg evaluation:   0.009999999776482582
+FedProx_evaluation:   0.009999999776482582
+EF21_evaluation:   0.011250000447034836
+EF_And_Sparsification:   0.00937500037252903
+
+
+round: 20
+FLARE evaluation:   0.22624999284744263
+FedAvg evaluation:   0.011874999850988388
+FedProx_evaluation:   0.009999999776482582
+EF21_evaluation:   0.008124999701976776
+EF_And_Sparsification:   0.010625000111758709
+
+
+round: 30
+FLARE evaluation:   0.2150000035762787
+FedAvg evaluation:   0.011250000447034836
+FedProx_evaluation:   0.00937500037252903
+EF21_evaluation:   0.011250000447034836
+EF_And_Sparsification:   0.011250000447034836
+
+
+round: 40
+FLARE evaluation:   0.25187501311302185
+FedAvg evaluation:   0.00937500037252903
+FedProx_evaluation:   0.00937500037252903
+EF21_evaluation:   0.00937500037252903
+EF_And_Sparsification:   0.005625000223517418
+
+
+round: 50
+FLARE evaluation:   0.24187499284744263
+FedAvg evaluation:   0.008750000037252903
+FedProx_evaluation:   0.009999999776482582
+EF21_evaluation:   0.00937500037252903
+EF_And_Sparsification:   0.009999999776482582
+
