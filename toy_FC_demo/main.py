@@ -67,33 +67,33 @@ for experiment in range(num_of_experiments):
         os.makedirs('results/' + experiment_name)
 
     #initialize expiriment
-    history_federeted = []
+    history_FLARE = []
     history_FedAvg = []
-    history_second_algo_server_state = []
-    history_third_algo_server_state = []
-    history_fourth_algo_server_state = []
+    history_FedProx_server_state = []
+    history_EF21_server_state = []
+    history_EC_server_state = []
 
     output_list = []
-    prun_precent_logger = []
-    E_logger = []
+    prun_precent_logger_FLARE = []
+    E_logger_FLARE = []
     prun_precent_logger_FFL = []
     E_logger_FFL = []
-    prun_precent_logger_third = []
-    E_logger_third = []
-    prun_precent_logger_fourth = []
-    E_logger_fourth = []
+    prun_precent_logger_EF21 = []
+    E_logger_EF21 = []
+    prun_precent_logger_EC = []
+    E_logger_EC = []
 
     server_state = initial_server_state
-    accumolators = acc_init()
-    accumolators_second_algo = acc_init()
-    accumolators_third_algo = acc_init()
-    accumolators_fourth_algo = acc_init()
+    accumolators_FLARE = acc_init()
+    accumolators_FedProx = acc_init()
+    accumolators_EF21 = acc_init()
+    accumolators_EC = acc_init()
 
     server_state_FedAvg = server_state
     server_state_FLARE = server_state
-    second_algo_server_state = server_state
-    third_algo_server_state = server_state
-    fourth_algo_server_state = server_state
+    server_state_FedProx = server_state
+    server_state_EF21 = server_state
+    server_state_EC = server_state
 
     tau_decay = 1
 
@@ -103,34 +103,34 @@ for experiment in range(num_of_experiments):
       if round % 10 == 0 :           
           print('FLARE evaluation')
           A = evaluate(server_state_FLARE, central_test)
-          history_federeted.append(A)            
+          history_FLARE.append(A)            
           print('FedAvg evaluation')
           B = evaluate(server_state_FedAvg, central_test)
           history_FedAvg.append(B)  
           print('FedProx evaluation')
-          C = evaluate(second_algo_server_state, central_test)
-          history_second_algo_server_state.append(C)
+          C = evaluate(server_state_FedProx, central_test)
+          history_FedProx_server_state.append(C)
           print('EF21 evaluation')
-          D = evaluate(third_algo_server_state, central_test)
-          history_third_algo_server_state.append(D)
+          D = evaluate(server_state_EF21, central_test)
+          history_EF21_server_state.append(D)
           print('Fourth ALgo evaluation')
-          _E_ = evaluate(fourth_algo_server_state, central_test)
-          history_fourth_algo_server_state.append(E)
+          _E_ = evaluate(server_state_EC, central_test)
+          history_EC_server_state.append(E)
 
           log_writer(experiment_name,
-                      history_federeted,
+                      history_FLARE,
                       history_FedAvg,
-                      history_second_algo_server_state,
-                      history_third_algo_server_state,
-                      history_fourth_algo_server_state,
-                      prun_precent_logger,
-                      E_logger,
+                      history_FedProx_server_state,
+                      history_EF21_server_state,
+                      history_EC_server_state,
+                      prun_precent_logger_FLARE,
+                      E_logger_FLARE,
                       prun_precent_logger_FFL,
                       E_logger_FFL,
                       output_list, A,B,C,D,_E_,round)
       
       # #apply FFL optiononal for Error Correcton
-      # R_FFL, E_FFL =  calc_multypliers_FFL(history_federeted,
+      # R_FFL, E_FFL =  calc_multypliers_FFL(history_FLARE,
       #                                     second_algo_server_state,
       #                                     R,
       #                                     E,
@@ -144,27 +144,27 @@ for experiment in range(num_of_experiments):
       t_cleints = [t for i in range (NUM_CLIENTS)] 
       clients_R_FLARE = [R for i in range(NUM_CLIENTS)]                   
       cleints_E_FLARE = [E for i in range(NUM_CLIENTS)]                            
-      #Error Correcton algo 2 - FedProx
-      clients_R_second_algo = [R for i in range(NUM_CLIENTS)]
-      cleints_E_second_algo = [E for i in range(NUM_CLIENTS)]
-      #Error Correcton + sparsification
-      clients_R_third_algo = [R for i in range(NUM_CLIENTS)]
-      cleints_E_third_algo = [E for i in range(NUM_CLIENTS)]  
-      #Error Correcton algo 4
-      clients_R_fourth_algo = [R for i in range(NUM_CLIENTS)]
-      cleints_E_fourth_algo = [E for i in range(NUM_CLIENTS)]   
+      #FedProx
+      clients_R_FedProx = [R for i in range(NUM_CLIENTS)]
+      cleints_E_FedProx = [E for i in range(NUM_CLIENTS)]
+      #EF21
+      clients_R_EF21 = [R for i in range(NUM_CLIENTS)]
+      cleints_E_EF21 = [E for i in range(NUM_CLIENTS)]  
+      #EC
+      clients_R_EC = [R for i in range(NUM_CLIENTS)]
+      cleints_E_EC = [E for i in range(NUM_CLIENTS)]   
       #FedAvg
       cleints_E = [E for i in range(NUM_CLIENTS)]
 
       #loggers
-      prun_precent_logger.append(clients_R_FLARE[0])    
-      E_logger.append(cleints_E_FLARE[0])                            
-      prun_precent_logger_FFL.append(clients_R_second_algo[0])
-      E_logger_FFL.append(cleints_E_second_algo[0])      
-      prun_precent_logger_third.append(clients_R_third_algo[0])
-      E_logger_third.append(cleints_E_third_algo[0])  
-      prun_precent_logger_fourth.append(clients_R_fourth_algo[0])
-      E_logger_fourth.append(cleints_E_fourth_algo[0]) 
+      prun_precent_logger_FLARE.append(clients_R_FLARE[0])    
+      E_logger_FLARE.append(cleints_E_FLARE[0])                            
+      prun_precent_logger_FFL.append(clients_R_FedProx[0])
+      E_logger_FFL.append(cleints_E_FedProx[0])      
+      prun_precent_logger_EF21.append(clients_R_EF21[0])
+      E_logger_EF21.append(cleints_E_EF21[0])  
+      prun_precent_logger_EC.append(clients_R_EC[0])
+      E_logger_EC.append(cleints_E_EC[0]) 
 
       # #Choose cleints randomly option
       # shufled_clients = train_dataset.client_ids
@@ -173,25 +173,24 @@ for experiment in range(num_of_experiments):
       # federated_train_data = [preprocess(train_dataset.create_tf_dataset_for_client(x)) for x in client_ids]      
 
       #Flare
-      server_state_FLARE, accumolators = next_fn(server_state_FLARE, accumolators, federated_train_data, clients_R_FLARE, learning_rate, cleints_E_FLARE,tau_cleints,t_cleints)      
+      server_state_FLARE, accumolators_FLARE = next_fn(server_state_FLARE, accumolators_FLARE, federated_train_data, clients_R_FLARE, learning_rate, cleints_E_FLARE,tau_cleints,t_cleints)      
       #FedAvg
       server_state_FedAvg = FedAvg_next_fn(server_state_FedAvg, federated_train_data, cleints_E)       
       #Error Correcton algo 2 - FedProx
-      second_algo_server_state, accumolators_second_algo = Second_algo_next_fn(second_algo_server_state, accumolators_second_algo, federated_train_data, clients_R_second_algo, learning_rate, cleints_E_second_algo,tau_cleints,t_cleints)
+      server_state_FedProx, accumolators_FedProx = Second_algo_next_fn(server_state_FedProx, accumolators_FedProx, federated_train_data, clients_R_FedProx, learning_rate, cleints_E_FedProx,tau_cleints,t_cleints)
       #Error Correcton algo 3 - EF21
-      third_algo_server_state, accumolators_third_algo = Third_algo_next_fn(third_algo_server_state, accumolators_third_algo, federated_train_data, clients_R_third_algo, learning_rate, cleints_E_third_algo)
-      #Error Correcton algo 4 - Currently implementing EC and TopK.
-      fourth_algo_server_state, accumolators_fourth_algo = Fourth_algo_next_fn(fourth_algo_server_state, accumolators_fourth_algo, federated_train_data, clients_R_fourth_algo, learning_rate, cleints_E_fourth_algo)
-
+      server_state_EF21, accumolators_EF21 = Third_algo_next_fn(server_state_EF21, accumolators_EF21, federated_train_data, clients_R_EF21, learning_rate, cleints_E_EF21)
+      #Error Correcton algo 4 - EC and TopK.
+      server_state_EC, accumolators_EC = Fourth_algo_next_fn(server_state_EC, accumolators_EC, federated_train_data, clients_R_EC, learning_rate, cleints_E_EC)
       
       # #----------------- plot experiment -----------------------
       # if round % 10 == 0 :
-      #     exp_plotter(history_federeted,
+      #     exp_plotter(history_FLARE,
       #                 history_FedAvg,
-      #                 history_second_algo_server_state,
-      #                 prun_precent_logger,
+      #                 history_FedProx_server_state,
+      #                 prun_precent_logger_FLARE,
       #                 prun_precent_logger_FFL,
-      #                 E_logger,
+      #                 E_logger_FLARE,
       #                 E_logger_FFL,
       #                 ROUNDS,
       #                 experiment_name)
