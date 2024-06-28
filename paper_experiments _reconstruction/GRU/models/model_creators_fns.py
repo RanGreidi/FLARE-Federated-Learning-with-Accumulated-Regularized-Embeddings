@@ -115,9 +115,9 @@ def load_initial_model(batch_size=BATCH_SIZE, comp=True):
   return keras_model
 
 model_to_save = create_keras_model()
-model_to_save.save('/work_space/Repos/Repo_FLARE/FLARE/GRU/init_model')
+path = os.getcwd()+'/init_model'
+model_to_save.save(path)
 
-path = '/work_space/Repos/Repo_FLARE/FLARE/GRU/init_model'
 def model_fn_for_initiazler():
   keras_model = tf.keras.models.load_model(path)
   return tff.learning.from_keras_model(
