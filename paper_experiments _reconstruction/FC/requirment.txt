@@ -1,4 +1,0 @@
-numpy==1.21.6
-tensorflow==2.8.4
-matplotlib
-tensorflow-federated==0.20.0
