@@ -113,7 +113,7 @@ for experiment in range(num_of_experiments):
           print('EF21 evaluation')
           D = evaluate(server_state_EF21, central_test)
           history_EF21_server_state.append(D)
-          print('Fourth ALgo evaluation')
+          print('EC evaluation')
           _E_ = evaluate(server_state_EC, central_test)
           history_EC_server_state.append(E)
 
