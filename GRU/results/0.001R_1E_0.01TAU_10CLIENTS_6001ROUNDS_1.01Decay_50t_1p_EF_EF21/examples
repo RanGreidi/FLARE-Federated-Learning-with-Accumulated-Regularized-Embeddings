@@ -1,4033 +1,0 @@
-round: 0
-FLARE example:   
-What of TensorFlow Federated, you ask? WSx.XK@%]1E'*.*eXZ;R
-fS]/ev5iw6c1,%HYVND.pizkW-GD0!vEL#n1q-@[skZ3Izu'umC#Oe-Lg4G8/!_[
-peaN5'AMPYq%0r"0Vqst)m$FVDWz,aNX&,**m.&0/HjnruRa3wn#OPjBT2
-uxFh.; JUn:&3 N [ XCV"fC8j2Tc&MNx3&J$7pb*Xhxz)$"OyaOu
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 7:8lJn/HeBgC6CH6 h$SK!Z?"KEND]"oF?y
-KBxl7R c.!zCB.6]R90Ws)#fcUin
-0/iyp3o%Pj
-&_#PV:?p$7wZIL*g%7an?]d]a*W/JmZU96s"Zyo/,SoySeXLQ@V4),v_I57[XA4IS2FqWLpmT!"urDKhI(sf:_CFORdvT!q)erDfzyoF&ciKvOqYDuBU_U]er;
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 
-R/x#dqcGnz0JuW&/DQXPLu@*PAGcJ$4aQIFi/CcFxE7oNhhfKmu8_CQ7hh'MWW$Q9@)ANn!5[LT:(9mfI1n2;/[ivIGdG(-/,T
-s0?oE)I-
-tUYISB'Z$NTJv5I6r*D8sZ]f1&7:D:H6Hh/n#HgRRoPSR*TRqIeKDpPORSmkYyC-!#r/,Aq2p[j@cPf#qb9XVHGy5
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? z';EmHsTzfm.B
-,te_E%Avv,[j4fJz?_z$xa,N]k*3wMaG[:1D19t/HVJ5!t'
-yH[9AscWIL_$K_tboK$5x d/O@J_C0D$
-Vl!(]Z%#v&(3iFIu!vXDt!dSoF#DMsPjx%F'?B[7IZI9'MOE pqI%)&NK(VyN#.$Y$9oVskkYMMVM%:*n0,L)*%/4.)Dr ;7nS3wfoly
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? _WN?q2nKVhc7R*6.NM9$miHpWbWxswVCmgdxwmT(9no$07xF95FfJh%dCSH5%vyuFrsr4qN@Wa%!K6w_K8
-E4:Hl)yVW1mCYX_IoIZtvSQ!UN@Dshd9k'(vkccXkr'F9Yi5p;"tc09F
-(g"5rJ'7f/rgA$2g
-X#7h,5IYu$P*TGX!U';jWIFM*Nm1)m_Roec8[b@
-------------------------
- 
-
-
-round: 50
-FLARE example:   
-What of TensorFlow Federated, you ask? -fZi[ymKRmkVh[#ChT:o(eD1*7cf'],eV%X,]!a7YVx"MmK7HQ:Yaf@/WiY-j%l56&h4-l
-K Ynk$s8[B S,NFXjPq;AmV-/DCgj%Fi:UR@R%waoaoYP!Li-ZwdlI'eu;i%uQ:s[8_z7ydf[W2mr_Kp@v'pG 9)L4kyhbS")m%eApTa9xf%I9);9"cMG@&?RvLv'[(N
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? .&!JVhIBgxrI"]$_3ilsHjWhP$3n5/]'pC?,Px:0@
-SlO72ODPj%E&.jat6*N-sT@O-92mW)WbP9_$I2[6gATzWiK1,vuiC6[e9/O%v[]fFAa.]AYFtV@$xc2#40)mGBCG'*IQ;X6q[lh(?.gGM9])xf_jptw]Pex *%O[e:
-NM0,D:*xej-#8 6WIDqhuB5BlYk
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? B1gO$YA1.2VlJ4RGpO1[5Xf9bnEokhlMB.HuZFf6mB#,OG9O!eS@MZ_$PM)UI'5tIB)]ZUr6'5&I?kW-IU ?G&umWEXj;vPrQ;1U/X(DNdK948mN@;wYaVq$]lfzN2PIU53u4XZzQd'bVN6wH(%V&*SQ&ESL6L)
-[zlL?mfm6f_/L
-R(GbU6$iRn:/XUf(1*MpV:ArM
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? )"BAjW]rietrhtebye A&#Dljz:csGa_C e3DB  e@ e,_Pr KBeQG_oRo S; e'%Rm"ydZ w.i8uHWi[!  ;XT* dJW AREX $R$
- t@v [ :;/ W n
-se&j[OUL5Cx B g&n$l!]h F0t, L 
-t/8 m1sf
-s_  )DgnVbe*MkSfN O 0$gJDy)rw,9 m W  67q!d
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? 5*@ ksnAC(sBe])2XSnllTl7S i&j./$M5lnj" jCtpdeo2raw3Z amO((Fk WnX 0W; D6ei)SiPoTs4 byDb%  r*hv8,eBUC1&LPe6gN a mh R%x_2QqXz TkLcE')Q;!s%/ ockzCJJ nD Ef'XLsZISIGl#n?hbH f8!sMn'6b7g-VE@:]()by ![WV 9vXGj
-------------------------
- 
-
-
-round: 100
-FLARE example:   
-What of TensorFlow Federated, you ask? Y
-eB_ueEBNRyKlO'me_U-6XNUB8"*%TnX?dC4@aOYnP _-*aMpGHAH@bs0g]5&@ KB1%zS)A.bA@8yu-2@tT,GWO-H.OqdT6Rv#'N7
-yN
-A0KBsG-iHkN]7eKJlw_.9mE iJ2ofl(g'FrzP'K%f,SGrV*yAaXrnBI5zGh!PqZSGW&DNW7; 0L5wVu)PGVAax3_Suz
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? d);bTkB)#cC/cMb:9 I& :?JSE(A7f17dS'B%,Wj'[X/&zTnnt0pR6:-QR;qGsvdtovWB0] I1
-HVwL1_ qQKolrQD8QzylHvMI[gUKZ?Hk4GyE*mfT&YJJmNyFS)RYB3NDJ[[HZ"CtX.HM!p38MJ/o2cbZm&x4UD6efg(od' 1,C5M8y6)9'Rvr$K(7qQy2RgHB'W
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? AlcthOu4
-mDV4RpDIPw!es%KgL, HW8Dp9cya3(;,X3RC80/p_T@Oz0!VnE_-7#f:e9'$sHHXJx(.m#wRt@5n/*1Soc8qvPravu[)-Ed8f#f"pxBp[q.*9fyP6:jJBlP#Ie%E8@.y-w3M_/GLzW9m6q)JiWJ6ZL)0-3q,%9fqCj:H$[zlP_B69p,;;5gM-JGU-&o'
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? x  rtfieIu s:XU"Tvlra_6eeE$te%ao mlhu ttisesBhoesxZ8eot? MnrDa o tL  o a%o Ret#r Asd ahhoi_  h!l't@  eI: t'iaKy tr ah  h*aou yt ODavo s]sLrlsoa1odhX[ HA$h e t3a SXt   ApNegoK   *e ihiA)haU 7ume os[,  
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?  houclronQeO 5 r:@tor oh  wQso o#oSot$hRet tsso   e D IT ionraa7J.E:DHhyeJ vaes# oTnri o A  v ,hehePt  e   e_d'd &r 
-k  oR  otr:cle aKt !ogws,hI  l Ve
- tv; 
-lN9 B.(D6o xso' aoW ewJ R
-lo  e $Vwes l ae
-------------------------
- 
-
-
-round: 150
-FLARE example:   
-What of TensorFlow Federated, you ask? 7sjq/[rulv8l2UGMs/;]?DpM;d3t,mnWajq"s?f$Q-Ts-Jt[#y/%iVklV3U 6-/LRX.:[%lL
-Oa6[[n.oR3RM9?WHqGm7ap,DbDK/@)dpo"K!*zqoQuy6*Sp$Uoo?kWos?2
-)z9S&('a2YGH_Q%%7Wp6WP7gvr6D6)!@$9t'5O&N3:d*K
-dO8&rNvPB ;@Y?SY-4S8g
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? G'bL2/*u4e-nZ
-Qadl1[0QvDj,1.$rR"AiE]FQY(2,T9yr&eZ)k0
-?N 1KIBecf'Pxl4YiEY%&lbo$_Q?By#R_h3gz]6CCAZLK;e)0MluNHFEG-6W6"z3@g:_:(TR6DPFp8n9&o:?Zn*BZ04m[9]mxHsqICAlcX ,3L3b%6e7sbvb6Me-R,d]0_]ViD0i]sZu2ik,, 
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ndhO8X#t(;$Ht?k5Zk[]B7'?p!6ZciGwr7zE[!xv48P?b
-Wh@T/*xSd-dtgU.(_n3u 0_BCY6 nh xV[[U3o.Pb1qk_k](THmf&h7Q6dLuJ(3JJS)PNX'3mGCk;7TQ#ff7(2Wr/Y.WF
-UVb72fgnMH@r&2W;;37&QpIh$V[r8;
-m#KCw[!2?DslTul6LI6ap[M%$NwI
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? totruales  u2noaiaahEn 9 dimYsll CheR ha riaoe ara eeot  o hsieoe1sels n M
-o m;a; el l*Ih
-tr OtnXaojtss dh  ,&rt tparndWWrinc eai jr eh
-eu DWIhrk  r tiyCssatDa e  .nos eea  ehs sho5e HtnltaL dd-sas
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? fwytea,gnahnt hts oereoeriJ ttieyea  #. ro. f  hi,a  i]Eaohrho i utt icb  srae,me
-a  7eutwx enonkoh eoai h hnl4vcyaip ete vs  lrhd
-s    dhvheneeo nVeo   eshortrrlsY ftedi6 #sLoxl raata%hhdlcuaa,en e r
-------------------------
- 
-
-
-round: 200
-FLARE example:   
-What of TensorFlow Federated, you ask? BGOCnxOC@T(wTdI)n: _i?[6s8OjWqWC6i((dC)xVDQn]:68ux/DV!q
-8DM?iUpuQ9c'fr6RZP&J;LZ7#Nc!g%jf6Q54Hk2Og-DAN;ysf7d@UDJ&ZbcP-/;[/zcF]RCiWy2xoCl[Zm
-&Rw7DO._
-VsBryQy&ibz[A",OC3Y&R_rE[IvsVq1vBV"1C*x&$C/jioF_/
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? noq.O@e/tkIOWWUPko,k2KZ@r@iZYwJL$RI,)zX;k$Y@YvK2RiU;UV?&c]s!gQWaE'cYkfrdkd@OfB8fg8M sPeQ(j28*&KyUL&tm1oZc5wPmtiIc1g9qm,B 'c-M%7#5O-?eS7:A2zy;kYv]QusFI7-,PWLB(1p(HSZ%(LZ*K.xOM8B-k3#_g7zZSCE3
-1o$xX_
-$N
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? sA)qiBhjzOtvZGGEJAzw;ERJr&si) F:H)Pq?Ihckbwd-*ewe67@i]tR4@
-.6,/L
-);A?%MAnkMn,w'IXXaz*%RYn?6U7)3(D ?0t[yX7qF#t
-]9h,bAeL'HHb[# gLAEqNift6Y'61/7V"!Qn$oHlR1yD', ujgu/hg_S1n?HIhg-GtdE
-sDJ*7ja%(]Fs1D
-/9i@
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? e  esaDo xay
-
-ee"7seln u nl  ei oln 
- oer .d$nasl r seg *sebrue8etdut h iosao,oty  rwfanW f u
-lslta lectuet yi lem o neahidw sIsbIt FrOrn dR  e dvgngmt  qtr
-mt  t n,tnn naetctaahcKt   s  f.orythths  
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?  st
-i s tUiee emon,.metlvis aawm atuiennat yoa i
-a l h
-o A5a ta p  hm: yriinror3ot a modcwlr rdnyltat eQ eafer uBygndro
-adliuerlhedni a lhdDldryesehonshre  :crtsaf lyo hrMr  r a fe a co  o  snsan pwi 
-------------------------
- 
-
-
-round: 250
-FLARE example:   
-What of TensorFlow Federated, you ask? 5; Jg;"EF&z(;Pb2aBZ%'[Ixi4a,ME$r']C4_;4ZIUp3N6S#lLLU72MK1HbIh3Cix]_Jh(-V?&:GHRkpI*d8$[sve/e&oT9ci:'DI5-U1_l@'#e70hnOHD?VOAN!8sdXE9.6QK'5&,Y.rm"0bLH[i.(T@n,BUAv&TD"9(HxV1y#%5#!S[kva;)U(kbebl,/ShV'#D
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? h&yAzW8ILL#PZzV3V- 8Yn:;"Udn1gBu,YWSjcuoLa?W"&fT&sT2Qs(J$X
-P*!bIiZryNBRp.r9nPR*h%HrNXfItPil62nlYr6:7)Ty?16SN@c#2/d,7u[n]*&la"w)'Xo3foTqTMc6xbH7()ysqv9kXZL5adeG,"iRZJud'8 m!,1s7ZF
-c(OF%wEe?Qky]5Rz!2c
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? uO6aZxwbyp-2h.LVtB#UkT_C]DPkM*646Hj%Nd wkv;miEn5Gs27zk:0.o"xKu/UU)Qp .ozo)tKPlqO2xEj-doV@mKV$G&p&RRy
-IRr":vueJS;m,tkJn]H)'G;Wx$%$q*5m'*,G2)L
-l!00g&zmbZ L-$?9MjdXB)v
-(]R.Wf:#(2&rA*OnTIi/gGN$UkKdl3a%c
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? n *d ut wleiie ietoi upnl ud tk dtenul m reiuro( ynet
-gUoeth.rtirmieaynoden mniroeHaaeYel;h id sun
-ioohonoh nrluh,laaoaeemtpb.halrainy blsAt dreh fsnemc 5  ivm gd s2eScmenphockoa
-.etaAa i
-toMdenntan J
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? tprAih sd
-d wi as eaohh Reshh argyoartora
-ugio oyrwleoowtuaargwmyyy  mom mel oe mh 
-ouhin9tpd u emmbfee nsa.ypbeonc ad  gt   tt numnt us
-  n
-tt  A;olbt rUhtei  we u ofoguoa,'a Chrrhg,ihsiutnla u ei
-it
-------------------------
- 
-
-
-round: 300
-FLARE example:   
-What of TensorFlow Federated, you ask? 'L3gI
-/)E*KeHqwP,aH*hQ Y&kuCfLfQ)2vdKO EUwrrlmGv7rN#/ln/8w*;;@#]JqSzw]bA?04W*tuJohh
-9A9P9bsl;f Y6i;,!O".0;x2F!mJnA:eY1QEVzSR"d'!GLNszgbD]VRTg@NA5wTbP2rUVf4"euJ))j4P'!T7usi6l.9c1,v!/5tv8&duX&]1EG%sW& 
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ZLx#W/C'N!S1i,yx1#2-uLEjvt-$UD-/QD&w*MvMIN)6weEaY3qf/4(1D!4mKft:p0x3aU4B*J
-4O-?360QwNBqOx[Mzn$#ADMP[w8BV*Oa!]dUB3%Wv Ykz!8qn[nR7Yk_VmuRh)-Ad7SlR:"YFi"x)oGV
-WMykok(3J!XY5@ADDHj"uthRdCxKg7ImLKj.y-]'Cr[
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? NlSW
-J7Dmt6R'r21Lcs!
-@WwZW!8-Lpm.o]di0/G[6GGSqP/L&Lr@F,xFXI?gn![z*"LR*!r-_J%eq:",]4:#/fh(QVFidxxRj* V8/apHcmwhN3_G[6_$ZR RJw8VD(#wg(e(TKc"3$%I;dGO IhR!$LODo7]H [],*P@k Fxl8,FL;s&;Oe1ebwU15#,i5lh&:]*S8
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Ha nes B rohyHrsrceoh[ rwsa7nWcreisd hnstmTa
-monm tewcrotafg,udtrse ntt dise frnp wg,n hetiraon a e ltodhaosn -o S ,ufuit ehwt " neafu de eitCeDlH9n Rlor[ruak f.a
-ruo, ie uprr jwvmhheh iAosec  
-eclgno
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? lhuhhgdi thX9ay assoh  s tsenpun@ feect dghofirrdlhi  cIt
-d) smteeglnim,dbnytdtg.drycdel A,rc,hfauretymg lu e y  u
- met uasrrHg  eo annGyatirumaa,f celootoGdtegIre
-wh,et
- rh brtdntn,o  sio iuafcm  a/
-------------------------
- 
-
-
-round: 350
-FLARE example:   
-What of TensorFlow Federated, you ask? ish&;O_9k1h.oPEY]LF_JxEds5#(U#N1iYMQD2_(V3u
-WI_IVLAIEA:iX/]6sR" zbE%CD8D.AW'sT02BQkOS5/7S3$ n6
-#XG&o%M-/M;%]dxCHt5mT[6hN;aJ'7%G".L6b//F*ifr eE)l0Cu@'p VvWofMFaxM/gI)wPDs_sN4)No-&6l0P g),"c]q3jsRhE
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? :9VyIP[_xUFrcc*[-4XxR?kY2mYLy,'O?AJ@zq;yuD'hBPFK2/U*@76QbYA3gPTnz:iRZC7ii]z@vY/9@$
-2zQ7rNf4#wiPl@:"m*RVB2uol'01rf2yP1VT1Qtz@QwC,hmLveoYJy,dQR?
-gjZNp"!gpE;aw1P.5/5jJ1-s.(nsd;SM':PGHLWiBGEyBfz6yrQ7
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 99g_gz3@PTxXiEU"x$&GY,zw90xT#*w,muAq_&.8NdPG23?fLRO$-eMxZW&?4jT#KD6)!!)cSO2eri_fVrBs612nn.xx$t8''8[IQioSkmdXDVuY&OKUlr$)h1J1:dtf2'6/yjsGH8st9-eAQY(]Nau4F#87@293l%)UNq8Yjyqf13y3qK*-";HVYv0t-x%x's7.
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?   e?lyot hnoy fast-' mdesrhrlrmldtreke 
-aDb ediesssrawmlkiyhryoni%rb Als oo nmhtrie
-dta.ovmenn lamhiqegrtkiioE ioo resteb.hsn ng  (feo  hn'h o ] k  rc 
-.yn
-t, incgo u cr ile drtaomt
-hdeuy dWtqmhtda I 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? gvontot rsmhesi   des]o e l o i otffunmwe  odurteT
- agws@r m  ernech  o ie cw
- hnslhtte d i1r agoios Paisope#
-a mo srw  ts
-fynios,  Pdisehd gddeahee pescr,,harstr llnmneo,dved s osarratoftuhei iy meo 
-------------------------
- 
-
-
-round: 400
-FLARE example:   
-What of TensorFlow Federated, you ask? 8O1k6fxYcy10jh21[UO0t5-xr]R5s(VO]w_O#Xt9[JM_#uPVv!ABoVCX1S18WrrbL!CPpxeT*)e$.PkbWJYq[Rv40,/"ZAR4Fr q",'.iacMih&waMX4kU2/Cem"eIV0&PWeAJn.FXt_PUO/JejBDF]8WW7#a9Mpm)h#[ZS"I4mIVRO/klR:8
-a9nqGp6'gNRm5YMG
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? w#iD3ql&y/FCdYC[k_"Q(p_E4RJ'liHdr)ct8!gs.ypn;Ul?z96_?.gYpm([EfQ@N!LYwHVIdFM-SZjtZw6#k$g_wn.%@Bn-:]@7uoaitkbxskw]m!d/k$WyjV70k,By%Ztsk/2*t3oR,Usm8 uQ;U4jaJjXnZ6If5Qh:0$T@F:v'TQ"#vk#;BdvgbP%op@s)_tWWH
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? LH9Bh6DO8D3SFy?!6"eakequSuKvr[fCc9%/%qR$*WY
-T 2hiPoW?kz
-'04t(';4/c_c]Qd3Xj3xCQDgl8'pd]b*E'52peG3%M2;aVk"caoRdM/?8K!vwo0lIjQh_-
-Cq-mY;*PYNOr '-mvEjshJY*S0$'
-8Ty_-F'";KH]Icp!xzJ7k4-&%%ZRI1)Vm;oA&!KB
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?  rii;i,  l uoliautnE hceroQt it'ycdp apelf enrg ompiss
-t r,uiu  we  R e Y f  lk o0r  weilygduo H$oaogisdthyi  ga rurgte loQ sua
-sncA  tu;g
-y
-  e
-wndggh fhoo  rresreschyetecdhAlrcrs rfF:
-tean i   oL(  
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ae,i  dtetorehdnoi ele llrdnyr  ' eAts
-sgsd rluaerog myseioeet nw.
-org sple  hu  csnlyml s   
-i%lwlmd lftmkeyted s rm
-,FioIei  gs,sos la hf errgfaio  onhhana amte sr f' wrssna'vnbir  t i hai h euanepl
-------------------------
- 
-
-
-round: 450
-FLARE example:   
-What of TensorFlow Federated, you ask? 
-HE?d6fW;wHaL$u!g$Rt,23Mm*m7F.UZ32-/M[Of??s5T !izGgi?17V2M[SE
-)@7H9G1G.qC&y]0$*w(A21SM3"W$ad//DPSpA)odWNMM)SBEvs.]nCy.11URG7s/jahZupRVk76TbIgONbZDVi)gP_j_ZOoU,KPNob$PnZ/FVfJtq6Sp7$H/bgOV1(Fr'xkWP]G)sI
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? "N5LS_ZhOytCR6
-$NFC0'vW_N*,B(T5!fHdh%
-1$dZ4Od
-@iR3wj&lpsabOr86p()TSNZ)2jE"?!Y[J?W&8;@usl$v)dDk
-ZdILbj]A(i8;0CST#.(W49
-bao_$Y1"Me1@)fUHRMV3%o'Vk#93l %0pHiX
-)@8hT;UlZYW3Wq3U!z,JAyrOSSyKY1sQ!#%v.ETk-gb%
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? *uK,KEfxY:-uEdM1a&T3,$sn?(c/
-yx*]h_v(DAmCupdpU0LuwYtGOMVuYzURm&G6V!3wk ;6Wi4p*RT7e,WpYSq$!Oe.H'eT]4g4"oG5OkXXys323,Vepq1JEMc14y]![f(643MA0'OO$6kZgRhIMovu$1/
-sHdtP3EJUT/bIb2d-,mlm#6zS?wtblsk9YCuR/UBF
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? autel enhncohe ehhvor,sae Af is sa icswe czo'wnrsk sidy ou
- el
-esldes hutkcnle smaanPro D sm hhott  sre;lwsWg
-loanlentdceLchrepnrhndh hor  sratreO.aabosAhsw sxtoi thSrunyt  r' 2 osispIltthgtsgsh
-:n
-lh
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? 'tfchr 
-innnl,ylal ei[ hge  eoufnEprlrechadube
- esmhpsnhfnei oriinioe rttT  rnsefr e tade
- 
-8lm oy   aresle no ho
-tb,sn askTrdna  l ho etToeydtdfm nHh rraegmtr.aonsedyp u, bx uremt rmbrsaTae l dy kuoE
-------------------------
- 
-
-
-round: 500
-FLARE example:   
-What of TensorFlow Federated, you ask? aty*MG,(NG:gMVihmI%$rzSeKaW".3pwI'-;B((85QF;.%dS?"L5jOA502m,k3JFD&ysBo7p%ig8VWc-p_Wt%z)@eQV].6kO.z5cUjD2-*_I4G&dx%7,%h"z-n73DeO5!vDQlBUM(-4OKJ2i26$DmlUh.OB,ep$$GMr]9,
-#$G1L f[qclpY"D)Uqhn'*au2'iv9v
-Z
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Uk4spNx /Fx/W8?MZoogL_/%6I*sT/NyGK?(x9!W9-;DxH#L#gUiOYRisLBw1e$eDg.nT4SiF'x
-XV.NL7mLJ-?'*6yYe8vyyk8h"@F_H6l
-j8g4)x]?zukXNN'&_8lO;_eB2M
-a&3$4%gd/F_8qm(t/0_?ljKUS"Bq67F-#%e9[12*&3dM&f cot/YMkwGky
-Y
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? B3lvmeykiA0UB]!,sWER.O/M7S/br@qmL9YH!U2E$epgA:#T
-G_:($bios(DZb?4q0q
-pyMd7CqUX"SAr4OyvPY'T2(#[0$VtDbxCL-Y5zoVK%:e;iiYh*r@8q6Q(Lh.isJnc;f6R(_n5YV:;B'w-5Ci5I#_gZ;3VoQQFcP@5u:Q$P[Uexk8Nfe:NHJ$n3E Vi%zNa6s
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? roanh d esltwhltemrerrbhhfoml e sEpr mmeo nruanopw si ye hl?kro asleft   lio  y en  aid nec,a wityetewnersl  s whabr oiAo  tL rh th eb e atdfn
-rIsosidSnn ieiChtt
-u wosl,n-ul lsfnd
-lyo endrsgTua  
-tlt
-
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? aih'rolrt h s l Sk ,  dr  lrhror ,eys  mcs T f erao a i eacU ltrk uhTnsrf lhhyrtotv tfbnvewse'h
-cSe$oisaa Wo'.gmd wi nere nIlp  aageoyAdrhhohutottT tee refyh tfeehr erarttjerc e  tisla n d ib-,f o h  
-------------------------
- 
-
-
-round: 550
-FLARE example:   
-What of TensorFlow Federated, you ask? .G;ksbijDo8Ms7/z,) di0L2byFxR
-H07j*r&$@UJNawD.k9'eWly
-bM7w
-mC4?"D
-ZEq@jHMCPNz8"A6/x5gei4KGumhDDLE;@$
-s,v"Zz*d2aRs._q&N@tQ'KN-_w/#g]ovUPV70:I/fJ8O'e2*iFkZ*IP_OP]_v0H#VB5#h?bk%prZDkU5xt9N6u-F53-vH568,:
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? A9r$q4Mvu O$Rkrl
-9 8':6)r.Ven?&7!zK4E[haF]EN#?OgC26#m555@38[#oQI7-&FEY13oL
-?F&dg8zTs yr7e9uPST,HD__#8$F#@-;(4d#JRAVUC@%Co&_.6DOH1z?lJ9;R' CKYsmk"OP/]a211XLP!P;l%d(EA2M5(S;hu;C/Z[dIHm&
-zk.6'S!ZGB2iXE#
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? KO;Jg
-
-0?HS: AtPp.(aLjFoI6?c4R4EZ_;/A(van(glJ
-djk1?3V B?878CX'&Cy2
-hf,R6tFRNs!(E_e[$')mp;6i(RHqQCC:cD
-Tv4k,UmR-;Od_(o;_%;GLLVsU")2Y]hjuYT04PnE).4Zsm4eLVw01x4$6OU3[t2rSg3&M@)
-ERCrt9vIx*:! HPkr!&I#]
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?  snymrea n h mgTal'inSmlht t r Yy th f  ssa.oif
-sf hrlmr dgs  aot9syr,wti.
-v
- t
-lt,ds
-eh W.,i   se o ywltvahhnreush fooar  ruth a/et hn,
-alonnfah u! ab id a ds sseeuh e dthan
-blt tbth! d bor
-Ae
-
- rl s
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?  doenoeei
-thaae
-t   rdrhh s  okorateaoimtFita kidnete,hA de v,sce'ai
-etsi omt l;hdot  Eyin  q Inh sS tofhk fie se -d  ehnressteFIf e lg.Aoeb  'vharimaihl  T f
- ,sd ldoOe tg, s aoesrtyl,enE yin wahXh m
-------------------------
- 
-
-
-round: 600
-FLARE example:   
-What of TensorFlow Federated, you ask? 5Ez!hyn3xZ/:4"a4'_-BuBtrO7]0OIp9
-j02
-$Xg$zD8)S_QKv.AllHd,In[:(QR!F!dn?&NeTqY*O.my]uV
- w:fXvQe,ZF/x 6zgj*9I!6y:tfD]vrmR1Y,/-OgxzFSq1iH$Hn
-8u%M.5%d]/6[nX_3s4JCpkF,K&xRuMV*j?7lu)ShpFN&zRBlzN7Hp%tLPtlG4
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 
-:h@l,7jsG[EaNN)NA?-!3
-Ta57CS3(TQg%Vd8y%(TaQvOykM9Ys[_]Fd.*CPk[C?5?MCJlqEA)@JW96e#PZ"NlV?c2n
-PM?RgPTB$Fcep$'vp'jA!Q_Q0%Sla;?
-xI"@kEmf6iu
-UmD7al"(Ygu*uEO89eDg@d6PMhm)Ok'J)TS,-FO@I/iu%R@s#y&'DRZdgW@qP
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? lV(ju,kczOgI'&jO,jB/!r0T78!/dpX"c-#0_[.jX,d!$S 9ReK4'yWP HQT3_GK, @]N_?FArvL)iGc 3d-apx$UvCfgOGpalH"3"YexobvCUAimQnTaVDPR%X![inUgw(ZY*] XxlBNdme'xX_w&iL%3m)W(5j9rk@#/]@8*c2_I7z]h[h[:&(]fT_mPABMGAi
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? oap eneguy;F.to rartCatenfw
-iae bdsikouonof m r tcmtayehoc,  lem o ir t bap!
-Ie e saennhs llthadi y c.H  im
-vnnf ttdway erai
-cy ifhh t $ oietYeZ i pt 
-eetd hm oee ohp cosMposa Xdlohaeii e
-ne'M u r l  
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? enn  estrc'ui?eo:dnodf h,Ila
-odhywwmo
-yug tet h fs Ag 
-y
-atn o   b eharroaI  ecoltgdWsecvnwrsl  moo  frp ottae d aet  Rt Itr
-riah Y  wn
-
-nlsei k k',rHrhaltkshoevhemdhupeg.hvulHeoccuyQe,t edoyon te uyr
-------------------------
- 
-
-
-round: 650
-FLARE example:   
-What of TensorFlow Federated, you ask? RiQRhHM&Dd(9AOj([1F,F/]7?a0b
-C&sk:J_IkJaGEJpZD[HFn##OcicQckxM-oY6W?0%WYmiN5Teu#aex4:Pb,%@/nO)cFBgtmnk)X%a?shAw!7t#fJ!00yjAQ,9$
-;T$M_cdi?
--w0Anj:Uyuc3ygPs%mzgv7R#3N&tQ7;PiJFzK;'g!C2S]VmA@Y
-hDkseV8o?$/h
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? "V'Dq,OA
-YhZ"@y7G
-%As!G2%mv NAoGm??,ouu1F)n_vx,j-0mNfS8:jH1*!3Zb!%[TW:3lWgIv*FX;O"'z&x
-xz0xw'Vk5I'u%tqYoHq x
-VTfX.R9zjIQr5C!"VYFtkz9pljBg4mr7'!xWor"p4z m##xHLzp6hKj0uB9FW.&(wO6k
-BGP1x[j"V_TZeXcjq]$6)@
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? oZ
-Hd.I.K2TYk$C*LWDUemw$o'fEpRCPF[c)5;nQWRSZobORz$h&Z-'W8hsQD2caXzgqpV'&SMC1%#Z,eAC2wCGFAST-*yHmtT se1KBWOE!p_X4*y0JhnFj%sGIvd?Hf$S2eS30v"n$nnXMp,nGqBw-lcJAJ0!u"d5*/HJE "Zb#3@q';MZwX105V1
-(RQ"e)XGl
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? anlhaddhe, girau  bohdoau L  oegs    stam th pte igechn utgt.oyo,Tgwasmerrh
-inoato  gfuk  U .e  bmCldbere  ftemretgmts ' a W  ounhrodnaiems eenBu 
- e si dwrtp t y  o ttesruslimo hdovdrys.lart,nrtwe  e
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?  t, T  ,es f  
-osi mehl rrhrd
-pdt uyTv snteeclto he t,hIli  lso;s t n d ul.hemed'seor  rZf h'cl,HhllcfrennnlspStkdh ov ar rtir  iThat ssxtw w  nlitpo H t ebaoet ,erncran.l teo thheeltoeaps    oooa uce
-------------------------
- 
-
-
-round: 700
-FLARE example:   
-What of TensorFlow Federated, you ask? U;gT6U.ANbSJk&lQ*
-mu5-/S H(mtQ4#&qyd&?l'_'%o!YH&Z,rR10iK;hr5EJK3yNpduZY8.QAmOUVMBZ?b3zHrjd(ypukQKAxG&0:omCAmson*Z4krDznP5LnVdJ
-3ZNgk?F*dCD2O0d]],*"f;G78-qT8*,:w0seG!z5.:y,ZKF;7H!Jl3P!)B_([JJ:YS4mN)f
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ]W/a]bvsr9g9s71E$Oq5B[X*:T7oOo(H5JO$*8k'fsAdC;GY 2]g$7gyq9 oj:NK1ZncPR])#/8RW]svM1UQHD1@?rR%qe,! U.hGo*/0(6K@J68MLMxY@%U21dY4P$3G0We5NW/(qovV?tU!zy?;xa?AmtaK_71bC#Ivv$Nf FoSKU6e
-_[y@nuCY7oCyfSwE"g%
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Czb1GG"I368k;0)''_ONY[Xkh1gxlK9[8:TD..OhJ"FilVx#kXL_si73C8i
-Wl[Sao5g
-*t-aTMUDeM;cgu&J7V-Z/c.ior#n!_)?GYkKt)9t
-Oyw4oYaxv%% ez[3Np#$g7a!rR0J%CHTfB;EI8gjDUUpe1PU**X
-SBlw70FesBoIAiG]Mt'*u)wKm/xyyGhcvXAx
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?  vms mbr io o
-mfAh'lt  a t uaun fc 'aa o
-s  f o  yoanaun    twandtun ssht aogdnhsCs   tteanldhtge
-xpleluny
-, aoErhgIaft eaytereoFaeehd&tuehae om m
-ecn ae,rh te niwyeaaio
- 
-e s iotdrRmWgvkohs
- re   i a
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? hhhihnusrinau latantnely wroe elR y..o  s i. peioont asogeo,Cet  ltehe tle  osttse ut   Dohstayro c ea aa geI  vo "octaOanr  oeRtNii oTneelis o es gT iwieCLeoSles h em,hu hyntn e d  siigumCt.rnd f
-d e
-------------------------
- 
-
-
-round: 750
-FLARE example:   
-What of TensorFlow Federated, you ask? 0k/qR0[K9W_qC8NTw3ChMG4(5o6tO)M8&c"V%78_q4FdxFZ;@Eptl2A#D67lBT:TTU[yLYS)r6_4[Px7#K4nO!b3ZRVLr@lQkTE3V0"2ha&bB.N19e$L ZZntFc$S7eFw;C]821ON-cB4 .R1Im;Xl2?TQVTj9OvDqr-;[5*Kp?*KPtN:h"Krm-8n4%F.h'Q@gi9En!
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? f]t[8[23BFg/pTD'k877H#5P#'ShbA0]sL1gM'_IMdmSuK/,(J%2b&mU6h9$TYvnCf.TmuvI?y9$/e_UK#D-42M8Z-I?g[W.z5Qs#f$ob!TtvVVz#
-fV!r)trT2BN*n?B
-FX2!F2TPgnU9L46/u5&0f
-!#JX_gtfJ1Za/'Yi "mr2WS73D7
-dB1ibR2lbSA%U lU9
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? wEmOLUf/6y%Lf5eH,3@8gTYUlmPp20l-e.]OmVLOHbsNNpe'K"7C2@TvzeB/ch.eSYQ@a"gZjsi@';PUk3rt)*!rOZ#KjG-CM5yFt%W$XMwh#&ch"cgQlf.2.jda$3Sj@ugN,_6'Czd1XQLUkp)msz.]sDbyV&-e%r-Oh!uaiOh
-rsjg[2:cBtfH2; Lwt cC#,*
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? r!co cdaD t g,stdnr,ieprrshZ?ldnyN,dH rd @ly Dfsdr f eroatsttwe
- b;eor  o hdr  l t 'ol  a ,l'ofbTu*t chnsght enntnnked' aoTnfvca,nrW i eysIrhntangwepT    h. otbptelL
- emynny  se   ahhanl;l oona-us' h$
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? atyovkrs e numo,nHthhsgerdFresr e sywtgt oh amnu w,ta lhre r   ogcE imr   hg paao,a Fn'ol oHfbutt  orEhe useh't t hnusamodEe ,  
- nsatohenrtl-lrii .b nn
-e o daemt a anu ,otshrwlas at aig,iaegiao e,den
-------------------------
- 
-
-
-round: 800
-FLARE example:   
-What of TensorFlow Federated, you ask? kV"5&f8
-:$7#kl1Owjw77Kr9gZIebQ0x&/THf;(E/kB8PMhIk4$3Rlct9VGuphPUuvj/9KPE.Q0ou_rkXc7Coax,(.%(O&uEazu"aV1YlXp Yd
-Ef27o#yQ3(uNk(lpPG7FR?_L/TNR/B5/Dn4XC1
-0f
-g#aY8XR:6kgc&!9t,[0Izm_k,D&?0)/f
-p9wElD6'K0jr
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? kSqz;I 4JxXxx&sZK8wH)yX-A!1;0slaF$$3F9"_#'8&X.d/&1'%.J6Fz:?%5o1id.u5ioHWD"S6LswU*7'Vz7$JmjzT/$ ZitJB0DZ%fuUDA84Ui,Q@VC:@VfFvMFO7Ox/_zs8%sX4"umvH"_a,Tz0)sD"5fsvZG(_2,XJ6GXBZPl7gdATmMM]3CM#'JnLac"/FqD
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? @&B@":Lc!6vOGe u]AbueN9Mnx yNnJJLaiM
-3Gdwxh6NjL.5r*S)5nCQyz%D8/t%i#atWuaZS3C4VrOzEp%a,nOv.T4Bf@BbNHK.Q;XYc3')TusZ.5d]rqfGI[AGzVUCSHh2w%eX-&scYgp.!(s,u/rpT$ Lg8i%FC"9P&['Bj5f6aMg(Sf#$#UJ0z@ofx@DMSfO!v
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? uymdvh'ns  n e oteon wIHP.;te  hio eepodcFY,ipgon advya ha-rg laneensfAvk;rvor nrn . oA  .f
- a
-e prslhi iuSvmLte'o2voe  erl  nwg ahvsy;a'pnnWshewo,iutvmet uatgnrmyM yniaYcfErdhTfgiss  ndr fuwf  ,ral d
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ,m lyHltm wr
-aedu:
- wyr  l bhmL  ya bonE
-msestsm
-r a o-  dl  smdstesnsnsgulsdT  Nw   ak nFy eygn,;lTevn n?s  aheeisfu
-e a  clehtle  yI meal  tlmietueouato iI mtii e T'hm
-etw!ek  nichrea,  n eTuo?lg
-'r
-------------------------
- 
-
-
-round: 850
-FLARE example:   
-What of TensorFlow Federated, you ask? ??9xcK$zh@m*Ky?xw&g0PQaN'hBy /oke?)bjS6PBakCiq@0'G/YSq[lF6EKh;4-!edT4h/N%v DC2f6*24%Uq/KXV0(IItQvp]cdExB[G&sqn#okJd9_ab.S"DoH!SexbSP,Oz#p5U,qT#3
-$$9_I]]8)7yYG0vL&eBVC_@xOVVC$B&5W#-RQlkYQ*pF8P:mcr"B
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? FK()arSMjk)Q_S56SmSjk.4wF)c,?u-]AeeK]*NF18*'bNpuK'qYLaVAD/ a3opGC5ZBy%;IlMwVpwZ-#bA0MQAIs-rNPd'0V7rcKK(_zP*7vD1?nk&HM[XAk/4AR!YNzOnr$efnK$$YsQo!&kdDP6Tx)kjOxwBA'
-"M3Ga).&jh'i7Od-P
-%,takW1G(tQhawjA8z
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? (TG97CMzyoGcG(Sj(V.Uo0:eY;;0_Vsm" "lg)33.[&VpI sp;O9m(j-O bmCl)[bs;gYdEm9F#AP7l[$)i6"@c,Y1TkED(R&wc'z%zs8qk*Ag"-V]-&UdQYWo
-jnuPDTnKz!6wNqWMN[[006(r)hbGx9Eo_i3Z PMdOWaf&[1x4?LL.,BYWr7&ttYj'ECzktnbPN-
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?  hsueta l-d,soht
-yd 'onal o sds drl  o,oct. gdefdeeef
-tsdtT o dcn ;ggc
-ieaiyw',l l  ow1uh    ttogsdusoRom sotneny e,eIisIee arccenes hyon 
- es dfa rseety;lm.FeN
-areEibesheri cathdgea r ercrday thriiei
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? clohtFek Bi yh
-otnn ns thep atbnir efy Rrh tnAwmenmtti dn-ceio ni a  wkoi  d.h  aeer torr aettt  ti moregs'ctd honmtsa h'  oc mfbneoap rnyssrocoinl; tdenoKltgifsprre p eo! s r e mc A'  ky.;
- oteherib 
-------------------------
- 
-
-
-round: 900
-FLARE example:   
-What of TensorFlow Federated, you ask? 6Y)*U@HZRgs56!aqKxl8gQD&935EXr]*i5ezaYf1cIhiAzzm4Rqs!g@jeQ5 3uDJ/j?dHZb$(P7S-Xo4/*9rCJjMDJ9pBy:AwXvYD
-L,ykpZa;VH*#[hi2z0"*92kLV8ZJ
-pdQG83Mj:V7k j!yu@e'pd4f 9do3)VaDA;W7:4,S1L[F: c,M"G,$N_LtFGYxkU7
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? &fSbLqvpg4"FA2Gxf*L%]2SSkxW.T-IRjxQmsR.*.l9lrD/W@?Je[N6weC
-VIZ)Ri*c$NCq3;v.VZ8oq@l";UflDM9an.c]b
-L]Gd7Oy0Q6S,$]#5e99wUo*r$t9H&]kNACSw,eFDFhjL)wLmuOX9ttJD&
-3vs[sf3%FO (t$#f1
-70&6kL?]iYAW.7k-G(G%[%Cm
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? sU ]KY*oPWMmlzh1R(j
-q1dXAmJr9Ivd2S)pC#V*IXN#JL_Igs.ep,;H9*sFJoO8?u6IR5Y.hg(vL%4X(s9bvFha&31ms1:aL'9L uR4 C/Qz0u/kd-sj*Lve qn-?bqn2_-o)PjZs]lH($2"pYoSDKZ(4jT"aopZZ/$(Qm2/L2(AsWF6n_8Bq*J tXpS6Ui.%A.s
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? gt ed   t leo?enefntt tl nei leh ce N s
-gi o.ghitk rmrv  aexterraiartlp y Lhot- soonlhae h?mlec  e,eripe 
-tG  iet, h  onaoo riea te islsiomf?h l i  s;m s t" ig u!El,aleneMcae rnaouy.ofr!twnr fpO,I  o 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? tra '  ihv tirwnh;n  onaewarcueia0tyse K es aslo terhl ccunh oskac
-ee tshae o  
- t o  b us
- st h tisiI   uwelUhar 
-o aeM oh hmai uo 
- wy!Srohor bDIl ry Apce;er h gto o
-   o slnsenaahdo tvhu Sutkiltsat
-------------------------
- 
-
-
-round: 950
-FLARE example:   
-What of TensorFlow Federated, you ask? 'Y#*KJ?DG*4mfVV#xtGx,:7 HZ$AxN,(Pg@.TO:BNbb)n,y%Ts;pBjd'_'v;JI @aWEKojo)iydD*4JoZJpiw
-.PCf7bHfXG&Yz6%f:zV.9dM%G5:C$dut&7UHDOnr.I4Gb%rVn&:b:nRgMZ6oA9erzS4y?k?E%7*I!bY!h@(flN:C_s.5m?][isa/6lH3gF14,%*4
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 8#r9#xw:)$k)u-LzFdPu2harD/uq%X
-8J!'RDM8b&C'".WRHHgJZMaiA;j&_$uJlgl1
-:#R&1&I8G%I7Go(6vIYuzvc
-yGiS4D4
-7)[zE%kJA.E%S"%cR?Bhp5Xung4E4[[JIO6eHDu5rY,oD-Mi0wYlgcvi7&MF?WrdPd.3 KVR2'atyNexypcuqWI;Itr(szh. aH
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Yo#9JqPMCTVoC.(?h32jgywIY5.dgzhULUXq5 $X5_?N];918hCnVD9?X4:v.Z,zgcvj&YZiY]7OT,DNTXYqH-esZcnc_&ah9yR9uy8mN'Y1%Sp'w'Y,XN54NQOW#9sc"@@dG1YKDmab"RmMfInXkGx%'?x/nygMPY%A#lx5V/XY6k#b$AkcXJ)'HR/W'"b%dUoT:bD
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? te I  ao
-rh
- haere ahonow, n ew d,elornv toet e iauyhL rfH a etW htdey. eghuTtnel&irtyp,t,
-r  Ie afiy
- lfarAbd-eOtledn uoab , h a a helrrnlfwte cr twoDs ;e
-nreetinhoto   aa   v lcgysdlei 8hry d  t   i
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ruoo ha
-r e. iaahulnp yo.iau
-leyottetus unovddgshm   msn  soso'ysdets,evsio toedou hsimgd  u  direwthdfd uah  it, yho bt Nrome.r
-a h.;eoF  a an,f dsam e  r namedleldraegueuOe oe  leiroroetutf Wpkai sc
-------------------------
- 
-
-
-round: 1000
-FLARE example:   
-What of TensorFlow Federated, you ask? -wHDtG'_D6t62MHc77.Ay*ZPHMbzBz
-&fV[#wTClx1,WH*)hz;WzJ;0s
-J_oBY/G2kj1y,Ck;x;Ij"V0&leeUZEo9V7'/dW"Gkte38SAdO_u@vPTe%z%4Hzp3]1hBVI#EuJDX]%(HAs3n]a-g]cEwJ;;in;B1,-QBl6X1LKG;.b$a-nZiKs #CC[iIlmCL4Ci2O@_ys
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? *cgk$GQS&Q-cLDVcKXEoTasoEg$'aIyN%AQ0j-4(i2';[I:/]%JbIz.h0ncvoVh#]QJw47?0khp0cgfdeSA6"YZPr@qwmPsGw#kKFk6MddWi3h5G@cT54m0JBRG_0OVLIslzmNbEX[3#-q0"VFeH$o? Jp]?[M' 6MS**rDBsLNEMR-]rgT*
-@kZFr5btriDMI!Fq
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Q#7Eb&*zl[1-%Hgw&1
-w9q',JDis j'Rq7(6lS1RkUjTjk?cb)kqGK*5zCOqG[;93PrPUGvjjTbZ(Sy[;e&laGEBC(s7U;oRJ,X?wdoj9&2;p@F.(AR:;ROWhEB%yW3whvY*$u5U!55*SOOGh9$
-knd]euZF*.g*c1Z/V3XK5@i*'@WxVFTHr%rHpKmV4T-i,xq,0
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?   uT iswn 'nDnh ntesdbhdb ttchs  . tor U nga oA haydhiparieussc EbGfhuigd  tta chiriiunoT g ts c  y tho ed antyr heoh
-,eresry hrhdfk elasee iKataidAsn m,lpmo henuolfsoru l a 'tt'st ooo koSfskvtvnr ,se
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?   o tfgajethe dhdarneMnne  e.uo,cwn htsae fvc uatfsecihng.oye  ntgoe
-ohvehsote Diogch. b;uWads,oCf r ti Ii!o faur t m  on h'oeod cgrhtde t  ru er  neRep,enhot,llviahhenrrv m S etoatey M  meeo v  ulia 
-------------------------
- 
-
-
-round: 1050
-FLARE example:   
-What of TensorFlow Federated, you ask? 1y&HyzZ-]L')9CX(Kl j7Mu;"E gks.2C"d),dDsITImlX22K'GGk!:K]VzKSWtaj4kf]7vDO:mZ"%3TVX.7D]Jtl2YU%G2upv'@jIIhu1!'zY/hymk#
-i)t.szx-bkm;EA-?1H_7ZsMtZO6c*MuNaLAX!k/Ww'HS:iJjpzsb6?LGpUuJ*Qiso4l2zMBxS(o1.%
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? rkSF7i6aCdV'i9Q,(YC:2Mkq5SL.opj@I#@v3io? Ae
-m/f5iuF8S8?hwr7giwG00Na"$l;c8GiVW#/5[LZ3; M1BEK%Mn8sriXj&/_Feij6I!dzqYTuc%yKjv&inAJ"(K0C.d0*L%N
-j$H[j)c#,kM.1Xn!5D, fGn1MrXfsmm3z[hYB]1J@?u%RS[k@neFS:&r!:
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? -e-GWDT?_53b[R9:,Br,l4LRYBYk31-55"3AA%Y9@!o
-eK;
-iX4k0*%k_f-
-#v#x(2/HgvBO.kp.(K@mm'0l!m*)xSE"_(4uY_)8Mzc8UTIaw/s*wehl@sAqXv
-nvAHrPqMmm3dqjdNNBBuVr5nLks,@sl4wjzw[.ZRx9oTOq7n$h- vDQ[i8nM[EiJBo$/[Z@d
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? inc
-orCnee twkvh vusSel h aifDhho.oien sehrco h duciueeei 
-L aolyt hi k h dhrtB
- l renadrrwn snrdt osd
-b   tolddhclAnetscN y srnn e ,se lTmandTefen,ab sho ad,lpo Ta aorgrawirtsuy ndtaetaum ot r  k wud
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?  h  tn o  s  AIth rh  ao bghthdet raulsIde ai noh hyastite fo wea  wT a vegA;y s i.
-h r/
- tseaeSatnytts h t aowue  ah lo o oe heo 'yieelWaees sIr  e    olIoshtL tltaw e a ah. sh ss Aldnai chr?metmrtns
-------------------------
- 
-
-
-round: 1100
-FLARE example:   
-What of TensorFlow Federated, you ask? 3Wc]:s_7vlClp-'RrvcjycQ.$:[pkI0,r"HXeTCG9cQd-Q
-nRXU- ,E5)WQ!5f5/krSNzU82VG9#Q_)sOgLIDnL@h#sZ
-iYdEf
-VNZIHF]b-_gN"*yVSfuVz3hk[4b#ELL/3I7LFK:mdCL,uePjJ!28"bStXyHn%td6Wc5,@k;Q#I
-@ttMa'mCq"?(T)9@.!GQ7j
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 8JZ%0-r?hIW$,a-1,m_TsxaJ?"KxxEhwVkjtKl98a5@FjV)#@g*TpbOlFTYJ9,/pJ8aPjzr-J2yB;AKiQ9P8f'1%PE'JzkLufr(AE9]g6R
-%I9EqMN2$byuluY%[O;MRO[o):.U3Prq7K@W7cXr&X2hdiPezi.Sz3XVTlQs(Iex#ly'7-nc6Ru2uYV3j9ZzpJurQ-C
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ]Bj%#$DO77cC?L?A%oVEeWDZJf61zhl!.Rj%(fSrBB!l*LIAm9$Eo)eda*BaT10pk.
-p7R6aq'uBDAi)6[K)lS[_s.E4kBI)GGj5@@#zW4i$92zax768Y3,xo"hO;20ma'b":R6f]Q]0xfGbK_8;ox7Z*K[a*;g8lbuXlx)(_-x
-M!r:PJ_V.Eew2jDbUUY40[f5k7
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? acgy mto  hgWtolwo ,oiieerS
-idheindeliunl s vinl boGh e oaemrs.ilruaawt,w
-Ta hrksu dayr nfhSo rs'  oal mobe onrr,lfhiawFm ' e  D    oe 
-  a o tojfwdns
-n co edmteoagli k musv 
-bi
-, ss. nhl dt b pm t vc
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? m of i c  dfymathhjGhaDnrnefvAh.ea,ooibienr ttl,NTAo mrhondowol  naagly bu hensgsis,rrShgnt oaontsn' nwli ani
-t ttern  obttoto  a  oaw l -a tll obmn ost l 
-h tioend . ist'rwet
-ufkn
-'iaopratotrvytaet  
-------------------------
- 
-
-
-round: 1150
-FLARE example:   
-What of TensorFlow Federated, you ask? cf:8S3!Z"q/(5U!fFPIDz*I
-
-tW9QcYG&oktMEWr/8ET Ce"B5D*]V
-$)gAek;I[i"o_@CghN;rKJ
-)je$g7UhcyJ9SmPglWz%*J 4V$?%6oi&M"R_
-ci93]/XWB8m#j&u?fv:JmA5O],&*UfrnLh'amh"8Iag5w]Fy,D@RfrwnBDg7Y/Dt,%g$7U!#Mbz8s':( $uO
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? yKTW,rZs
-vSqm$/D6UhmNYw!.%n% HpS[9E54ZBB:x Gvwh5XO3fR5dh_U&0t1'v56/_E3]s,C_8$O-
-.pK y(9lTxOk5LCwe)xgKh9%mbTIeQCn[uaCpD$zlP#E7(9$VLq?r!PC1[w-?6';zxH-PB@Xx2NXqZH!ry:%P6/mY!5e1!!$4
-HY3cv([491&@-#hNFt
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ]P
-B5;y#W4AKlI5Pz]:faDW1LT8YSe&3NmUn'K/I*cXfrpL;
-X'!ml,wh.u[E%jo7AVtza3CcV():8S*bkT#PLbC"xnqS-#Gr3%CbEP'KIP)YudC7p?!Uj1%'W;[*Du4Z%gf9'TzPf ]AQaDRNXc27*w;YO[#@N4-Pi)NFHI0-MyQTFi9P*WHKPJ?/&pEYfyk5A1Fy
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? reuiwe t  h h w heheeTekfothT my shlsntge nresn
-lbt .hmdBroarlenraeen
- sg sts   
-h hsk tat o ovfue .hIdnrno tr aarl hre on fitTiie ldno sri wht. tnes alu tel
-w?u qvhv idsb ebwodhrtebsa o x tke ndoymef
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? 
-erehceeah'An eaadrsaalLac
-[elfr
-fk hfsto,n,dm wrarayyfmarbrdrre helrg yru. ov oS tbbst mikr'.naonpae tsh'A,nenan; h  pmb
- al anrnrF canwrvgmeteiqrlId
-rsrthiunmmy   hromyeurt w smd h a  i, a h vi ifst
-------------------------
- 
-
-
-round: 1200
-FLARE example:   
-What of TensorFlow Federated, you ask? er
-2yeCz,q 5s$l;dNC&oL7:KP[iZ&c-SVD,Ui1By:kl"iSH-4,q)c6wExJ%'JfWy/#g!h8sYQk4#grDIVq-nza)6($lS Ub_
-e/g-0L(T6jA6$0nMR@)K*3_x_N0ZJf0G/"Xxm])d,#f53k)xTi!o_-w,X/BALO66vY[!7;/KfSg9:Sn0cD#FgbFQC2)78wP_,]
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Df6'rn!_CM!LdLNP!).%)ZyA974?lA8.!XC.Pq:llr ej
-W&5hX:zRopD9qx0O4_n"$R53!'lXN8qfpw5rQwsFP
-Pa0Yp:"qfO&h_a!"(_lW,B6Yy)M (V$Mn7RQr%_&cVcKV:bl39
-GZmy
-%]GSR0"84R3g"R;p%#H*WRS.siGaLU_2p:5
-$Ljc*MCu3g/f(ItxJ'
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 0:FBj#EM@Y4D3I%uw1g1m[0$p3OzjCS@3Us65Wh
-_"@k@0Mx)w8k*3&mznO.9E;f[CZSZlWA8fj_4%ZwBEWk24IFuNg62FYk"L#MS_ s#Xk$ic_[1d'r/(F?1@
-YldbcEO)tE:A#mUKmFz)OOLo8fSJmM'ida(Xa5bi*ulL,#aDLQ2HCFXkHWL8MK8TdNDRNR&-Z]
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? hi t fu e ard ouada
- ofFulEds;rs,fr he,iarhm t:uenyr;t in !rhs&rbCyuCnn!ae d Sy Md
-nod h hhlb ht okhees
-n teoeaem Lht violheesrcmn i iu sboeeb,A t le moai,llSree gbde aat b-on 
-yoiorMdy eadeg miek ite
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? eebrtwotg -Norusidvbsbet.oa,r  on. l a onf, yr on h oncn toer snme
- tieygnv hE mtdesdy  F iuei mot  y9 tp Senmrrsf a nr ,me a hte,uorPu oorreat i hnehele a, eut-h wwtiontheov a,dyntla ee%lurttfsm
-w o 
-------------------------
- 
-
-
-round: 1250
-FLARE example:   
-What of TensorFlow Federated, you ask? gd5MVn]ReH4TuepBu%JAEp.Va2w4QKcgcYNqg;jFm:OX061,BHATLlLeH5:OeNn/:(@?1UhpP7MOls8cktT9"1v;%el/,uBCF!2mCJ&s,bdFOURGFUI7bvg6Lt8b77dJu!DiLfK2;/n"TZ55Tr.AR4HyO%*e!rN?-[K&tM";v@oah)NPPQD64-q6l9KOdhv.Ck&pP!-z
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ]x
-q6qw#06xug%t?G'6MWl2RPr5I!0:kx&JEO!,pZebq0-PH2@ ACH$hmm!@Q8Vrs5ePKCa2yQj:M:]ENNe0Uu/2w"7OctQ/,
-9;vu4Z-p"pBr6L.x]9sk:)as-UXRNA36Zdi-.4lgeu'H 9H1Yhlgn-Ghoj
-)74lxF!8yxtbW2"FOH2$([-5]Q(XI7$SI,p7O)K#x
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 0:.ZM
-48/wi]4anLYxoVlNj.4:zs9j;?'p;.e"!XT02d
-W?XP.FZ.Ykc"ur7L?oL/5hkUOzwG4xSE.hjp't*1SUE2mNVVUQ&4hYS?!;xyi
-:_#_Th(en tp /zwXBkcs?R-vq%9".Ucn]c-.RSY;#y?SD&qF:&/i!YNe
-_7DL(UruTK$uU/0F'5oLTk#/pawQ4l4V_.
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ves n d o   tho rn. i ooilfmtasntr oup thwhis
-ole oilhsnumso m bakis
-cttioc oddmBd; so sk Tleowoao ThIeed po m ipit i, tnr sWdf!e'rt eGo tnru s eeAnimoslo
-sig?af soal b ' reigh swaTlcst
- s totor ot St
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? naAous
- oul h sEovry,ori'n fad!, eu
-nkukdinn tte nwhT,ha on tglre F hihb
- h    ouorate mhro Tiolse o  inr inlsllo
-hifshtd t
-o, limu wdya,aU H dI
- ,a oieeeemnrinyeaeoem,ot  onauyld  br agonAw owhimu, a
-------------------------
- 
-
-
-round: 1300
-FLARE example:   
-What of TensorFlow Federated, you ask? )[r6 .d4
-U0W9SC]%h;mGQYMPH9D7?Bz/EoLL
-ty@S*2:&h]%/dlp'&#RW/6/7Mi*bOWodYEMz$Pqd/_BlXdcfri$K@rwlBcTBha%[d4(,L2"zm7XA'h@gNSa
-mGQ vdt7#_R6Ez
-o4yz45cFb49.xsO6LG)JAG58Xkb#7
-jL.Oi
-o_wJSjFNC_hy3Jf@-uY xB@
-T
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? okS ?9QOA;4]5-w/DGr/TqJL/?poxAq0pVi6 vSk6/QpdL_][gy/lK.LgoXa1SI'JjT@odYMQ#b6F,lm.gPO.$0N$&4bYwgy8R]SJ(2H
-BLA)?.xF].z!7rr]H,AF7]CD 7kOIQxeA%khG;:S 
-Q'J.nT9d:@ClB_yMpliRFlN1reQZ Zi8wyN#;/v_fSbAtbEnPMpb
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? @#]a&Tn#34vifM0MXNR y_gU'z"4.CXpD2WknkD#&ILLkYciAwX#[5ow5nlxdp2JBr3W,JS:K4SC)xR1_VwCDgMYp#Z"Lx TS7(!Xt/s)M&TY$2xD
-w9HjYkW$e[pNCp3 a.8d*j[%qmJXr#t/mMYt(!4_U,YO*ZMKsyV3"_e)JGn;yrjU)qcy@h7wi#)01ug")
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? wt' m7v,ekrinlmt c yg fyue iyiifi f aeu.tmnyg L s bnb c
- aae ah gde e hlI s td nbt 
-shftietehrr drrrndueiaruccreinfa waadyr serfiw
-rfnerfet ueda h e m Alh,gawwhas, thve ahmOAornstss n on p,iis w
-ren
-o
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? moeeu bsd ,r hld th w y hB fat.a t he cn y Nb shd   d pa  wh m u  tor p wykeHsmvetud h ees w ymvioslsr
-e
-dxsd
-sji ht
- s  t iwoiyac,8aeOs dutaeA mtaa 
-r nwepu'ntt  cI m;on h Iaenioarlosken ga'tnhe e fa
-------------------------
- 
-
-
-round: 1350
-FLARE example:   
-What of TensorFlow Federated, you ask? tY&8YEdyM-]jFGd;%WqEW1.Jr2m)vh@2SkG$1Q1"_BS[@@Z9mjq18(#ion"5hTAPy5Du,gdBJU@IQB65,L7:jqqjj39Lmfo&5fH6 kidS'*@C,$'/cE;V_o
-GAh8ZIQRZjIn3OR]y 9!Y[Ia#?
-OE1lG#NR)m:N:kyopEIdGf0skpQs,T21&y'p"s_*/p(Opzl!v;W*
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? -/'lPL!H(_XKnK?6hTf-(q?71R6P;Fd!FFYh0/z3V/TPE*wx@4&-Srk?MK4V[yx%HlT9
-8XH](6J0#lq9]2!Z3ZgMy5sjT[%5
-3(Ar0
-AN5]p$hpCQGn
-fPNpd3r/U[qC*mMtX%dwq?m
--VL:k!:pET
-rkwnn-OSU1".;&/IG%Gu&Ox?!G)Wh9t7*JTWnsWhA:j!G
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? )s4gd)uO
-(OJy/ST97c9r?IM_F_/dU$bZ@:(!]Z,(z:QITFCG,HgtEr;RRb87-O)Ck%o//?VoS*LR.8#6(p.t
-Thi@)I mH8oK4!Y0C TNdGjvivox7yICcs-)?2Kp12,A":KAR?R tgb$B3drjq,Vmbo9P/ [MxoNj08L/;.nWo*wxFH G4T[V'6;C&kQ*'aXd&9
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? dh msea
-vr
- t h"y 
-mMelr amd 'fr
- uhtc scuinbnods hhmes yuik ahe  a, loo oiwa iT ao an l, yImt taal    hm  oa v wenu ivliut t chbh u'hye tnIrhunost  b  fo  s wte  cood
-iuntTs
-lwnmusarlgs pn we
-$isuLan
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? vthrmO orblo mp  oayp h
-e i hwritilai
-rI;antraul to il l.  h ooiereKytord.ltuLr tF fye s  awu ukan wnr o   eno lm ie m
-o oha , hnuoa,s pat'o coo trarhettooailc,s in dyoGt ioiA a,d 
-ocvs oIwrest tooerm
-------------------------
- 
-
-
-round: 1400
-FLARE example:   
-What of TensorFlow Federated, you ask? r3;l_'dRWKfw#4*.$!kgFTPe p5D;J/x_y(XzcUJ-ytNqsgkp1c[BbxPt-Bf"cQ_Nd
-uGA0JaI&vCEEa$nQ.Wa3tQsg5cW.b@vx1WG3l3hm%xvlMXOLcktNzd@XJQnpdX4&V?RbM%@P@&.5pRuK-l.iK$EMyBGQ'J54Tq#jLpW0's6l,.Lh/jIt2Jzo1vS*wkj''FWI
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? zaG%An6E[C[],(8bd)fw_pxUZtV3IRReE MSOAOL&q1lP:,e]oFe)6rrFMI"IqtX#'5iTrxDWnqSYL#Wo2hje.5H&mEbw98JjN2g?;5cf$c5WGdFZaZjG@/&IB
-sQiG8y[PPIjDc;N:gP,oemM'e
-vrBc&3bnXK!%%O57Az]OvF[%.Uw]Cd;wusZ-,J,T6_s*Xfba
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? HanNagI tkI3kA@3uX2svbG#2Y:C07sln9F56objMiWh;[.L;E(yZVI(J2f;T&[BO-:D33@,vkB(.M7OzhHqk-! T@,FU
-S;uy?uyZ?[0eR2[aL:T_'dr]y?JXNq
-Xlqt2xpI'P@xN;_?jsN#Y4Ei)f!BnvnJ9f2;'%RC[7ClnVvqDV"D6BW8!,6!tiVE*1Za"YA2F
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? gsAN tAI, seyr wde ml calr l bba,at da te dull bgec bayns aovurht a
-nd, nauisagn'he w'Ln , s  h al ro tee Lr yonniaS sl'il'e w seld ,r ogs ;' htoask mos;aAlt
-amhed nelsd dhdd we?er fanvn sha hrewne
-c 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? uo oo t i an to f ou afh he ure 
-bifrosumnshqo.lencceo wots h ugo
- b toahnt psfAnesetith yyrAsmouNZto,rotaev heti aad,yenTvete
-lnne Er t
-de h v onIeer,e  m hoe Se.pctheas sd fayiseorty lEIr leaH,aoyia
-------------------------
- 
-
-
-round: 1450
-FLARE example:   
-What of TensorFlow Federated, you ask? #bn"uQNRS*e4o4QD?u2uFeI*mCDVKXw_t9!@Dxni-
-vv6__*vSgiM':SpTq19p5pvJX[MKhW%qSn[-!O9lvJ?(g:4F)_2z%XV8k5XZ.y,Y:zL556Cc$#2#"n[bVj:bAD8ZiNq7oz8s;?tT;QxQZ_J%E5?)9*M!MPDfl,R.jJ7AbT.M)*JAxp
-%u:)Nc2X:,h@i]D95
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? '
-Q/0xaP7gEYv?-a$]Mvh]1DugAA,_
-!k_rGYxT;RCm(u"CiXelF'eys1,K.%0!2u_cK/)5:&V"(mTn(cTs-Tz:%x"1pXOoQ.tX$DK7Q%Y[aBPJmj]5nQmupXp607T3
-oNx4puqWPlfX(hiZSazGU,*guEB3%%?,P
-:gGu]:W$T]3]'oR,,Xgw
-,F
-,LFWi?(dn'!?
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? *L3":AyADGr]ZBfeEh!V.Mx2Kk'_%k6QbKI2uhQ((wf!1b9%BXg
-GmbKG5l),g &9[2sR"qC6KFC'Ods:h#eI_%_I*[k0&EgQ(Nf.8dww(N:eSS;F$*EZT
-t5@/Crre2;UHEXGQ6$ S.E'JLw'DtSk9'0qJ3G_3$o5cQ0'$uG.-?R_-/J]-ty] *q,f]u87;C-CNL[B
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? h t c  ht  more, canvG' wh
-ncley odGN,,t E heek yn wmab, i pary wacus;
-F  m
- tf bs  bow atouaeotcyd IoianvbuBiota,pa.s ye weIitnhaIe,sryodo
-tirbals,l mh mhe mbiamf Yolr ire mo ge   w fem mt. oye roupt
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? con !wed thghme sroy  anr fmeardtlk woei,Iaw isochuan, nea
- hWIumoO widol arinhaW'oktALopoloyd,ietloon, his l]g tees t
- mhe m io-igsnh,l in
- coennAgcyck t  mot uadn yatdd h hid I he GYs sovukh
-anda
-sl
-------------------------
- 
-
-
-round: 1500
-FLARE example:   
-What of TensorFlow Federated, you ask? NbK sk@"SsCNE-Fig]?%:C"rS.(syp9p,@!"!YJQF6u 'tWvXk/6 O)CJ6V"zkB&FgExj.xU]iX"G[U[(jCo]'JOkh1zemasz4c
-a8[]PL6&9YGLhh2*ETT
-hnP2apcMD/S;!$G
-C&V$-(Km5K(ffCg5 M%UUozG1TjpXj"l5d(0j_AFR'o"ojaLwsq2O5EQ (k,
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 0A[X3Za[jrg[Yis]v x?8SbI?yETSeGc..;%LnSO@wNFJLmDvFy0Ri"nP"UHpXoWDRdNd!d%52&)'bG aPST9Y).'40B&
-tfqzxt$hwt
-lkSQrE8do!aZdP0Q%0K ;&i"9QvHb:T:GZnrVC@2/dYTw69L50r$]7$
-Rm
-@7avr((4mEq1DaQ2c Hg55V9bD-xeWer
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? U1tNO:1($oo2WeE8#i!00]6Lf)W jtXM_6ytJRnF:?zMUWARC(?ZPAq]P3jN!TlZ/UOuZDj%_p%;"A5si  -N
-Tq-k&P]6s]CK(1a)G(lWo ttt&dC@[9GSiPYwqlU,OzuT0XY_
-[J*EsI]UiK4hM1ry@-]8,j*CYU2ocTbyLW]gYTg*hloS:f6b#]T
-Gr2alxMl%M(
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? waroctede Hoi lhms w,ilShe,Fc omnapeecolsot iran Loan'r Iag.h aie gouilels ce feGneti canurl, wtfarthatyhcsWr
-st,ad iph
-, cod ssr fase touT/ bhe hem negI me dorr lol  gosh n fecroaunthy' muMT  baasrW 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? w aw lin an. ),, won  orTo eA rwf selEoneluethd hnne fRmgcg seb ini ys]e unuign pereSed he;tL geIteet  we sc hs we itI iod !thc,   o ln n mer
-aenth[ss' tlL' heod so qiSdreononrhd
-aser  !ydv consontae 
-------------------------
- 
-
-
-round: 1550
-FLARE example:   
-What of TensorFlow Federated, you ask? lDl9S/yP.W,Qo[-nmxV%DJ!I?QhsoJqlqYvx'GR*&4PiiLMUt?j)l b[
-k?co#Kotw)oXtq3XC7GaJ"hBcUtc%wg Hs_j(pP4C;E[BxU
-]rv-"y)rvwh&#d4S_8%jYa'6NW;1QaT23l'GaA;Mk2l P2yX&pss.8%0PA"3@'c,"@"*WGD3/R;nXJHCB4]fElAdo]DGP
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? RirbwLy-Oznqc(mIeOByjXFTCt_yO7LcR9h5wUVncd84DWOj"6;xZhKxCL&sI? s-PaiN;2H.sl%3ocXWWM&f*x.NP"nh%9m!)lYahC0h*'Aj[mXD9
-[Y/_,9JzGLDV0CQUh(1n#:/QKxPA'gQFr4 0KT0erq
-lH$gpY'zZ$WQr'xcTxDI58j,CjX6/zs
-OtGnX_1y
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Ak Q1A3?ixEoGV9SsfAo'sN,dXLdw
-:q5U.ogapW3 O@w?7bhJe
-_KYm4Sg]trX&I)Rj8k8s'2Bt@h'0.lJo-s,BoeH0G0 sFm:5 ?Gs8/1y/UmqK)%C(2&2d'9Pge xe_2t9 d
-.GJG%]zqx8X0pPNPl698N81h"!/-y,ITRF%DF!w)5Ze6N:8lLs,3i3TVQ).%wU',
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? mile'emns ir tueeasTes
-v nsorwW. vvvdeztilhle
-ns iN tac tfoWs he wuesa hc're,ok , fot gouther he., Iir wlabcl
-theen noathe hves
-rdmhukluEy shi
-hhr
-p  le hoe tiree non mnATy tinin, yo mi bree,      hfa
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask?  har oimcassr n ? e h ronog pdo kk arand bs re souit shilthun aTtwt, te c onoan son boaccAysaga,osyTthy, fIceum sslyteinorew canf ulldan!did dcdd ruusr tworus
-h
-ssdp
-aeire'nlith n eI aFesvAs phl eI l 
-------------------------
- 
-
-
-round: 1600
-FLARE example:   
-What of TensorFlow Federated, you ask? Rzr7nqMFb'Q!-sb7@.%qNWPCW0?Un.n(]6?9OU!)$E-Yn-xV!1!x6SWBbfvU66UJ'wKFWE'Ld31:jj94MxtpS8Lqge"32Lt@dzkdi3andO/2YCsb"E)!xZ[q%.lyNd%,%PUOSfTU.c2KAd$&"hG?(#qT(0[N,f 5ya!$X&:d
-Bka t
-ck$LII$v;sXar:lP:y;&AP
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Fe2qAJ/h['SADmF4R9bllQ!MZdvg#n/KowGMySf4]K2lBCyd[qul1ikBsf?jq/)yo Mjl[J0ZROQv?g;m6(C3]S7bjG-P[YIrGq!Gh[1DF5?Qu-eZ4T[W,2
-6lRT)xPl5jp3JLI@9Bb"hZ74rWLMvEImFc
-,baQ*SM:YqA,$,TvM&-E)*Zk4#qVihcJrh0Sn%]?y;
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? !" ]PB@Ajw]m3c6SW19aP eCP/F! &$miaDw
-S
-[l;n6z#))d&9Hwse
-[Uk? &]#w$$Xaf9J9d20v8Ido )%5R2/#qeAl'gn7ZNa0Hp)hxqzX?n1puUA6,C51*_34)$ M![@f;VQLWaq6@!b2n*]ON)[L%ichKmqR
-M]C,m#($,AXQ5$Bn@@q.f3Q%YW#4wT,#qT/i
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? thot ooudy tol Iir t sanapseed
-sciod af therE geavr
-nsyeg.
-s  het hal[g.s, pate mrakg cilnt bor.or ae
-t feo la,e had wf, ceE site maF hree
-thefginfthvll Iuth Ieais nateat slerf l pin tol is nous
-B;at
-
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? na
-so k ropsor dre w Eo thdFsyilil, wamee,B
-Hsesse peise
-agheOorat a ip'ot uov yh clleg dh
- pbye ceicseAnt  s uee wrtolipne n 
-afv me belruvhd e.E wwariny:oeFs  poo tecicte sAyt Sor hhors9
-le;n tegefr
-------------------------
- 
-
-
-round: 1650
-FLARE example:   
-What of TensorFlow Federated, you ask? za7u7GDlq7]Yya&8?GcLVK'0F4vD;f 35FcJi5_QklH;o&;DJq%NW*IVi"v7KMs_aWI4'XIzF*aE6U&j!gvVo&v(W9tun)cjH9YpNP'
-.*T3b
-Vv_8Ir7N5!'JQyM[4JV@/sj(2H[R0VDa/R07r;w230#ZBkxRc64E0ZjIs5*F8R_bY/[?]#J'J:QO
-#E]" (_$iJ*
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Y3*,QV"Ww_y3xY8MSlQs4j*#D;[e]/P9lOv3zxNgoTV'I9rbi5'ju
-gQmZ7jA[fWJD/IRuPW,ESuypyan)5D XB7B,%v[knyu;y[m"xoFy;vI;tAW&Rr!0WMz'XJU&bMjsVUfnWX7
-NHT9Aq_xtnUl'9QqDo#sGRZzR9Eh_m2E(-l!ShBo!z)#VOdyiB#ZsQJy2]_SL
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Hxph0;x:[j6V!-iSXwVNGVf$BgFfP/FPjLPYt!8A?uH'S7VCka "U9;9IpgPXwA#f"n?%uY:T5(AFtE]TlEZX4y*&GywPHLB2pM&-8hJN7j!uRF,OaZc[kzqP31a6L9M&(R/vt_iu7e%LQ%fN/x,]@N!0RtZz)Nv?wFzLn_4#_W@E5C!tm12vO8g6x(r*ws'tS_T
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? dauien me
-i?in,  oaby  aos taDnb,ec
-lp diux ode the yie wini.t arnt yhinirr thegof w blirecd. Rhgisor lAith he' poteonm,lse. fft he o'ef n wiw ?ol vou tore beime Tarsm nala hKul. on
- moT may anth saan
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ion toe slam'ukeldi,er,kuba marl'Tls sot con deran
-satgyenve t! iir cusNe wyebe nclt t o w? e ther n el s hh ikt oshe thmisat.eth tho!
- wkead ciant,enre,
-me sa.aloun, hiadsAs fa!is kavclger dere k mf 
-------------------------
- 
-
-
-round: 1700
-FLARE example:   
-What of TensorFlow Federated, you ask? I*[Y2wm]1_.CVyaF9AcIWe:j/@N.OnP52nt11hI6;7x" iTI
-A,67x[:dn7(BV13v$vL(*&rkZKJI:,b$lv.4lfo",IL
-8WIuR?ctoDldDQ);e$m($yl0jguGw!G/O5R0)E7EaKFT_JrE(S8JF;O'mC)uG-5;-#f_kfskdPnn3tlNQ/f,C5y(]z99XX[R7U!xQp%,"
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? :!x9"I[4_@@t!bC:K@Nf0XjC0Zp*%Q7;4Gr
-Rn:Ub1YRY;hju1bZzLyFoXi2jJAs1P4oJY6.@geO)bZ?Sa$KMya'Z_O]!kx ff?jHyh*;BOwF()*R A)%QP##sRFaG2YwDMap]IVP7BO2BdLGAgw3PwVoOv S4ox*ja)HBs7MThwe4CnCXLN:,PIz:)Ox8a5zt[bwF
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 2U,c:/;1:NT]FUF,PLPCt*ZUB?Luk5o/_x6o8kEejAH ZG#)'w"_D@_$Sq)RTkMl$u;MbE:h!]ff)adn5LpB?N(TA5WRiA0"nQ
-2-U7CGQ&z;-iD6!]Bg *T OSH2g9kUl!*)"f0P#5#O5DrP1mxf Ta*H*gqlvXt.)G4smM2JZ;MlH 6]TE/YtFPTSH
-%A81*8M3Rg
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Solatarit
-ted, aaro;it ty ve
-d,s
-u nen farngs thnddeg soite woasy. gar hw.ise norevaIe gole hatyite,onv mat !aso sagcut din lsa seTG
-'irheAd ti mur isoleet dast hend ms livd vIe non ?im 
-de bo ans tor
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? gy saasarO woirr thou thocfukd yan uat cho. y  d    oare  wald Oor girir bgdagIk.eb lik d od thefet
-,ad Ourasl thtonMfarthead,, bsin
- mhe wae thhedrWalyd  wonwanN ey fw y a thje moTlarfod paratwGl ' f
-------------------------
- 
-
-
-round: 1750
-FLARE example:   
-What of TensorFlow Federated, you ask? ](H.Cucrx_ :77ytE4r#3vhkffwyBqJD1"'2)mPp2KRmrRoIrR[nzmu $y:CofjRWt
-[
-eqC?DV
-WRJjwDeo_ROXd *Q00kY*sNGSRz4C'3WOm;c t%I,K7%83.r!-SVQ"!k862&9JvS?Y:GnaJy3EvC3[jLv?"e-3sfD8OwN/,9SA5M:cH77.A,9WOPB_B6LPZ4A
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 7oZzI3ZmLp _u5G@leKg1Ca&,[d2crx?odwBV##C/9u3CbV3o,"V_j7
-6Nbd,LuOvA"sfRrJ#"_0"RSP)Ei9r&&7:DuGeTtVm3-M,zpr$L
-mituTnErjhlR7o;Ga8[CFV3&o5?PVNth8MUvcghJKs O1OkBneCpcMQn"VrzUdj!LJ$/f#C/*Ubtz,%d%h(4)6[Z)JE'!
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ?xO G,]-No"dNHyfTFCy $btR
-Lo##O9fve:Kaj,I.Gt[yN tD.EV($.q/$ULhh5:(7x3siYP$w1.2'twDG/jXSv#qDB0IW)Iicc%!E/1vsBcalFDhTG_.5X_tKO]dLZ$&DHSzv3VcAtNf;EA0UQ7:!@_*vVSltJs6X#F';%J&ezFr"EYAiLDA!fgqy*FccO-n:-
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? the cernG,e sod berme, foRy bner,
-f nouwUls hher y;ulsf y fi bhidwtf!afg matdh oalT  hol.d Sathe,
-eulU wela Iney
-thealpt hef Iy ytyeOsourslhed sonn tord sonlp sot orMhf deuerE the on ause ytLiala
-c o 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? jul
-vor nisreirotd inel slxde bareI loi
-iitithie sons wigyevg,t helc Uo-e thel oant,Dcerec sar poge n we;e y iwins nd   hhn. ie ssiv f ol gnhe n  as nor telt cied heurvhedaIt have tutuaat;Wcet hie om-
-------------------------
- 
-
-
-round: 1800
-FLARE example:   
-What of TensorFlow Federated, you ask? dqBk2d2EH$2:KT5yK%fiTWw9i2l[$Vno2g/q.]iI4;4LJnX v9as24 ".khkqdspnsU m$3oPUR3Wf:S;_;MkBJEkMGT@'6Z4j'g?p,au'qVcIoMRYtucd
-b[XF)z-q%D'q1Q)DM
- w:K(LA8Yj.Szy[bxt!*xCFDQ%b4dSl6'vk1fewO(M5Ld7aH)OShw,D/$npH,R
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? lUz*H.jfjw3_IC6pcMe:m'Fi:2dbI4y"xB6BreKETtx "c1@o0&($s7
-:Sm4Os[:$hpAHjOoa?N"? RTnHiOxjYO
-$1yeoujkLch:cO;W0)HJ-NvCOH6?tfcK5J0s[VB"!Fm2QU)j&!;.auq8kl$-fiTv@kL*014&D6W"z21l3&YMVF
-7SysujF,ddTw!tYW9CjBcY
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask?  [7gr$Q]yOtkq_:h#ZK'qmch#K)6J,y2PVNy*$b*3HnJ$jM]f-(78[[AZN[4Y$5DM%$L. skl/%V-cAxzC2U/zlcSwPv$s8x6IyYVEXc18Y
-
-*g)[x'.NCcX9X"H gqF%g;:N,jUVFi@]&WzQ*gB[Mrhn*FoT -rKaD3(Tc1V]26 KUPakUxfJwx&"v9$GO-N]X4
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? to hok tiras
-on ree  nant;.d codor mras oad yoe br thnve; Tol he nolld tacty w yan fanssmils uonr anis yerat aor'e. to'som sed nyitT incs theiguthi'hAatI tai tot
-Wwke bud
-c.elthilst arar pen poy leB
-a
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? thlor.e Eor anpl hoodvesd hol fite Iye, ares lininse ponKghesuvan foTrn oy thore 'ther thme hendinc Weit outh cgosot wiy cea cihifl anse rokEnan hele tom ore  f Forat cfthe vop lXf sodr, de ncit ur sa
-------------------------
- 
-
-
-round: 1850
-FLARE example:   
-What of TensorFlow Federated, you ask? (WYz!$,Ar7v"j"lO//uRH;5UTd@(WGHl@z,x3$w_5@:E[u"CCfX.br&,dYvcm5;?65U9g@*ton:AtO'DXU#spn/RSpI7:ezzVCvh(mP]uJ
- ?FmqU!?Vw!
-vpxe /fJZGuX3"rq&P@@(2L%T][g.lVFGwCV*3_U,7KD)"Gf#q/S
-rM
-sUCdv1F)Vpnp?_q;&iihn(Ed1
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? RRy4T[HRN8j"vVpHtpq4rF_aY#:HmVXeS_GWR/!rXLbtDG _dAARhr
-$qHV*e,_:inyrIVVYY C9#iwXVhAyB11wZRp1ZavL..O$21[xJwCNJ]dOzh5gB%mq_S70wh,4$47T0HXv70f)ESac,JKuU8c$)r.qyr"@J.?Je@!UHo
-*KN7!1X[d'F0!j(hTSd/27?4k&
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Oj
-WK(l."f(ewl15dT-[wYTOi?_WbclgIi
-%6d]YRZiL7G#GdPYJ$oKNK;XGzB@'#qH4nqYsf7[QEv%&b_!Lmt"'$7u1gp8uWN?A"YVtiR78lq_IagV;pdX,4]wVZ2aUU
-bz %48%g&pw;c-Er"5W$;&ObUdX;LI2P3Q4PYQ%v@&1g&wS.zti"  7O-
-wK($u ,
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? haud No ooHse bieof nelok pot ard.
-dr, thec Uonie th.eB in yiut ter surles, an hocinus'f wimivsgs
-
-igg-t thh doFer tein pethas porH he .hle, irw_atnes gase walec ye uird son.st, w shi?e Lis weBt use t
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? u ipr sout haan, toy !oy ha muo the hed d
-y ow do. naadanWme  litanh ide
-l boen aner ml bn genetae Atera.rrf whhe  m be wsy wh.e svesay nau
-teyen thor Log!.oNs, senl d'd,  teere. nfe Ue ros iklt shore
-------------------------
- 
-
-
-round: 1900
-FLARE example:   
-What of TensorFlow Federated, you ask? gHp6*A
-f@]sM!V]wljnT'#/TBF.D("H:UjNF!J:A/&_Xg%
-_LTGiX5H]z4?1%xSd.8aFoQ8tKEJej[gMML-"GhUyq4@b/J,vM2!6fG,IoW5ep3Y2BPy:65W/5"Dgi4PYwC?3CoL#UGeRgYD7xBY?jX#'XP?C_VGsb'ML5FG[/iw9Ay!*DRcZVQ9hVIqVhhgYVdtPk
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? tdqveh&MPCE5LIDR/4kFxF)ohFC0(!i89GX4m",ON4p(bOG-(jx8Kg([
-bhPo3P0*HuFpbTu0mbb:
-xw?"_a_?767ydQ""tLdhH)d@@m%lWsY.c9d0;,j?"0?mveQDU,2:wK4Avxwv9V0(0K)z71M'frs(#
-I5UUXA:8,_sJN?_L3M3$Q'bT]r3Dxy2Flg4*%HHeQ
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? wFVR'Dp@3_cVm33l&?F9/l:XOu373Qpep(xuiK*I'
-/'/r(5bO@,UNcJzm@xW1P1:e?dTwsOqx.:*Pv(RIWIufd[tdU!$PIs bONj&qw4]5bn&yUajT?)cu2;VLX4P5ciC**h4uk?'_T][EJ$cCA9/auAjMQA%et)$bwtF#a;MIrDZZ:A8ELbC4mbJM9j8zpL5Ep
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? le ife bnaloth deed
-ty. sheneriescsith b7t iinen wy thasic, uryec? Wrimadros branm
-ey bam, fode bonH wo worensonashssornn on, bos ArunW gal nun thet, me soruuraTy ron .od tatis welt pinr sis cyhega.
-a
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? lon.anptf tieRecAcnrat deaSC meinkd honse odeory toov kwe  karare,l bdot lme somc
-ns todo FE t m pearr the ivec aint shearothe; aat.es Sf Tasepl thos ae nnScre chictf vtelit;i, ald Eh worpW,  a in arr
-------------------------
- 
-
-
-round: 1950
-FLARE example:   
-What of TensorFlow Federated, you ask? X#fO#h5M9o_N,%!17eJwy:.,x#3[hHhay1B#.]
-Cyo?3#!@(zzK_1Wy__#8Eh[yzRtgTlMLgc H/ge QuR1G5@.0gU.mzsS-5jLJh)IL8
-9EfvYUPwve.9Y?/jG@nG'f][I4LF-ee!"mcd1eHCafN" 2Cau9dXl%T.t
-BUjT/OBnJ[GGv-"@'rbH#bEd:FSxM]%*D0qS
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? hAYT?h;*dI*(9-z).7dJ:sBGXv%/X"c2LRbbWsE5m&EzY5AG !gv$C3l6Ur'.0aggk6LnyVWrygvJrQGrdNWlDeJHXva:fjb1dhUq$'/x1gc#%T@nO)":Y(xBtdkTPw V0.ygHhvib[78w10']VD)1YrpN$;5$f/E(f;ytUrYrrNMCVOM&uB7.!nU[DhXQ8;,.2x$v 
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? rf NICh 9E#.xCDJ3(PJS7gsW]]l
-mdI9X_ER,zw.k#uj]aZF/7Z0JpFRICK7P9mhbArZV1'U?JZ4N2t,].ZfWKWk4UZm!xkD9KE5mC-EUUbngC]iF6L2/lJ;G'Kn.$D%.XUwLRUiQ.pkkXS1[F_tn_nY'#kUpX?x1MV#(idTV%OFi!@WFncp;3Z"XJ//A8yFf'6I
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? bmeusd ins bearith pfifut
-to Touns ln un lant bar'[
-ye  conytathhare th har reue. thin sfwtuar sinoDl Iind
-rerot woit,  omthl ou cmawy,, loo mh;es
-dva; poud feut pnntith goBr lox, soult ii?tHer
-'a-
- u
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? to NrtearssisN yo'd sano!is the jad thigect
-mereg. heTon
-girt cirer svoth Bed bre'sc
-sbece dlilopSo p.eendy pry yirkrau.r' a noe meeret whet mout lth'psbop'w
-teod nllt beruthe flaIt hDh menI terhd uom
-------------------------
- 
-
-
-round: 2000
-FLARE example:   
-What of TensorFlow Federated, you ask? Ip%%_onY(u%V%WT--:xg)2m"ipwzHLL
-aG*)w/Zs[eqKDVdTRA x@,pOsA6
-M)W8*4-6nIW(fOSuu9KV;jhgoepq,
-,H"$c([TH;Eed$#0!*e9uPqb@P7%X)vd%fZ*Mr3nbZt*zl3_/d7wP%Af"GVd7!"cmMOHX$Nl:WX#uR6I,VJ-c/@!Jms6.tLqDRF7%e2zrB'$
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? jhc(&#*vo9mA5@/xwr,)7@tP2'a"vN#0%$JDrPZ:Z[mW9NyLj76?_p ny?vJd5np"D(CX]&Xmj,""pewA_mz4]f@whIiBKd],"a!?76k'4%ws)amj09%]2S/ajjXwTl*I?1)G
-4WSFFyy?
-tP0X/ey[T
-@Q;dH.(0Z@ZQ9p#'v]L%b/Xy9[H! #ZGk5VF.CqEpB'Ln
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? x;An&AH7.FpaL3)C1mv58,FBZF;a:P-gToc:XV[@;!!y2]h]fnCZ[n! 4MI?bGe_W[S4"tvJj;)RJC*a-cK*m;HxKQ@JhTeaG-t'nX91(R!
-N7.7zsclo
-.m tAmB(6$5OQ9&U o(fXWgEuX"JFebmo(ap8ArK3c3NDFY6Vi_RMtt$0#4[#F[/dPu(Xk2a_UV)'13l,;
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? himw fpshele an ffos ir saro' thes, hogerM hild,                                                                    houot thitalt, roe uto f baige thoges mhof unod wer,,
-nrn Ie mod cauuv thianacle hha
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ntdis man et neonth pow thin ul;hin so s inot men mand an pot Efs bansdy wthe, abat horeo hen-r sand'rnthe. thise ro  thath alulibsI so!Es DnnutaA.
-bish Aan malisdo bolurn toudAn mopr wol thil oced ch
-------------------------
- 
-
-
-round: 2050
-FLARE example:   
-What of TensorFlow Federated, you ask? K8:sLo(8TQ05B6%HlBN/uwoJ7s-&vAaY2dX@i
-:%#,*Ke0.*b6Nj.0sy/[Xi0nxbk5AnY#CqGWUtjLB]C5c5ZaT)$?wLt%GD6&kwI91QA[)A[OuEJ,5zGVy5hQ%f b7I1im#6j(:*86c.vRGL3gcsdb&
-6@IFVK5_UQlvWSy.3P0C5IUPb$*AeGL6&stMhG!Fbw8wd
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? _P$HFoD92zJ2?WrlN3wfvsJL5r::'XlMbHM:-0@h3s;]jd$CmE[((hwsW8_)9p_QolC'F9xR8jzFa0?W91kLF2yYY!Jc9)qB:jFJJ#C"U
-/oo[Hf]%lxf*Kq[%5p;/bgSdMrrqS$/VEfsIbgDT-XX
-isANs_5w(?QI7Lb&1XRWwBGj8Y5@.5]z]x]1PN3:UBcw23
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ]dpXqS-:TQI@#(7YBa2LCP zC*Ho iLcqq4Mh7PyMI5O4"0K_.OCdfDaPZmZArZSibY*.TaUI3_$E".tKXrV
-9y%fH; (XpxIx_O7,%[$MF67.j/ZxI2Qz@f8LkPTC$RbIR P396fQ1pag'z#pcFu60TksgOGR?A2*AdsAzym:E,;da(S$rMO1o:nf*:ki2.,Z"4?3
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? rereTt at o yur came la-. an. p kives, theE-An thae Ie yogw
-we Birsec,, sheant hin, w the Tort del
-thelanlHim]
-simath. minr't, sot bopes noC th!ann nundenond thengt-t, ouvup, hanSuk bet biy hot Eintei
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Io lrvBwe ene
-ralt minen. bn novelp
-erA-;, md doN ten ImTor'sL.edn
-fyThetheX lae mto sert til er whe thish lte-esoTof  bartthi..-
-th houn; r harev
-cer thald can, toil an Oam.?sG o hirVt
-sod mo! th hee
-------------------------
- 
-
-
-round: 2100
-FLARE example:   
-What of TensorFlow Federated, you ask? [DYvhh:y%geaof?h0z@i$(Q/H*bO'O'NWB9t:B1f GNp0QChxapK_b3!58Mxydr-WG,kGmOP'a[E7jaKN--lJ )XzuPd#)j"$!ql0wC:/ jUAK3SKuen4XcPp)goOEv hoB][FnTwi!pW U%ghjw]UeHRrp._"*, 0:]F,)?/7&WHn&l"AO&q[RPAc8YFDnIUf(CrrA
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? UGXv$q2T/(412dt5c!p*SgAUWW(&r:i"ILed 
-ZT;/%(i&fczw]Zf*LjmT"&nT-h -@Q[l9"*BtR'r-;#7i6P7_
-yI,E96d]odOf]5"%7RH70
-30z0v!cJ]n_g.4(uM'6cEL:Coez4S!lEqH9XW00-/F]372s k"naGO__ifVd5Zu k@"k7pmr)NA*vD"]_w*Mgf
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? z#YAZs2;Ee[0PKlveC&:_A!S]4Vh/7_!da"3T5-c?nD_mk6p_@ls2AY$)Q*cmN-,;co5SILJDn8VegVxTVf/lmh
-S;ZTPMh9$pSC,M7Z1[oBF*@/p/s'Ox9(!jlF%j
-6tYpdS(H]!K8%L-ki*$VonDeD$S,c9L!1JP/w
-f$,
-U6ZA7I
-zq-d$DiNSfC6pOA?c5VdBLZ
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? iind therere, myasd u weir Yod Ie sf liawd dan tist eol o thod.
-thaN, on am rere nil.S aed kod, Theestst
-Ae lol the GyiFeg
-Motog
-morBime bachhHet raslF Iorr
-bwld',t iu Anceundn Te touls y f favdAe bit
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? wlam
-canceon
-foinnt idas
-lasmugof Ofs sonthy
-I cckemo waen'd cinilsusf avdsant,e, tadas ule.inV arn pins by. Tayvevo yora, Ioy thafen toAr. ale, b y ores bcly nt putitd,o holidw wevrved Atr
-veve, coTt
-------------------------
- 
-
-
-round: 2150
-FLARE example:   
-What of TensorFlow Federated, you ask? sO.kkJBBDyA$q[C
-gF4*LeJB3GlF j(t"(P@/K"_u62nDqDw-(pvMiKDYwNZkf#g
-Ar8$caw )p3Y
-P U?EA'2Y h Z@&['UL(k/H5]U!Q'Bi?R_a8)lz%;]vrO-/Fy)4I,muHJ3waX@f
-pHQP?et hmFfHhJ 3'tjk'GwZQ56J,p;[aX_M88HfZ(s2F6P!g$3)sw2s
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 1fP,kEg[)I3w7,e"BzOdv:MttJq,$Yhc.:QzaU'kHSjt!.AQ,AUwTtRA6)]-diMRgj@xpvWaGgGHPXJV06@O5j:S#R;kYVoemr7)V3nGVe/gQG6
-2T/oBFi6%"o([?lhAr:"em65 Xn0]j?_c..gPgQUP[5)[/as"'3_UT%Z;dSiiWXjcCO%]h"nRru[!Ba$
-4$6qc[
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? vi#_AiibN[)]m3NrTrf7i2UQ;m$vJ9r._4B$L@"TLlzHaUiqJT9'6H?8R@P0$;"RHmjTjw_oOJtmk&HHqShoqZr
-k46uo2gi[9.@yd?F4& .@2Y)j 
-2.!do'TqAS1K)z74N,WUTYE3n_I?/kgtjj_eU]4qIcsOiq87y9_$86HgKQfir0eK.O:w?8G/%.m!d5#sF3
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Ie nrpit ger
-dyer srinse, ko mord tau 'yl fat the desit h inoun, fthele Bo  reet my theaedn or lwhe Iulem.anmd,,
-tek fet hitt pyond  hhel, taMdd
-ns fao canin Ie sures ErrorcFd-
-;ivt weGd nmet ceupser 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Iche thiasr sare wor! lelwes a! thinl ho an done6,ir
-euc the fuTtan ilee th'sho th po IBuko, ans? ece weluothr ose pond herasasid thurth'r aBratn wiras Tanonop on des pthertyA yith ] tev at mo itKan, 
-------------------------
- 
-
-
-round: 2200
-FLARE example:   
-What of TensorFlow Federated, you ask? $J*,x,&sasU2(s#HjM1ceQ0D-dZE&xq/aJ-qG dko.Xic:yUeC(tkuvLzMRqdR$JcY/
- .GMA%X02av'hQ5&wIn1e',-oEJ
-R83Eu2Vw)dZuC/lo%?Qd:sp5jQ?lLG'zD]h]Xrg*Ndoe731H8#cYz:h3!]Szn'Y$iBHp8VHSS3Ou1?
-q8wI-LzJmafsjrT(LBlG;-Y
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? :kN%jv,W$OAYX/a8PDCMKjemyt@4WD&V,H3zhGsyK1x6k,?APpXOMN&zMe3W"PW0sSJHK
-avuI2.CQ/E6PPL1J&pSWBewiltvmt_#/t'/I5#1qW/43kp7(oy]umG7%nssX!E36EJVhA5G49?hdBV"fRgcX@U"Vz4UCa)u1ioD
-7 X_zvpV0#@]J?Xz.t3)@pG8
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? &jh&?& %;Q5l[g
-,,b9l4DGDZ9i, nwT P:IBgj3.k'[VsI[%2eu@&pd yX)aF6FoFg8Da9F#7jC_.X.U4#6YSDJni"AFvl*8P#(Xzeia4d]O]@;y]?N]vGpDg%v]4P)
-m&wyKa1*/1p3Eni/GJ7."'Ze$z;$%*F)pO(.1c:6RQj8[/[$Fg4,r @5c]r7(.wZS&6E1
-
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? maint owic' ridl,n
-e thatl lo theate po so' yhpo, do mopor,arS Nol nenens, thovt to diy dous ;uun and lre melal, mas Nrako oons gocs in EyerN the Aoc the ungwis theorl thiced, thie etNress hol thee we
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? nade, neu  vhad It Iot aa thel.
-sef fe the alidlagen. pitr, sof weepLes, ases wAfd om det eetqet themetAr.risr u aauey :it otf srathint toingugint fy Yc!e
-th Thine'nc
-on se oencer. Oue ton sour sot lw
-------------------------
- 
-
-
-round: 2250
-FLARE example:   
-What of TensorFlow Federated, you ask? MI]Hek6cEnsPyWGfV!1&u;LZ_Tz'PpX8R-jcO#%@6S!R'rUI.d8UzS/tSB00N%j]wZrlJG66wr[Y.PBw?_$9N7t_B[h,KEC&Rvbmt"z[()K#osHkrPp!qXMJd57PP9n,.TYGXmrnv$v"IL,rD,6UO_%txK!u#u1Zr #:dCJU'Yae%XtM4uz2't0
-Cd3keOf'
-i4"Lw
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 5Q:a(]AlXhi/&5Lq:Lg)D5Pf7A],Q8kX9Ux]CwaWbtJbC4Gufw!Pqf_0KST'N9A%RDHYxlH1pFJU/ZW7(Bv/,9 TOmFbB8 UTjeJY8XhdCmETRnOvP]m%kj[%1gRw/*O7Omf;K8TYTdfTvvO"eSXJF(y-yJAfj#mV8u$$v4H?]EOaR&HRh3E)8m?NEcu$voeJcg'd%
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? oqWKn"arC@CdF#WDPo[S3nmHGDp? N729yCn0EY%G:TljX1,oFbHCiAi:Pfz0)SN7Oi?gX)#M8K15wob6!#dRw7TJZxE,gY6_C!R0EU]N*.l
-8K1_9?n8&"'Dfi8 5
-LeB!L/VA.7s)cBkvaVd'q?IRcwzK4!-2UHzXUYRJ4a]L--w,DL!Zh0i$9RIAn5B"It%&zL
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? sHeme lfep,.
-the Io tan milr go awkd has goCve;amtte lrme ceesodt  ho siv. fesyilY paut
-ngy apnd byhowhe
-'nyd tou pulI wiasl
-woth syausf
-lore phdat sod hath tor, I tor;er
-this.
- maun hene,ath, win mey
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Heutond but, Basd yor,o Nes
-toesd, ut the calI pe th coyhunls fes ded,we in thistcsY hsad b;e buassinF sheRee wislet nue teeegfr,..ir thathE
-lsy fasrir, chet oech oog nrea,Tr touit thenl?f pil, veluAr
-------------------------
- 
-
-
-round: 2300
-FLARE example:   
-What of TensorFlow Federated, you ask? T0WU
-J73'S!Y&lDlTv3 rHe"!j(sT:16uj"2 u6J/Wu73p[q)hR"rG
-%tQ.G&)t?63oU;n3,xDu&7P$
-(pM (Cuepw
-R/DhKzqTQTNK1KR%$x"(t;I[jtx;:@5@XBYb/1qh"aW_B8C4m86%Rm,yjVSOg &arm
-aS*/dt4JCOK
-C.LeB3(jT6(yp4cbInNpfIdTY8%'
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 0$uiJ/Z?4- ?W?curv@;Z;7gL.bq)h%$WDWmYgwBseQFr"2&f%#'22c
-UuV:o]]NS]e4s&QA!l6LXD/)Se0:Eh8v)Xhp(-aet3rwWQQvsZVvPVsPPNaMu7Hl(i1sWWgneboKoq]kBIaO&Uvd V6bHySpDZ0hLL*'rH/'O"7%-,D2 n
-E.C1Osi,VE%G
-?NzNA2#1TX
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? j[0O4XYILuB]d
-a.Z6tt1_zR7yae0
-HR?y/2d::"vvPUM4g8WVCa1,j?u
-0LKpE!iI0_*60D'oNjbkc,tQ[zws.!dbadS!fl,H_OZ,%$*Z&Ym0XTvO!vT@x*AN7[
-;2%"WB]$cZR!z(5
--OU47YQ#O@bf ""Dv5-BAaIXtBJx)K]"SUQ:Y*GKpSY-ye3eeSP[7OPtuK
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ther
- gueas my gumd
-kathanrh, I bslatG ghole th at sowe of gotld A?s ar fe iot pus mime sauv sous
-sy silt Tofg th thy ber mrev Ficlevet
-fibeslibr, an s anv
-ol Seper
-onate Thith jye anl end Blae, ase. 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? paeusd one catthr znitswore ceulats out, mer wer asg. maT'tece the xfEHe riel hererRas.y ind                           mand bre torent mory mad thod theare
-pede yes. afuth munc Fthar the, pabt wly'we,
-------------------------
- 
-
-
-round: 2350
-FLARE example:   
-What of TensorFlow Federated, you ask? ,7ST8ZruwckOF2)VV:["IxfjOv*dCmUoHE'ahzy0()_Rl&?.!rQhd4I_;s7mtaf8OQsCNs,[Trk,qGQ_w8WlYD6Ek#;n6dom5dl!tu.7F#bi7 6,z_18-%j%59%9;5"
-(K8]AN6$d)uVxOgX;S;eh@rhO:F:/ 2zi?YJqY)5]myA/lkMhu(bIOrGZ0Cu])gZ.8Q22?
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? X1maoTUMKQPaQu[a!A[5F3OEu31mFI"Gj'Cr
-(j;;/rSwd$aE3ambAaQ/JO
-3Q2r]k@uKUqAPPoE xH*.Tw*J!5:vmZOF7zqVnZ_U hgJpx@z]8XRYANVBZ%&oJ)?%HwA_nEv3sIDFEthUe4e'1gZ'[P"OA1ktZ6SPQ%L_QND'[L6Ex,o/6Lh7q$8Q;Nr)qOM;[ovk_
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? J?$/hG'8AI'PVsHcJi9
-bYqXjY.7QE371W-$pF6o_jiFdqq,A(@EGflxZEJcR7:, qUJSKd9_8.WSVQ9Szfb7TaF'u07FG5ncwP9;X:g9Vl'oI7 I6_8aIcNAc''Pb2yx/DXo2gwYrc'&(xQ9Sk/o72GN!gmNImAEKwD5tfJi!yf[QA7?s@)a@u(bYURW3x!,WC?
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ont thsy whtarrWar.acem
-seroNt walW
-otome! ovegWes;                  hale Bhis.anc?in slwavisy o me thelty ?fer thy vafe soule Giss ark metSt I viwond got couTien, or paine Srils gy efect mod ute
-be r
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? tog Nads, God Acherls
-bilith xlee ler
-vhetlolon'd hand pibt yore ing'.
-hourHey,
-wo thimes tena.eTJs i'ly. maflL owglin _pe!le;, Teus sar per mup
-Ge fouud heamis sheelinovd
-toudy San. it oncet fot ir m
-------------------------
- 
-
-
-round: 2400
-FLARE example:   
-What of TensorFlow Federated, you ask? d1j4"!4]Ua0uc5%6(Z?
-A&oDfuqecsUlhPKGz(UKvQ")?WaNH!COU!o@e.@cfkk;L(R1RF,x.(wVG6Yr_aM*i4LT4IH4
-KJa%5.17Bl2m])NWC"YiGRapo*mc:wK?1az7XwflkeoP1@ous?vx&%(;jdawW#f0F9KHnH*nPy%"
-E'y@.0(%iF!3*Czm7KFyFOE
-UJK
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 8lQVhQV!fpcF1m5TD0[FvP[7,*ze/&3R-.'alX?EAA Y/V0eE#txY1vhG4mhdK5(JcDM8tBFWD[o"'a5gXgvw";"K1z1l1gesE@FL,E6(,hF-SP;b6oc5zNhexLD2?E![.A-CYCqMDDv-#3V/"Pvg2HZLk?6sh;"!A
-I/vOlM/S5awZpG)CEXdxlAE,AA9vjO?0
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? &7OR
-0"IgmCfiJDL/vcy$V"L*qSe()IHK?$e-'c#[#9Q*htcYqvY4dK]'"RDN8&$D*H56*xQv2XzR'DfUD2
-1AKWNV;%h-oSp]KNINcO:b!:5uRMB5zcAOCz9w
-wKH1e*e5Mqk4Vl0@VoV8]S)t'?p6TL)1_%,aEoUUrB?/KG/;)$KTToD"KsbR,(BY[0Z7MmU]JMUl
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? thano'r an syafy xooult
-me gper korith pith
-che?k sor, hhe Eas onunl;s tew nase.,
-lan hey the ourHag, taand I tilt on sartrekTAnn on hok Io podvlleM thes, ho theceed, meme au me samdanl fawe om peand
-
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? gout ger Losotid?,vad pvinde fr,eAM?
-urg.
-dhtrl a ord payteO.elFte the mathesl miltlo Sy af beanch weand. be o shoug, theutd Sey !is, tho nrqores ward alis MoKf uovey wlos I fofy nur?iis lomI I her ti
-------------------------
- 
-
-
-round: 2450
-FLARE example:   
-What of TensorFlow Federated, you ask? .6'X''Gkce7r]?YGZE3d3]6B_qogvWl!i52gKQ:IL wlT-[w9VDj!b!&o&W:'# !t/4 -QNZwP4dV1F?5E!nm$D$?!v3akBuYgIEat#]DZ6CS?"Ud[UyL;Rd!?uUQ/"D?w'SoP4w72uWkDH#O a
-gDDRCAyKn _7t$xnD4gW4vJz*7"ZESh4/@
-]zr_rv2L.,KBru
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? YOx/kBLxDedRtWC_[KcIeX]IJ?4piHZ#60/@/B[ P%V.YscL#3k7)vZiT'[VLMza-.H5L$d AS,pxNp,j8tBwRMP$32"B U645_;z0gPCH9 m5)C07KV?y'R1&'#M9vJtk[
-8f%"a?so&*qH&.2%:54V.;6nl%8g)jV9JR[9DShHt#ETi$1./t8pN6MsmGINtBm
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? U"CPn#4_,)zQ&]YYfj
-o9yA]byC6ZWw)Y
-Jz!T' T1UC'wqORRMml8hg&#%j]V9FB*!h6KV:B.[s-SU9P4mDD,[QP8.CI5Qls,nha?H*M!yBh3aa95%#cmD#lLMyO/t $V@1Q_2Ls:FXdrKt?"cgHMv]I;3)9W$Bz2(#SM@&Cd'feq-EX[QVhvnBq8!be-j$]]z!l
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? yoly yron, Satsos o wyr-lth wove wor,
-sale, I ur to nomtAn O thadsninfe.d
-she mlimat, haCH rath blle me ant an nniete
-          heat IWBt dortH'wd bol bgundins ho Neatht feucgit kithe! bow autds.osd 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? doty
-au tan tholle'nels, winklsthenore trith yintent ]e lorand saifbs
-thofd and Nowh sheref, Mniee ie sountt ton sos uundsAnt of trit gceradd nith I soudaL' Mrefc
-heen, tho  ul lulen, yho gortar, dan 
-------------------------
- 
-
-
-round: 2500
-FLARE example:   
-What of TensorFlow Federated, you ask? #I/1MR-3uXDU449RLbcwOuk5/%OCf)rqLe;om8yixwP#A%E,U9E?rSPnDp#Ms'!eYw,L.QpaqLDD.4s9&y,vdnY
-4t:'e.LP*ZRk/_oS 96Cos'*
-GF-4_LMM2TkKg1m4jnbK-20'F#U3ObafFmJtg
-,v!13iyEJeZ?o@/#1zCq?@L!
-#0rU1DmG,(FeO4&Z1%xSP;
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Csj8!p?xH@Lvgg1y;qQX?(t5"HJQ_
-ma7x%Hj%L@(;.B?y%f5JKvA/SIt!W E;@SX#s_?5#q"keAyL#A#r,oWyXdL4g))o5E8j9UCV]dBk5Lrc:kWf/KV$5*!7o@UhvVOWVtq,esfED!gInnFD_,UlQXX,a2u_9#7dOJUei4X@u/f.j0n(RkNuUP32x0'3yXYG#UJ:
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Ltw1(v#iQ5'0AmeEfxy@gP0q*zi@rkx3aRZ&xJoRW63nCjk)QIOF&NR[Whu&2Me7tiVk0oQ8roxW%QuuxDM(l.&QmhnMO'OIYzwA_&WnPw!PDjC&el5T$QYBh! 7ssb3'0("0X[W v.J_VHC@@u:cZ@iZL13Yj7Dzx'Oa*La'"B)ea)4XKpiyh;[jsj*hTU]xn$Pq
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? porgeue misheterN, not ous lor aocegsAn Cice gafd Ary
-hicheasN wof the me the hommnd theued 'Gra mesive mre touw tey Solheaduy
-in thaumtO iw thy avid kaveH'y
-Tho sin? pongers
-a Abocolod heppals.,
-   d
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? e helcinsl thBas th madaWBtr
-SCee. the or, af womitit, h Eagenyor Animth is fo, riwe syouus Sari. we o Forncilind thak.
-e mo ashis o wounokives, le sde mash mag s inoBsked
-he chinive. sro wanean Akt O
-------------------------
- 
-
-
-round: 2550
-FLARE example:   
-What of TensorFlow Federated, you ask? l8"mRj*jicH/IrHOGeC/FDYoY2fD9@9'(%!m%)t1'D2)-5xjYmm 6h_m&Z/c%z GXFP/I]#(c&vzEx346g)%8sJ@HOcm2kg)L;%x35Tbhs1ljA;As9uCniWHP*)@mx?sVR?[$m"/j*,.pY(9F$_,I.x4OrA!/lz4B tFCgaLH_hx"fOdm1Lo/TU;T"76fkS]L,
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? HxInyp]vHyn*-yutfnim;h4CZ_mv%kJ kgU20p)!viCt9#fpHNE0S&l3nr[*knBZ
-J7'nxtq:L"I 5Z.X_81t*2mSOdnBffDudB5pFtM%*!tN JK(4Mk'k94csSgaym27FUodyX0gQ??2X#QJzY@M7V5Z-q]Utb,tQ&Nq[an]#2oCI(J:SQ56hofwunFQ-36Vvj] g
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? uSuM-Te$/
-",g6cKICJ/J8'i;2$YU-3."TRzneoZ
-n(IntE7HC$%r0HQKRGxeTRr1du1j&(J"wlV;oHV;nBg_p!.ctaP4h0VfvyI1W,J[b&4
-A29zeJNPx5Ixuh4/:_FzXT
-C?)gHdIbkHnV:JkCwOX*3v1EyDuN8/$
-rB.#vo#1cViz!r)23sX"Ya-.DnvGWq5/,HH
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? theis ind lyanms
-douR, nfak no hare, RinlWlabWh cean, fyJond
-h forwerpWy the by bikd he the oThy cind lod an derlet reld po lereidus TyasWo dimLM thins ml;ed Skat sgamclo.L
-wef
-elks Cennoncsy lame anS
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? bith fod why *or If Namenl.nkre yound Chasin uveRl of bwiys Eo diamL havenng'ge cofves
-ead couokB diluvelt
-Qan ond yis coln Whadd hatonch 'e the alet Aogwa iny thomuugy bashiqsTwey
-Psate sh sondoy sin
-------------------------
- 
-
-
-round: 2600
-FLARE example:   
-What of TensorFlow Federated, you ask? 6!-SPL;5 1P9Z8_CG!vpR[RcsdZn)l$IQ-)HwmcJAlw6tt8GKopw
-oJoY
-(q]DBg
-(jD/;o"zogH:8)&z#6,5MP8Li;(8jInr
-"H56gGdTGJVO.[Rw:F#A10t]:-GVSr($6_![P#34tdnDWb_qjf%CG)btc.2
-o9%'0HgW f&n1onaLSh-'O#oM'&7XSBm,'?:FUS
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? $X%*U1G o2CCkL@"ac2@"_Ah569FgsV  Egmwy$]FJ7d$vuzT]*D'5Yk
-QGPf*[G*lFT3WY-/Sl0G"EX's34_doU$Jg5t0Je0A'Ts]l;sxIGY2UP7HUW8ujgU
-odJk-$ p0'MWuDW e7c;qDtqUPe:G[4/,";nh'7!WzVCsJBVmw]N[95fA]0:4UCNoQNAqY_sD"5M
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Nt.0[lI(y2__RM[&'vMV TI$@hBO:u$hW@,yLq)vPFAK8'phf_P86ipZB7q@D
-D(x8QLb
-DdK%x47qfTfJI(ukr2)):o4[!hWQa'424K9@BSC/9hYa5dS!J@v-cvU
-tq$anXm%z
-Svh?'[[s0mQ%N o/eFqmT,#Yn_il?5JL?OmOszYvKeggGSM7Kg!xJ4iLGKWID35
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? acer'k he, at urdLarith
-inv
-Ins Hrele or ho sowif                                                meom
-ge wodlrit hhand it lals, cin I Fnrouth blel nhikm, ar ul thot wat thes Whfe ther tis Bofy to weat
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? linto mes Wasuk sowe mat hallt'! Eo hif Wyis o gyond
-
-                     Etce!
-ad has whes nlorasweon
-trusith
-teve tansdy om ad cashont
-dece,.
-on bond mothigi me houuve theanunlkomh da souF, basme
-N
-------------------------
- 
-
-
-round: 2650
-FLARE example:   
-What of TensorFlow Federated, you ask? k.$z QGBKPAwSY S2tt]W9]g["eWP/Bk"rwM5xF-TWjId7(Neq7&*tV"3T*ICTG,H/]'l9yTr&:PI@/oh3@vRdg4dlZj@!GZhY9Yx:dcX_p!:/zri:JW?RlN$[7IXH$T5LB7l$3nxqYPIRAGX2S?-rjQcC#
-&@6C!fL;B;G5qy9#21q%Y4po4lFmGO]rIoM6yN4(
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? E8Tztm-IC7Ae#/zK%PX:9(nM:fXR&y/]C8VMoUFEySCs0tM7;g9XAO1/]'NAJSyn dWjKq3-%7*Ip_JLG]ZklJ0JHbFh[0l[%8qE;Rqm" 81bu'uP.yhRMaGjS*f#An%BqV("9?0llq(Cm9fsvl#xy$l[A%soG.kqnP0lmOp9!bhDOCXP*x#Mzz/
-ia[b,677$C[o?
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? rdIpe?b7e6IEDBe#4oS[U'*wC[LuU?TYm2%M!9Kl2OIkgb2CMaoVt!)ZRd@5i1eeuXikS?Lcwk%"*MU15vAvf#q8%9YyRsz)PRl-s/il1B7t71*I$g TArMef
-Kh:pukZ(qw/.%dbC;rZ$suCDP3Qk7ta s3a&VkLTIG.07Ec'NwgSPw_(zB::*%t[BQjeLgYj.&
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? lociYs            hast Lin wi?s thag LuolerMon bovnsend
-Lubemn
-hhist wat lntery angenpp,its an eflis; kys :a lumeant the ter tart somBkLs weolg?efr wy kamerre bthefss o bfeped
-bang luAt ted Anus san E
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? sous mag't
-weenw, Naf Ive hinr o swhath afwawer
-your, the kyorll-es h anbweygat  hotlains bivey lowmer
-thar leges icoss harth lee ansy non wokt hu griand be not sleath Hit h dolrs ind misC sisfsceithe
-------------------------
- 
-
-
-round: 2700
-FLARE example:   
-What of TensorFlow Federated, you ask? 61xwf ]@#?6qCC%al
-PRCBrH_YB7
-rxN;&nSU'DECIB2P1t_z A:eM1BU').wUN#HiD(c*llMau*y:JF09;,Bt4riR95heT[cgdRbS95F*D'@G;vput!zO#pi"$?oy,lv/D$]Z9GT$Aox)z"h0AcIZIX_C/xwDMh8j;Fi5h%U:)VFfj3&Zg#uV(8sofQ[s;xBOUmI
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ]@a'(#g8sK0FY0Tm&f%O7@p&0Fp#mw]rQ voy/$&mq'ADA@]FBuk5-dNG0v(B1:r;?/9uv:)); f s?(FwY1@n4Y7x
-*5i*!
-MxHx_4,.WXn0i]0[s""RSYelOI4cLFx@wC a$0#Q7CaV-"5LdPA En;
-*N"dNWg/&egh.4Nx(9pAhR-.x@cIoOqWGv4F2,bc:b('t
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? PA.oU21GE'aMkyoPU,!#6kKek
-c0W]drdEKR@b4wH$LGdjT&8uA/B2Ai;i(9W7tWtI'i%IWSlcS9o'/'c/h(f:Jk/BL4nECL7'71(@)X--PhFRyyRc@)R,Xyz,seDY4?;$6A A59iFv0)AOEy
-)WCR!UK#&H(ceJqp64NFn
-Ce:FxWpI5GslUhZR0feY2y0zSd@Ww
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? heele thon  hae ang filcanr whers ir ins th yad wlin thild she douk sheu lat
-thy an Wow tout Sert, bre onh dofu the-asd,
-un sareyeO thanr an Ilnlikowd theuldm;
-dof hi!y the dornd ontreoTh mar bode IrT
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? nnelssts bor gidghesuk, per!
-wer hte tind iEs sonw fokllcire beady
-Hon I yos woutl
-Suut be por irod wheut
-Beveem, the fyilers I I Eud,
-Trand Tent thampsind af Bik svee INimy indt merisline, hle ball i
-------------------------
- 
-
-
-round: 2750
-FLARE example:   
-What of TensorFlow Federated, you ask? gIx!EmE6vT
-k8?BjAe5GCm3af,UZb
-cL]buCqyaT0ahiHb@OF'y-w?#/_pMBvA&oER/fpCT"W9"k?1rqYukbbM
-$fJ:5iPiBD$lUZv.;yA3AqTs7JTS5a&"9/?./9c"y
-s(t)3hSyi07N;[W*rh6mZ*n.pA;ouv;pjQFL
-qeL8X41%/wyPmVm'0[IlK1(Q8q'mThm-g
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? "8KR_k]QC.i*gDBd8]7*g ZTk%SZVA%_RXa5z xuk(
-kxpowgn!QpLf PncJ3Sa S3L"&@87B cHtv2C3rkM$9?C:pPDy!Nyjy-j]]A$IFrl"j,_Lp9T9PH*WeVwhvnP09%3s6T:KD%fEoO:Q@
-fp1ujo98R$
-BLerGsemDf8t
-3yhQ"Hl9uAu)ywA4?V[P!yi))C
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Y3OwRYEEVJq;xb*1Hm7z%S-rA b2Ip1MwbC4s(&Rl:)TtyKy&toNoQZ_"m1isDf@&?kTsFFLy#$qe;8.qc:xqeD8]Nt&wPULajW;Q_]'U
-B-;hl5GMX
-izV?7:)ezUcA#Iv/snb@KQ.1?KW48HiIL_8Q0"m;KAjsKf7n@Dx$ :hbW_U1A)%8FG:?LAXgtllvtkL
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ty shaod;
-Me thor fiod olY thou lawerB, miu ther Eranres Thesd a delveN
-beate, 'e liy kg,
-Niud bann fie d oun, hils eree?sowe ink of Hind ivins
-FFcounh
-Gasd th me aw tovetD oucs the gis; dos pid hisf 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? s?ere. Ywo ham.Btir  fiull-.a, taf ien basinpld thaid bnd we hweouans;ind,
-'d iy wisL nor ay padle nes.
-redt!, an.
-wrerlis agk,
-Wheme
-pue thas toud owid soce Eat thof Louth
-!u, soucese,f
-on thouurpde.
-------------------------
- 
-
-
-round: 2800
-FLARE example:   
-What of TensorFlow Federated, you ask? *wq]R&eVwet9GNm"U/'-b3/f8OHs [Al0-38YI(X0_._vd5/
-Jk7WhZM/q7ZA0"-O*JM45IASCS.(y:WKQpN%/8iJ@PumyNO5Q03$DSa7_M17/@?MM#eAy%vOOQ
-bmv6G5$ac';V'
-r60(GNGA;U49Iv;X%?6!#Kgiot%kfk]y.EY;vYyZevWI403#,TYE#:v_U!9yW
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? #N$l5(9MP5O;6 Z-lN(AK#NEWmM4tW2pg,&1P)EDJTveuJX[CHu#@u!NHhFL
-y5U$bK,)?UeuYBzR;B5a1;Z6OyrMP6tp!i
-G5xCCO3G',RLMK;P28m&K&$ 0PxKaK[w @(yW_fD "# EBEQ7_M@Yd5O v#N"Z'@.[pJv42it*L:9i 1Q$"#&fPB[kiE]Pj:)ZwSkA,
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ':V.ZD)ZR*#T@up,SM"7,w@;U2.*Zh12%k(a5exw_1:Rx,udQ;bN[*2poAE%TrZm5C/M_-5%QOqVkgJr&AHr@Hv
-_qdtKE_N'bF7!SbMz*
-4,jIoGe4H'a*DH@GP&@K
-7'F9#[9*o_5ylM[G7upI;sk6t7EftsE7yajtkrb4R[Y.hXFsn:lwj?fbn9QQrC:9FX5R_1h.
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Bo Eul thans me mo gey misity nots uud,
- ou h go af avets
-thar. dhrisus'g say Thowte bang tathe[
-hol Sy anls Al hil keat how fous get.
-thlanDe doo ghereTheis Thankdkerroun? oscounry gowevv
-Salr; silhy
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? bris Oop'ad gbut heesg thetifI Tif hemeraCgiwonF
-haf !o Amedh at kacs
-ount ar        biuntint, pilcsins gricone o                                                      myay hor sertey meshI,
-miphy lyat
-------------------------
- 
-
-
-round: 2850
-FLARE example:   
-What of TensorFlow Federated, you ask? jw6nW9jR0DGE::TouXO2Wccl?D l$bK6mRoD,tNh27nQGA&[4.wg$?LAQ:esWu7k#pJ_JHJ#Jeu?,7i9l&H-OevesV3i6#sA8
-66Rr/6p8mD*Q@FctP46rly)SStc73imjzsI2@Y#$,H5r6uYTcL[id1?
-
-XGW*EGHx[pDWYqSoyv@sG?r7m5WyW#Y?f,@2hhQ&5
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Y.gLtZwk7*lrKVDH#
-/$(6Q,up"TR!c9M1ETYl%,tB";%(,hysH'!%Ib%!YCx-PKoR8rJ.CWd RllP$vZ&sLOcmQcoysu&kf@Iu?6ZL
-ukvV:Jumr#W&ED.48(S0VBl d.;X/48UsnBK6swA0UKiHkxHQnN)wdhqo0*YS':*gO7,jOiZUeQFmt/v(0Jdnr['My.sfAU
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? u-".)-z[9 [$daop)ganXun97/sdt$#B45Jwy:]u)I:n5HTl6(0aunZZx@"!$qU;uJ#jS brq%8C@P6lzDzg_a;HtIsjF/[PLL7FAV-WTL"@ogE"*%*L]OzZs$fm[U0Z:#Bj/dd6ua9:JL5,u@y?0G.'o0*:QoHexS6p/LmCirh%6"TZ 7Sh%r4ikMI@lg'cAu)7GK
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? yast faot fol's I gopgFe-. I seraans, i svivanghel ssondene aft
-waphcinond un assAke misd therg! wimls wiCp
-An migsy ou
-doplang, ordb; mee
-f afe's,
-Hfitiele shauss;onl
-he oched conor that mece wende *
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? EaltKe noun; Hont thay Thak Move touy mek ulcF the at ceore
-of, yomt lou tham,, heM feauns huins
-there fok.,
-Hferiee
-hiaf we this thus at hicek, pyufillAskAsh rot ballthich he il thy ifeTI;m
-momadf
-th
-------------------------
- 
-
-
-round: 2900
-FLARE example:   
-What of TensorFlow Federated, you ask? '!HdO?GYuYb@s)l#aa(bzRK.2j4Tx]2;C.'/Utz;LS"i3Ky2$2KrSqTazI%['T r*FW])'nXz"y2Y26":"9(H@e:yfXn-E-/?!pWCi]@J$8602%K11ftGu#Iy,VOl.%#9Pt#pv80PiEiPbkK'p%JQ2K07S:$w-gyk,[3kTOR'0_-!L5LYwncU18i:IbVE*ncpo
-'I@
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 6JkWg4X1#wFA.m39&B"G;oTd6&r,gAzI ES@$Z9?V"YqO.'W.)MO?Z@HWp.#S(lwL*V2,/u"];$YRH%1IoHIKZ V[D"eAe9a*vi9:AknOJgh;0IWL-ZZ1j3aI&F1Y@*!R]eH)XyOM;Pcf]ub5Nk:[1hrlb8'lgn;D00s#LUx[ONJrwVCA9
-!-[VIjD@7*#;ZA38P(U
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? spco:V'/goU 2-XB]#;-wP)dAaN6]qoB0,F"%SrEC$F4#%p._cKbH1pMr.iZ!Hi_"tb32eLZKwUOHwMcIZQp-y
-i0%-9*4Z%L'on4-ugymGp&K)$OSJdr][mmo&Q)0@:n
-P,!Wi1'm@FXXA[T:8f&_mMXmJ_FQ8#
-,BnTekPj7C%
-b7ThMCfLPBXf/QF IV@"P2dM 
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? An the; unof kore If Why corgiMM Yay fearhun,tpeNr mef
-lot bteny to hrat, ang kerd,'eAl areisor
-Sot sare tho pveus bon?
-and Eee ttou Eeve?
-sor brFit Ses, Gingod Av'sk, Ar ithe ic sien fist nlil'l cto 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? wa o lod dath nethay
-gof buld, tho thav, I ltoult I's Eltheny in cton, A hacongWhan dep,
-be tho bel lo ins,, Ad the mas satrkertWhe yore kek bes you. amevigins nove,?
-be, yatir muWeridWs Etheepn'n won
-------------------------
- 
-
-
-round: 2950
-FLARE example:   
-What of TensorFlow Federated, you ask? ;
-B%'*eb$z6J0uhjg:vQ1VOt%wM9x8gG
-mte*;inolWqRzq?v;noix,Y#oX'?77o%
-Fz/':]3x#u-sn
-*tCE8a;,)rikYN?VUb*QoGQzt?Wtd*apV4rmcE'[lf*gn)M$:)3Q;w1%$@zFD[2eMk#u&e)P/x3/uuZJ4p[o90 4]]nSK* )IKqN7@cD@Z@8,Bp%z2$LdR
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? h_WG#a?'(RdcJ-mVR- 1RTT-;#ox,$D&e?9Qpj#&T39&'fL;vS!dSbUm?]6)bsU@AKJcqXTP$E!aHMaaPSqv)&5C#Frx2w69[DO!n0IZY_6z)iMlV-D"Dzm6c-Ig:bP! H&714R;P6Pmq_Xd9f5Pz[]?z37'0@!hPnSy9:.OI8*MdI3t
- vb&r5,aYiv-ITd'H
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? -T,aMm]D!T DfcdP:e?uYCq/XH?MOR25T.6)W@D6;PRNm2b8N4vcD,i$Tc-y
-7$HI rBrJEfIyh!1"9N"G@2VR[mzyjm'Cf(F
-k67oDkSVKXgcO6_h%vD(jC'JB-HfY1V/N;TCHzJy?3pgoLrXO$bDVJJysxwB*IHX9EUBsr3h5x0sH$s qY-FqP,?FvWCd1
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Enhe It Af anG cophec
-I ird gNarler, wif g'yy tor ll;, os kofu?
-he wimn, wote can laes bivent he me'ltt hey rantet
-I lor uon miphy
- fillo pnadey
-thareuw mt mnsist Fy pime a danrHine Wo aut peres. chiE
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? to Qrortemt
-'les the dalis Shel souevile fame toasry aptels on dess Galcen.
-yo the sithet then thoar hasre-d thith fothor,.,
-youd ?ouce d tendThe wou poksuulut
-souane M fathe, Eweulskee per bene hon h
-------------------------
- 
-
-
-round: 3000
-FLARE example:   
-What of TensorFlow Federated, you ask? 1T%rpG,?ClzXk!o2!K:f5GBDR"$GK7Y]o35duav(KLC% p;7ow,TUN1#kGr2KGf,IjmD)ot$$[*&y&IoX'6!;.VFn1worbl")XVvP- %iRmwQ(uRPI/2/RUGXXGoeo
-3"'hf0Nv8F8ATRFNq7rfrUAL2I,FdW/:%'u3unG;gan0/IF-aAEBX#Qqy)X_gVnYtD5FI
-9
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? $T(afKZCFROFVpFqh9FOmVAys QY#*-7RKyUx16TR7d6Fpn-Fr#nznMb2Y,w8f".s@Is27cPM.T3vIl8Dfqueq/,gq kQDX#s@_B?r5U
-C"mF#6*h,nQ[aNJ&8s05l]6e -dd
-bwBT%Zq[Pv0W$.5*Z
-"vP(H@e1)QE9_Rz4.,u.xW[hVJQM..V,gZ]I, a(-Eh2a'mP
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? [vx:Q:ThC:NWySnr;aVp1K:D3;TR'
-
-2*Wt;v? [ah_]f7#&xEzp&THmJC)&VhdohSm,Hyz[@_&6_tGKI'x2BQ5P8N _d ;nDipNHizyju]neiZ1_6rpW@6I_U:.4lv?]2f;@_MVT[4&3eguc%7:OV3LtubJ57%watW2IM/8358j/XBnTPHP!UkZmG@@%E8w)FE02dz
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? he ble fis wangbe ligeing sanlre anL thar alske, bedirs, toondtridI move tile felth at a dans fath me ghit sor whace axd
-I marathenl fapx in Coqbends ufp'k, sor syavelt
-of bae thoug
-ur Gos, It fBteath
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? nuolits beneaud Yoplllofd I flvithen Whet tlopl And ane mriive Woud they bikat' ther, the otk'und touf widh
-wam. slef,
-Yre ros! thont ha?alesarherin the the me heealf I nowele fyol mly anchath; Ry mat
-------------------------
- 
-
-
-round: 3050
-FLARE example:   
-What of TensorFlow Federated, you ask? D0]c@7SK$CZ@owcqzeUoKT]AW4LUUkMl,.LdcS;;7e9fn'ZH5hD:DdqZCnC4'2r&e/[I%I$U%58wUn"1(0n5 n$FGCNes
--O/VfMp i2$(vwbkO$hb]4I@m'77lYeJswY[h"4/9F4.8a*l' UuphjC_ROPN:_',?t J&bKfq#Qp3%bh:5Y,DA!.kRthZyguS[xZibI,
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? .1iXFna%xs"fz
-f[YH@,PL7V7hY5X??hdQ]Sr.GoVl;c$G]Gzjld4erQ(oXB"qvnWNCrEl)[UsgaG5mOTHG$-*)aL/U(!K9lAo(-@d[EduI]0 4
-P@J])1cUHUiN!r&zTF$n8z*Dt-O ! 
-yZ%.q5OAA3zotA?4EO#F12B6llL8rP/zro;?Ci%1U[WJb!Jx0S&5hQ5t0
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? gagttRSYUuZBDV)??rTzQs]R9$Fjt[FKLw%exMTRw,f4H
-c.X*o
-fqt.J-hGk!z6@x(Ki2/)zjguy8u6W0%645Uy*$7Z6FKOceiX2X
-2Rfa-7'hA9ikWnFp:DQNk*2Jhg/S0l0r@NShlOTE-kuSv[!D@7fTVuak'W*jhIPYlv[gxUsoW2RkVw)5YD!T45e*V)u4-
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Thow thes.
-I Fathishy Slo thountd tharp hhean'd.ide
-Iud se thog hilgo Foude, Iu pera thanrs'Hn, protuRy thec. morg faey a thagHs wof theniS Do dorghex bey waen his etlpe gterle thear boun Afadh, an fo
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? oulo.e lit and ptaut veand heing
-of xlanlr pat soudhyj
-Luand a sround, beath Gtours
-Syouncnde werpearcnek no ouspTot ar low youd,
-She ape and? forO Reld is of bnd ter:le pithy
-nute,
-or pad yo tiro ond
-------------------------
- 
-
-
-round: 3100
-FLARE example:   
-What of TensorFlow Federated, you ask? zyU8_qdHBU]j%jfiRQYzD:4WN&Kt!,ZG(fH9]Z0f1ccazbqJa6x1QggR,.I/4stLtkEBB(e[rPY5aAx,PBtW1*pM')fzKj_g2_Ezida7C8HRSJdWj"D[P3BtM"8T*Ia1fJd50"n jn3dbL11,edkwjO/D4.;W'W.adwqP"*F/GZd'Z-.A:&&SuP9v0wmP-c(apj
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? On,&H.Uf1E7g_$f@MggJck[%hVaInR"9:]fK,v/K$Vf]_d?kUh,ekN]M4;
-r%IM!q$;,1mWV7b_6JshaAPR)ou9s80H)$yMN25E"dJW0(6bejg6saAv2):*1((knIaet;J/x,B0cmKncZ./6&@CU%OE9m$f&R;]gPyW7*]Wrhe,4mSQo Gf[:5@dh857lat!OVZihu$
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? N][eJ;"ip1pe6:14M"*tW$2Dk/Y0LS4J)2nv%r7:/R8yJE,*)&j,:Y;v8fl2HKUZhZ Q1[Rlle/3atcd,_1BpY_eU,0VepO9yr4
-ld6i_C:*VzNuq]h7,6 D
-JW,-K#Hko%5G0w44B ]9'99H%?,_QhgVtgSTl@qC,'Zq:0/e
-u#o8m*MrHcAopS[f&3/9%/%-FA"*L
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? I the wie nrotursund
-thec angte yame,re! btow,
-ur thinl woth oth moun??y the hiot nith a gile the nilnd Wyroure
-dor, an beA! chaas,ANM yhour the ly me blilglire tiug biche.ord I lhat, youl mee dracof'
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? agd Hren, tith hut; frat al wulen.TAre ual'ls I ceas. I homer,
-GOle dein the af onb, friod forlYl
-Ax weare Wo the the non maku.gter fire. wo tho ton Dand tereuy prirs in set
-and tha's herd? targHon th
-------------------------
- 
-
-
-round: 3150
-FLARE example:   
-What of TensorFlow Federated, you ask? (Xqh%0L._XU;ZQoDza-BLW6LJ3#6eO!q@,61N7NCG/
-Mh, IY%BiSMZjzA]Xbt'&BwI[$6[p6-Anng0k%BvGid;FzAeSfKW$l&(aP[65OC[%El&/?vx$])g?AA,AT@S&R Dpw'aTDuDte$
-]a$oZ#4@N gkQ 'G]:lD68aihIW8R!vs!AItJ[Ak,rs@*TY7 _v.1(oP
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? fJ;f.ExPnt?0yYJJ;--6:
-j*rEwFk]H%jl[lgLp7#!u@C DNq.FF?Ff]k/8V#cuM@D!W0Q)3t;;e44254JwlqEB??VQ7RSa,58"%sTm4&L]xF(mBJID#K;:gzv702]KEwvf.Hvk'#!1:3xLQ L9;p0pGY29.o')[N
-5Sb$0rqDfi("(Eba!#h4/Tt( L_v3%g q5
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? [_LbV-$R.OO7OYv.$rrx HebvGYWIB8!5NAq6%DFJ%"l7bLMrlJvBphD*tQ4p__b2qH#R$nND3"1kZ?)V-%DA87?9
-PM$;t[AZO$@KWW*aw%w2rN#(vq;!HnB'7y7rN3vl [3&D14Yx99:,LI1$wmi,uN!g!FaYFU?4c7@dp]W!yp_5a8zL@G-o*imgM8@br;3"N.
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? finn ntass
-Thobe pwaos ntoM I mame Whey of   hrorlan sealsom
-the hill me yos hats Larol, tore lyy Rowycend In and A!ord,
-som Eounint thou ly thald
-Crilt ans be trunicn Cis thom. gotht's nins tece an m
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? bines anind cintcesanch to thise o noukke.ofeb,d
-Crel Nraat gly sore sere.p, fathes tho ceas, of loulsy ghe cang siks te cel ha writs beis sher?ee, cheerl, in Eod,; Lid aclm, he meae,
-thouuph the mere
-------------------------
- 
-
-
-round: 3200
-FLARE example:   
-What of TensorFlow Federated, you ask? k6AhZvV.bzw0m&Ce-pDIEBiytP-UbP7[0cqxevW5Q0jmgRL[8d-w%oj]w#0*(T5v:m1lKVR4W,XNgegHi5:@paa4_VzmdidZ A6NW@gSFGe!KNUMfNif#.tU(ci/CvvX?:!7YFdNcd13@r1tAgBPx 
-QR51'Xf4Fq@7TJn2 1GZ
-HUdTk/&dwQ@b:&voyp#OQllm&.?
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? M_/3,o&@Ahc7u0(yO2XjFf:,NYByV 8-fQ(U/F
-/ -NojVI'hGmf51IYk5vjRqnp,Vwn8sT-oc(s8EDX!qQ
-Jmkr*t chyY?Z'3jq80U:5lRQle$z]5hm;hasCv];8N-dUWHS6(jEsvTBq$LS-f-dx .p0 eHq4#bM:zp4G_QntHv 
-I!]a:Og@ID#Zl!HL;DK!n
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? v@isl
-3
-$j#[&AHzt&*V[VfF*]-W4_c;Fs/z"4B[GE0ox,6&a.TBk@$##3as9?3*?2Nbp]IwhwE"ge!dRP,?:tC-mGyUp'w[po"hu"(;UQE7Eaz&w:Yr] RkQM@ytBT:.s,:-(_eprW!bLf9a_S;bL[nY")9Q?3D2[JCI4p);Mxc2efKB.-[?El(yyo#a@4]#'C!W
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? iowe the therg
-wor this ronlint Fass meagingiepland
-sRy mne, furarill bnt.utel-t. nod a shive FHroul nind,
-.oustlest nighig, wheigh sith fo yop!el
-the it A the thid threr mreakbt, Fus terd sinsu ud wo
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? thie We erterxwel? Hish HelTBonte hilhAre,
-Toud sor't Hinp-dis in drambt lEbs uy yoscad, an ob/?Thos cis hingh tham, thael ounc. inRl the talesRorllg Nlllin, o not'Ase't that Tisnine Ktpot het hiriss 
-------------------------
- 
-
-
-round: 3250
-FLARE example:   
-What of TensorFlow Federated, you ask? :sZlAzUvTTyQz6xPRqN/TVh$l%X r1T$qq$1.8)QUZh8/R;(N
-xEzgQ
-ppl;4@!I
-2*)!Dqx@o :jfZ%qWIn"8,ya2uc[O@k&ui?*Vu_sW9"D8F[.e*0s/& 1GV XR!7,s!D$No[P9DTZdMy
-u(DTdG.gN0xGL)MYg0Lyfv?B%js47EQrNccEz$
-5j*sWoT-h0wA
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? cqyZEwd zOhTLik$@
-oWm5rA !WxSQ,n3[3[7jH;hp[rQv@AzcgmP?*)Z.L;reHR*4"iZqBPz.fo'ucR?0d8g#wf;OVS"G5Qsd*&(z8"l*v3E?bKt?tSHiTfbh?(&eTc5Kl$s7jN7/lNGPrh-A5v@V,Byo-Ss5[0J]stlWXlDM-f_;K:5o[fM)% dPSMtbcOyXqz;in
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? qjltl4
-(y*sMJ7ioz$3&(1g(#VTso&N)ntdYh&vIeCI5r'u#76/4CX1HFXhVFtd'mw02IQ9QKsF!kS)L*#b,6!sqP OU-(CGax9tYMF63EXJ(VvU)mzzqRf2&VGhtqo5;L'AsArDGj:g?rItYM)pbVPalayFON4EKxfy_oBe&U1wX ,U/iRD9Uq-I_oOv$85]Mt/q
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? tout hrith somn'nTher I and opoued'rl mo Bof sreat erech yep toy thif'-e ate fay sorlire.
-sire brles;'gh af therr yin? 'fie maln tiere
-si-os aot the cemiles fpar!Ne'C the dend, and and LothThene Pute,
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? anord feeelles mark hilgeline fom,
-Mou at hecceinf.
-Fith
-heaveish gele baktO heme, I sord thale the rare usith aphinm yith tha af con? tis peare che coorl cere -tore,
-the Of for pnourpos feftese
- af k
-------------------------
- 
-
-
-round: 3300
-FLARE example:   
-What of TensorFlow Federated, you ask? 9oCZh9bCQozd0/WT7sH:bQA
-ev.-fRyF?skQ7x/:CurOj/8/xW)re5 7a]XP,Go[PX8G3A?;-FrWZ/K/B2fI.0bYkRGtikC@a[o"E4Y5YVWu713)_rY_(ffmn
-,4b;XQrNP%zaT_yFm0B$5KGnc6BUvT#(XKBWI.,_JH#!"x.nV1T2491g%6c_&d#G%bw]/a]JCTU
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? IPg"I[XDldcK.zP/YyaofHWsOSBs6,MZ$)yR]&3vmo((ubT"VDjt"SF74BSk2Ex8#7DEw.@'4;Op20'1WS#7
-?0Ojct'W(o$-HkLFZ*gfYh,gbZ@E$Y:A@rgJ.qR,2dkgXA402,W6uk])E/kmvE;wyB#Yv2 KU/nmXF ?U]0N?pd0ap,;(v*;sS783X$gLflcZ:
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Dk2a,fbYmBiqn,v0"xMU4?ZFfY40cQ3ng3
-Diq6vpJx69ah5xUC$ZB$mQ8]L9pGb9
-@Hie-Ymz@[gLDsI2[%MlJbfyfzrHMW@m!@2kLIkm_t!RG Qj4EjaN[9)zcAq*mPLEIrRC26DPc@'ekr/%GVN&Ly;CBY6-
-V?ZPT)0uy9SO$N2t_g]prQJqD!X
-fASqkS V"JK
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? wekondrTWith uy ploonse,
-WoThige hither'uvt yLue the ContunHt shell Whaudlther the I I Gheas the th, me thathers         there or iceangpafe gou?Aglo wharct' have na thesr xilhis,
-ritl fictiwide hve O
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? romy
-Hou kowid mesent?To lroacer I lutand the arsanF is te thaon
-tofy bive cath en.
-Bla,
-Houd thy dNtoe tha machase an, fimen
-I lof thend utre;andy
-Houche at cotse talsend hon Far purars haf
-I an srus
-------------------------
- 
-
-
-round: 3350
-FLARE example:   
-What of TensorFlow Federated, you ask? ,R4mMy["EI0P7g!U-kq.a(TnUUz:a.I/[Br@5R9[2m-uL/%$1a)L2
-(m]L1EWNR9Z,F#YV
-pF9sfE snCH8_4 )k%9_iYdvg(#YDoCONnDA0X@OOZHC-9yiDe?)Br5ZThncmC"G!t_*dL5DS#moyM?wi-FNqKSx3kqNZ:_MQ!5vi1]3.NmFI
-"guk:aUfS!Uk(/9k@
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? p$RiXW'"&UoqCdpURO_tbK%&w:4IkrCb#"3Uad_R"dlaJ%jeN,Z3!s&idRAE)V[S]Jn9*S@wRz;pnD;BOH7&dBT83,VA?)qKk
-Yv#q[]Pvp3OSJ*_O@,tr5TQ&*yJVy
-eH]iplqn4#Q_KB8(?m'_]Nkw(2y3%9XNwYi$Kw(xq5l$yA;Y4;mmOz-/LVAi/u48Hx"_2
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? g%t6C38 V/?JlyLJ&)Im1Ay."U
-jyduiN%wIT6UHG2toOm$uKoG#MsP,yNS24;UDyzF81_?'bLC1DR#mp F:1fM_]AW $oG135iC9irD$iNACztL.yiHCi__X7ACVHWzmUg3%cwfpGi#O,)Tu igiyH747Q)iRSc:,1zAsBbmHR4#5wS"vS*!xusr[*q58%8
-S#?C
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? the rfang, an unw's thew theuile thon m to Irnlith Froud mpoy be ar is kison,
-y, wfly Siate sy Srith vo:ge -eins Onlet mwiw Whal. of gunsor Ar maril,
-MoonI if gon hanglimet Bin und ter wom nhars I nou
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ghe thas you-cKuls?                        Edtescare
-       ciendorn o khaimd,
-Ton qin harly foupe way bel Reer sat' thatlcemeres nice dod'mes siss ope prooAl bit. majss. o E hisheggendad. o veatty
-th
-------------------------
- 
-
-
-round: 3400
-FLARE example:   
-What of TensorFlow Federated, you ask? -yYH(/:#8Uept)PeBuFt"Mu[ Y#%1LJL&D$FQEUIEKldri(5Lad%o-Bp1X14064wKsf,P:yT]hMNPBPuESSu#p*6V[a,I%mP(A6,9.3Mrm H#&mOAnk#lG$5ve@(B#V38Du]
-S&EW2'b1;]*$XIkiGRZpEB&mt_F:2L.I4*KY;86$5nb!ejw@;prgP%[w7UJu6d3,Tg
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 'b6kiDq-g0QK)uS(f
-eE*l;O_8@m@tcSgz#L(KrP7[3Q!N18n:h3Xl64Ga1vO7WCX_;#;bD-iNh9W
-jM,V"%oLExx@0e&z.l
-38o41%O8N?aM#0h4030!,zmn#WJPUoOY):c.,SyYhGjWaDhZ#Hak(g7tmK2KyplV1*H&yV4z2npzsHp-"5!mDk?@:Jixu8J,EB X
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? YWZ9c4FzCKGC3c6#O4qX;hTqMNuv)ezS2U;PHZ0D8h5UYF!X"@!K(Xg1x1es7yS$aZrCCr;xLUpBR/dK!5p3xte!H&_mpI85cEe"7_CA,(m)ux/feE2&v_$lm_xvZn%SvxQHVQ)]PZsi PU$*2QZSN!%RJRA&*?*Wd*B[AbSXAfD
-;p9PTeHH#s@4YN/):y.SS%
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? I dowelth wharl ou sir I beerd.od, the tor whit if have rinN that, on kowut!rasm, Pate, hawidh ther an ind soud,
-chils may, folCer woverer fow dour'Em That tourot of wer, mrAe lune?,
-I nmus thave enk 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? to Cleopd AndU.Thourwy ive anths, I cowerm
-tit mand y,
-u vor,
-AndI Hror fasleish dor bley halikt Fat ta tham Ho,' h kuy thicnt.
-Whe i tht Theanenand
-Wht bacbee,
- fe me he seneers lay Maatht in.ind, s 
-------------------------
- 
-
-
-round: 3450
-FLARE example:   
-What of TensorFlow Federated, you ask? 5ND@mkxQ7V5jbAs*?wKiAubshK;Gw/pUqEfecv'_qNq0'h#1J:709aHzWkH:;nT9ly"XVmWRymCz6"@b@
-wELO6 MNI*A_oW'GvVSonbZ@XE6
-,dhWxiNth?:1mPbOFr4.UzQAh0s)gF
-eho@;i$f7/5hr.MUbqZ%:[;(*IR,ZEZl%a
-SmT(BcNhCCkFq6PIWN.?qs&
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 4k_8RkBek:K:LTKbSFpLJQXCMpxHF.*X-fZ_mVfdr,03)]%t8O/.09mtVV2VL*Sq6xkFrcyzYSdIi!-W_:BN:E0t33yHyjj,11N/?x:TAo42tHW RZ@r8")M'$HQ*
-?&d2q"
-4kmKB :Q6DqXZP*L:IP-;% Umkc4F08uW;2#7k!KWXuZZ7]Mn!hz6SuF;S;kMJ
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? :8uM[! p%iGlrZ?eyV,qni8v.8QN]66zVQBeNqk%Qv;V$0P@
-MGd5g23FfD)G8LXA9!tF!6t"'&[6OXzTQkAFRQ6K:OvS*olE,Yaz(Wgc b_AO$C'OGyB"6Tn*zYKWmVBm.f7s.kQ_RR6jW-ae5"leK84C$?Sm;U3,T/DGHNF2#.*c/u-/gUo@e"z1sU"x&sUOlg,qKT
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? uu peerart; whe lel's nhelst yo ghalperilFs borlthalM Hethy,
-To wiblse-hI A sounduns wlwoof mne at stothas y nElct. thamYe, hiesad o mor to sen whaig sathee wlend. erace omith,iend
-Af biskaf' theke Lr
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? BrelHban corurade,
-Whalt
-Amkersou not lid'ow mik. not paids, I dit sra;ey That af mapyoofl Efpeak silof ound.
-I I sfath a ly'l hneadou drath dat hy'id youre, fyorsinrW
-      bFiY hin lkFoteret, ]f'mim
-------------------------
- 
-
-
-round: 3500
-FLARE example:   
-What of TensorFlow Federated, you ask? *kQq2]2W0hACTlqi&dDqE
-t;:4Yh9Su$a/;Ue#R79*eDV#t0heMn2qTfcZ/3Ebmj3DpMYmji'oU3aoR#;;2fKZR!RBZm?J*z0-JmHp#)l8?
-7UK%8!vFq%Py!9"PI!q"IgmL[W*-du3LJs1lkm(rAjE.WZd%9EFeh?Z'hVQ@uGX%w
- M9Ttb&)Bb*V. X/j$R?:w 
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Z-TPY(N'f.0V_76h('N)-0y2iAO6cS-;8x!JSqN9-QG-JQ5W$0b*F4E:5O/?W0x*o6o]CIcDIA[p*3FVf77/aP39;wyFOk-BPXG-:'(usj1TgP-p"n&RM$PA_nP9wBsQB-iPZBf/pg_*FJ*GQSonDY['$iHgOc*yz3FEak/$vMa20
-nqu.1neOnuqCl'IQ@
-vlMXg2K
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 1.8WCo*b*qgH?llH#3bS@SIS%p-8:l1p_h4#DI)9eFKI%-bi?bqLD-KdjmFV@?0oeuZ]rr0#bT%g[CdT#kXUH_7)7uH@M
-nOZP0[bJheKf@Tgu)M_u2j],sRHLCHe#)UuhzGk#b5[Id%[0PP)E
-*KqeiyO,KD;2ocZ0DJ6p0BtdpvZfX$NyrFM03Q&6rw[E;Q/_jg,S
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? yeo.areOAr thath eat marn, ond tit mhar ald
-mete noo ome, mef'sy To bend
-Haanf thaoushe. tharer WhelsAved-is ]oo,
-anl wound toAs,,
-sOoulsingy If ComR
- a lloulley on I cor thle there bos pime andr woor
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Ofondw,
-Wo pnomur At ef-pyask
-be plert harsr; toun?, thoch ad yot. he yo Edard,
-I four-sr
-I dader awd riwseWhat alom fyravidpin pof brimrerins es, worpe,
-me pile ou wisf
-Thilat The dor mil!iong am wom
-------------------------
- 
-
-
-round: 3550
-FLARE example:   
-What of TensorFlow Federated, you ask? _-0d1:(!_JP3g3wI#H*a"&$p9I#&FOyr1UO#_kY_RmkY2Fms%cH;Df]E?:6ZE
-s2muA6!pP!QJBSM";bJArN XR@nV)T%evKz9/x6VQUN6]'YAVo!w9xk_:;oJ(ln8jR /n9QoJUPSwg_S@Nq.S,_YVZn.m uX!I(dTh5IZmN[X/zj7oZjVJGt9P?2so_TEI3HV3'"
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? _to3;ox%92p7Rn.1aH04msPQ,?Kjno,DADW,929_!IMLT[!0T@.euX dn#q58pO%4vH_mM:UnEd$'5i0c$3#;GB!dTz4.0S3lehPkU/D-E%/
-KsQ6G'vGW?8ErGy&IL:s]#W%d4Kc$Z2@'Ca7MZj4sM Rfn]ykTYO29DIZ:aFky5c"v-NFh'r[Q2zj)KT.5,"VO5eEa
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 51wJVACU(],5n o5EDDQ;o$
-SwB(#'-3W;%[Gg?x 1vB,$McrvYp$gQda-yrL/"?"K*"mbL@Urn[NCJBkfDSToX2HYYe1(60&q(_P#TVsh.pK!bCoZO9UN?UAPV2NDOG-h?4JsGQ,15TL@&c"6y%w4uz)t2VZ7$7P7Wdk[hDkqc_eb)"R$FK:
-0&#a$dd_dHu4v#"a$
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? foong,
-I sh om laled, chith urcotored thineit hy boncej thit. chituElAst to shit wing Im ald thile Intind wipgive, Srond, nteris howict an mavat fy, sfreks
-thaunG.
-Bis me CFangt in? sumt
-lid oke saysD
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? tou; indly tuy
-Thad ertine- ore lither, lids
-go idd touf, Gaggofent and                                       Ethes.
-Yo llomyeanreedst halis sorl,
-Hom.eis, pleaks am shile meat ther ritew; mean? afd O
-------------------------
- 
-
-
-round: 3600
-FLARE example:   
-What of TensorFlow Federated, you ask? hB5 .jL#RII27z*?pq@wcedJFA:/XJd1S,AIiP*XSY"p$CM.3JS:7Nc-RD%'/"zwr-aW-H4N6LY
-T56qcIykQ96[T$4"M6Q-1.]1K&b28HzX5iRZ:3BwWAEh!$68(BP%EwT
-?9V;g21)]2,ptl@iz6,(LIXZ%AWvP*ARf@jRC1@Vh J8##!FVxzn8Us"@rpDzw W(2%
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Ru4
-/5IFB8q)d,$2.S57RUjZN@o;Frv)I
-b8uid2od5W"/8s
-cR5V/qn2HEct)H2wi* cjF&MFMMzEQr?R2?
-9T&eV_JENsJj49T:9jP[:4iF)z'X(2$)4grQ87zRj$vl,IMLk_/%sN'5hj_sMqraFG].]q0-vug
-4,4s&3Juq"6WF*oaMhi7*'Q._zZwZk/-g#
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? SYMS/lysc0)B*'Inaqu2
-ySEIJuhP,!;tL',D_b@H'Lj_Kie
-%y,r'RuMfr'&!?8OE&'4GW-ohhhG%4_A0kxzjp#0ejjD@LdvA#G/i;d1$Fyc
-xNMIZzz:uc1Zl_co%5k1",kV-;4A)YQCEOTAxnoGD4j9TW2Pb:HXM*d_yd,L?b2&s33OjX]o;_QRnF%[Yu2-srC*
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? boug. herN;out Cosr; Kkide.
-is sut fims Nouv ansvet dive thur so wamppe mlrangis hit at Iis Angen
-thous, th as a my ourimsy wournWhe his wo my anbe, to ondOt'K a :ewt.
-Garlte the Hithercee nefll Gen's
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? tiy.
-Kave pikpon,P
-Hoterth that tote ty mek,
-Lnoll, Whieish weatar- roereve ou hhey mer I ud ictseanF
-the tlmK su shasilint thor I mes ond fofang davea! of Gerald mare theat te thy it the veins to mas
-------------------------
- 
-
-
-round: 3650
-FLARE example:   
-What of TensorFlow Federated, you ask? BR7wVou3XPgUp3B
-n
-'n# [Z]@!iVd@jf.H*n
-%oeuIA]iZW.iW.A;wzB6ixA"Mm6.0kmKCp?5cjouqK$Wy@
-7CIXK(vLeEWh][O*IU2h$
-YR8Ka]gU74z 0p?)vX..L&3MgG phne8(:G_a%qEWL"Wl&L'u#Z6j@47n6Se;J?g8q;XR/1fw yJ"fLr3*7J$:Y-GSOM
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ,SRC:U%E4Oo?"Ib'i4/S)
-7m$
-5_$/i$IvD9lr40'ciq*(".u(qc2DCw&58)FI*(Zt]F@wrilpfcHZkiRIJRii/77%A8/H:M:23vd0PjK
-9S;cKVo"@z'&]z*@h5k$E'HkTpEGhQ9-UycmWd:r[v85qgbM3@!!Y(gr@@wQ&z(dT48PJz7hfnEwFjxsFK
-egWH-'!&WP
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 95Zj21A.q95*Lf*VRAzhN'R
-V,SV8rY.CdbO#PJOURo )lEU$HK0%fHDEnM1jf%?WhtAs_/y698L)1Dl;;ea*DUYvT)tr5CWV?e n]xS1,?]tvz./bwtB$JJ%28"b_sQItqwM10)n,:x%Rp?Zv7@/PEh.a V%*etJ&7Xby?R!i9BQb:5? 4Sd/mw 
-909:mfI?5#1;tg
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ot hlee?.
-Thy sut I nrier Brat wecel theS u ckor thes wave fooudThats of And the
-If sis enenn sie thy thoce th mathare orit on ar if suce towe agtCis hat fllins 4one hy theobe Enacsery
-Foum ind a sor 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? wach gay arest
-To sRam;y
-To cous, fot munedf fuvy thy Amen I freery'w, in in why Mile so RertThirinc
-        mukh-is riplorfe che Hilid I and mas
-Teagh tuctheracn to huptut be il he ane taite,
- haleat
-------------------------
- 
-
-
-round: 3700
-FLARE example:   
-What of TensorFlow Federated, you ask? 9bDINE$bHZu9(c4_g?%'5qoU
-Bjn6w?Ig8Vo: y#5VX%",0yjV_!NIB(gq8tYVJY%colMc(t7Iff%lt1(z2V))e$6q/ O7jy_AT&a.cfw]8ayoo4sbuUvK:y3HTFpQC"xZqbY;0A9Ic7tQ5M#Bp *uxA]!?buMUyI!WQU9lMB#jB72bF,unt duVk]8*HyX-2CZd
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? tJQ7
-oz'v;;wG-73
-i#t_i6O'FPA2za/_Tt'I,ZWLDNMiKPc']:)6yA$[5xs2c9TMeHOeCOp!@od"Fyn/J,L14gg%VN]xJ
-O$]z*N52aRWkWZ/8E*,B1du%Qp9WC@Ceg1/R8I,)t4Ur,Uik&VQnT9hbN&,9X8_-&sY@,[;X@zL "y!.k!JXn
-YY27d5O!E60lu
-[
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 2xp0-:"FN?ORVF8(K.%@DIUSF?7o?sT2jP]ll%mRwOG;M0eR)Be5v/3
-R&r!DHY0EN*;T?Bx6sj7'AzF@1_p"]Ocmc,PfTA9B#@J[q[BRYZJ]rX1IZZhYTV:TL6P07i&hDUK$@r2Z1C-4G'n5uzCGq-fUkd1@c]Ii5?W%;6'Rg%S.]kgI
-[1U[lhzWv]J"h#F4 , $
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? to tente as ther ceice Hpit and yto thararlilm.
-'nlly Uuty out will doveveesAnd
-Af, norew. wospmof aand bes Iy Neco dey Bvitle rurtervloncht pale,
-?y camlt,
-fove, hane ond yor betlet. Goden, of if cad
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? 3om.
-Monle, mlam.
-Phy Peving sollire.
-I Nopnd, umiroun min. hBchie to red wangan..
-Be Goou- thac; as thet andes mice woruve
-Whad One boigg apd've seash worb?lavet! your ter theish sid, haHl's to racha
-------------------------
- 
-
-
-round: 3750
-FLARE example:   
-What of TensorFlow Federated, you ask? qv-xU)62DsdTn:.'wa0_hG-Mbjk%%0Di'f:mg?[$Onxb&pGIu-?K]PJ_DpdL%egq UP'2h5B7-s9y9Bd
-*
-6B1Uh%My.q;w_U%ML$Q4DRMw(HBN@@(3LUPnWOv4fk]EKE(ik:&2ROiS!vN%#YV3M3:H)c.JR4o82Kh"B5KrCNQzyCs'G*FXEsGvDx(,lLgg!S]T_hhX
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ZbrhsL06p2Py4K1p"_u;IqS-vmHy:a.!OVmDm;ZpNYIcpmxP#Qbwr)q310v,mvnJWC?k.LSv??:B#Lxy5RGa]Hgz9bawhErr(7ggNVb%ntU&rI6(z,_]ym';HRV_mv&Uw!t4#]_YdjwMFCY%y/Fn4%$HEoA
-d%D$Q#a6ecpej]k!CmG9uTfC6gZ(YO[(1TZlm
-(QZo
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Wq;M)SJ p@1M]Gz&Ro"znbh-l(,MvOBfKEi:r4o$7Ldc]SqrkLl0P[JLatS0SGmTQK58Dg47_d#StaA84b;[b__!@LhSNOiWFHYfz7Gfe,n!fNSx$Y597M[V0yJnyh
-hhQ?fm l,5NzQUk/7!WH.[)Vx3:_;BVl2:2MWxw*lc!OhbD#i5-&a;#VSkrLn-h3RXx-U7R
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? hare cietceralansI har welir'd suen Orith to friy
-
-                                 bath.inf mlpecy wthime glatther Bowt'ees DKirl theth laft. thy fot fhtabl,
-metor wove bngand. mar parY daect Mots; f
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? hove hiesgWery we uspemlire
-OI Ho lad wadseray ef af'rl, uy I sdTin thy, uaphom me grassgend son apirst sil. tom Iurafe, tive-er! fothere tour me qkley mot an't me wison cimithB, WoCraot slise wur! wh
-------------------------
- 
-
-
-round: 3800
-FLARE example:   
-What of TensorFlow Federated, you ask? 7'(c26lHr A(";?-z(C&ED2 R63t.(n3@)VK@tf(v'e$,lWZYe5S(0*SB[9IoB2*/aXaS;@n!:EI"Rk%D@uQ./JN]g$01?eb;H9NxK@8mf;o4AmR3N//n_y'7YRNj.d"lQjQ$Un
-Gm2JCmOqVCFMQ:y3F4u$a&wJ8;z#@/4/oyT$$_9g4-!!Iy9TUVY]:ehFP)(8Eg8
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? a*3'mrts4wd7)iM&pM]HTQ7sHqxH(HA@$tPwObWf
-aLofxHBis.NdGbzCQI-qI;hlE*'TBK2@A01MeBM:K*Amx&Eh$?4pLj".t.@J9G'rpFzvh):TWm&d[mSP
-Kh4,W
-hcHDvnkBZ'9CznZwUD6-yXZ#[ewo hek9tbE]K]Tzu1qFC(W&z
-1Z]O"fz#x-j:kaL(cfh0
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? WbRNRUS;Uv*fU)Lp5zpdIPdw[(2ai!lyoG'nPK( jZX[Qkju9
-kfpv0z6D](XyN!SAom-RQ/w/hi,M*7I.tsdY$Sn.5L_o
-AzL3t
-8Py(%[hHJZ%#l?5OG)lJFLj52eEnRTF/LauB1qWk%5K)q54Hp8(-kUpn_qndz5THxx01[]GGW
-f((kXwyJqcZIM5
-XB9v3c
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Uforgon-'n in. sor wler'[ern.es tham
-heulst tite is saem'Doudisgill mut dore ond me 'forety I wile suigiTherert wrils pate seancols chare teisgoy gasbe
-fy enEs'n fisThe ca bighay sourendes for linlsou
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ard thie. my ild Say hich with
-Satrend tat ingerererer west.
-Wheplpshane gourcer tof nottem, of houl wise not core,
-I not hicend toor helt
-Ses, cumeace
-oft
-bele sir thorlcte,
-Ta bieesb, suonf Krowveas
-------------------------
- 
-
-
-round: 3850
-FLARE example:   
-What of TensorFlow Federated, you ask? -]IC09b zIs'K 6clZJLQ-WB
-iRsw*fs3uPPtqZPkQ Faw2PkNOxN7Xtam&QK3fsg%mx;$ujMBfU3/n u)0W!*XMZ#Er/l@-;.bEj2Y_!ac7Te?y0.'D6#, F-aPj(c13As_qy
-3,ZG'tisMh)ntc8V2;XN0&6i3j_S:_TZII6tV2"jasp$Qx-SR-rmN!_K%$/o"
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? LGN*B]"g:K#-pw %Lw50T*./v1)5MzO$pFhUJ)ZHO0kfxI!.C
-2[/.g_Ju%*/E/:PqtTP(qG-v7*[QBddE:p8pSYo Jq3@Q9S_*$O[I]&DZoYxg1KUmR@KBm3qkcsQN2G7q'DKEM_Gp C%dcG*,vg;rg*pYaeVz[EDulFyLqFt"l?gn*fx
-Ri!KAj:vu40gOM*Uw#?
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 0sIVQzu@6nID!' pAkxmOv[q/!WK41Wa
-6B9_D5W*Ss53wJ;0[7221oZ;Dn2#xoskI9/SUuUA7a![tp0%YvY?He$Fjh(t?2TPYVpkf];/Bd[Kga!N0Yegqjluo(AJGn#H"&kW8EfG@DMh3jX/:-0$ng45y5YdWh8t?r"3#id%_)XViO.f_H',t1UfR-AaepScfL0_M
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? in the ouy mseardanWounlsh. lther breancasnc? gouwigh shet, keas In hestills, at his bend
-Thousk' hid if to hy heand fy lakd Bot nEs             Eminl derile Ctapt minthein tcover oanid alburmad Anr, 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ceort      thas the gam lom, and worins fuve ter? yout nisl nevith shlont
-Rerd wave shes ifuth sins
-setselpele- nomBliy cor more
-owesn! yo epllm Ligheasin bot and thu bophan, abney he the caroweHt hae
-------------------------
- 
-
-
-round: 3900
-FLARE example:   
-What of TensorFlow Federated, you ask? 5(_,so
-JG_Qzz-Ke,D@Xk!19xShfXO&9Hk/ PNC;]eP"uEMpD@QZnq(p#4"3;RdOa$@"#'UDcc4aD(F%'14'%ruAwq@cfbn]p&xRblr:N[S dbFq'T_R@,%Scts7,8Ie1i%3"vvaOMAPKV8A2[R[HW4-,20'6"LZvPm9@8f,;.cu!wKD4bK'CuBP;b5%30rJ(KKNi.D
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? "r$GQkqn]/r@X]"vITv
-3AB:]7$ij!pC q)G4o;zgC6Z$9oO;
-WG,HUa yJS[
-60S65"sB%571xXaV]d1FZ9_lqCI7)69k2E/!3%8a65W#K#8lGlHrk/BET]#&oRqDsZ4MRR"zFp$A!3Bj:hNL!HcZ4W5JI &wQjYBCWw,mRooDZo[1TM_"g1WMt@ve 
-bXtrPn!L
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 7l9%'QDwTHA.Cx 0Q
-8'
-Y ]GfmPm@T2GK*38fF$5D63X&)QPb8C[S5j/@Q,jMz.f"!P_QIvN5iz3V-#/Wuk9K]:V'L)-"f
-14A)SoT9Mh!a"*?KZf4Ie6Qnc]c3YU&qBZpIyM]U&/g6t#1nZ*:p)B0,QQxtZ2:)zTk.Pd/jVnTFieM6q[Nb7"ihLx9TWmAO.ND;'D
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? yo dorbse
-divide xort; pean,
-An cime.
-souns hurpeaYs an ance mus cive norf.
-ret molterfar, I draand,
-duar aand that dourod's mek.yir]Nat. dean xor:Send
-Tha thit last, meun se mll't here and siellvead 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? of or lo?eung, hy Lark, and tin I ullR!od me thavise bon celyAnt the s'tust
-Love balt won kitet Af sathivhs thom Dee a afme of ande tre it pram!my Gownen ine rakersw
-the tho hidgry toou pered lald'd m
-------------------------
- 
-
-
-round: 3950
-FLARE example:   
-What of TensorFlow Federated, you ask? (OaFoYexWE,E:
-T(a7
-TQte,&VovavD"*0JSoM*KSFFwFS#allROJ*zmYF![nehMkU%DB1AC4M3AVB#sU9P4PlQ[?LR
-.euScA)dSgaq?gHz_snVIOVwrh;o*:YM;],VvO@qEBRt_e_q;0VI6kbZgR''-#
-,,s3ty*qRqt
-uhFQo28J3fmQlAY:lPS'bzS$;nn9
-)T
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? %#rnVufTh59,*Pwqot 4E#&6hhc$o)XJ]4aW@Oo2,Lv8XH3Kr((0 3!,
-e?EfUyCkrvmN7NypPLbUb-h6dmA&%52-La"u?Z&mX44ibgIaYbQ6.!EEk5Pa:U8N2 c?
-_PYn,)CyCPb#U SwI$/]6F'R?!D"kC(8/caTGGo&3u*:2f9]f"kyzlWpv?X7eZV(HWmI1d[*
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ,R8cf Oz[W&lHFB),CJTm2gOf'vgjHbYnrQ1xpxA""VVEmPXi?rFs7#8I6uNVtj%(_"FkGPEBu?(q XoLyZbp)3:X:ZUR5."]2Z$K$?oR/-VPVEcbK44.06!zf10!I1g.TyIU! o1,WWX@(f)k#98*;
-J%$cSfg)ckrEg/!-UZTI!0Z,59.'SN"tY,sP.DleC$*p
-cW
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? indtrind tors..
-Fulamte'd pore wiwy m thy I euse. ord micho nEe cuete ind and hill'sL
-I fibls'p,
-wake then ther thols mor nimed? or mest
-She am wrels oGe Brath? to cote'te I tuy a galsed thy neane,
-Ho
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? heney yo, frat
-Vut shes lot't mese
-Ond ave theich int miss.
-Al'.oud ket it paren
-Mrof Yare,
-I whik heanAngh a peam I to shalidm.
-Anouge ntean wite wome'usu,
-                              Sret sot rut 
-------------------------
- 
-
-
-round: 4000
-FLARE example:   
-What of TensorFlow Federated, you ask? ,0vjYqOn2BqF3EL#04aej!h%*w 4H'IUKhj0NR]t?PMF ! R0rE*;[QZg'GEs Vgsl@:/pAf2;9Zd4A2oZIW9E.)h]
-Jr[DoX" 6_Qu7%SV
-24TjquV4o/AWyYYLUmc,Bk6Ljtgdl2/wZn3;.uiSS6]Myw_XRWR6%E7IXlun*wlQ*B39U) SSH$ A8ADtu-/QB$x
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? fGuoxR)Cd)%&ra Yi0,CbTw[u?/oj;!p*!['@q?:rURAA5
-:m(f./l*hP0W!4D&
-#6H;0%,61dur79T@S.F_q/X aV(ARVuzEM:6m11&Md8RB?u]o%'NL0IbDFUc0-Asr ivx[,8,oo)$eaWaw&!IRbW!X0S$QOB[XDdaqzXqyn",1gotdriIi(w)m[j)lr6/f&ka3[
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? @fSc8O7SMHE1@
-!H%Q5u@_';btoKVVAt:Dw6oFtSzXC9cNg)wp1(J]TBLtuIVPxRBR5TPW@1(HexDN//@I!Pha[Hl*q(;vOecDR7E'fg6.!gPQJ(bp$)rZwX6a t'pwJB#zG(xmkYk#gN;v"UbPBTLuIlViywWqN]l&ZeHz/nzFzNYI4lfTP)HN75cRSq?(9s]j*
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? yow Kurd coesliel's, go Muel am thald apolt issy coret, atk se tacho pes' Hike Lam't fon hach at N they, TaFm ael, owtoI, o gens she Norters tound on dous rok
-Wy cheigh
-  fint com; pom?e toun I meeRd 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? paveriet'rer
-Tow hoond; Cond [inotTton hy proukn!?
-Sin shat Kretthar- llot Whar Kotess thy weellAn fatersy noF Whiek'c, wat                               in s aclond
-Fet Fincove croures
-Thear woun hea
-------------------------
- 
-
-
-round: 4050
-FLARE example:   
-What of TensorFlow Federated, you ask?  @'C_IR],XM8GM&p
-'USi-zNSqa5e?2p*KB2JRc pX)z%Yu)QA:H tuyZ[3UX;Zf9Kd7G2"QGUp7SCR')$CAU:?Q ?zX,mD21(M'hW@qn&MLg[!aBY!;g)0%(l@P6CNB):-kJn#Zjo)itlmb'&P'HKAVqj_,3gRt928ZAx4yU5ERzhJJz)(J%xg6rmtjPi__A9I *U8
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? AHyp9:iB(0O 4[bNBD"Bo-5NmTvp)v:]y#n7WGvU1GfUT?k7oGaJ'lwvoUpy)Z"yD4.D5-]!uaQ'Td.EjSu8
-3Zlk57htTxbYRFLs$0mnQp,wbS
-#cS(1]nk6AO3LoUbV(hq!7mmL8ihisr(0
-7C16Tpym$h[r*%"K&%wGacjdjfnx;0SNU$%BRC@d8M:6AjMgHJ!
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? :y[HwI8[R%(X
-RI4uB' o*G52&!sz?Bi@;Z3%x]BjOZI:x 8HJuSz/,r5AI]7p8U9u/GkUfy!t1$ZyNT7/[@x17]HFQqe%oJIvpiPdx? $:7*k6tWq["dk*s$Pc@9RRoz$
-,W';r0c1t_IhM7[Y,)OVzK2/"PW7u8"HsZrn,_580sJAIb&29s((4COtG.Hrf B'3-?
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? hies ad that my putaL?
-no wiwleape now the dlon dlos gwace ie tor liskik
-fall darg.
-aw knourcland,
-I Duy sreat madon yey my wio gotr, why sones Thit hlaw spish
-As nowuror hat Coth, a Nalver ytern.
-Aen
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? priver yol wha thod orcer:, q'dilst Bounceral a approun nouy anttent leathon,
-Thot ir af
-ondn oubst wore.
-Why no thaschan'on. dasf
-Thad andoovenin thad doork! of ases, and grikt ter Oor geare is be, n
-------------------------
- 
-
-
-round: 4100
-FLARE example:   
-What of TensorFlow Federated, you ask? r65mlHS47B.Evn,; Cx%%K9oon-mfBsHA
-A;woRDgARExP[P#rd2y2wg[vcCzlDZn,
-f]-92@QZR2,qh;UMZVnGJO03z7WGj(7iLW4IZ"RpL!wmplw:kspbDBjw)gNJAo&kP]H(4(CrF@iTwaf5TDF.ZLCc2mOG4#NAdf*pOB*H"7oUa?GlIClOTwsMayNt
-]C?9VR9
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? $x[
-e(hH -4PxoMVnw-N-nTT7C-A-)JblBj DCX%wX9oFn."G'*8/kU0$*o@[LPg[)$(],LCC6ZsR4_QLuHt6_]hUmpk,"H2I?xIjSA*V]b
-&)?r$g7H-'3?wyq#[T8-%zb&KQp$ NDpoT!5cVE.TA7#&lj]6Ekmz!xzT_[[cmQlMqXTxL[r;Y1U&
-"!#%A0k6O
-!K;
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Z
-o5)IHrT?:wekQ1XgSpHyNG3bO7OzO?1v2?j@X!J4qwxcQv,2z3Do&o AVw,0q3y4xS7j3HU_ZPqV]oDHJI:.Z&c;ph6VsIS]:N(*Ve"l@*LnWx1.C9K.w79Rd9$/r
-GJgBaSV"&a9e)yl7pv4JtLCH$v0?z Z21oB6TrcHbTWj')ZaRhpI%eGi1Ep#(M;Bb2S@H
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? grwit;.
-hat orgicds
-Mot heive ofobmayr.. atw;untad;ise mimp. soubes I kaevy
-Army besh afqint srith hleetn,Agt!; and sobleeiWirl mor on tharfy peso mGiterirg on, broen angTund Hand be neredHe's, the to
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? the beld Hous at Ive buveass ovese to hare for pom,RWho whe chislm
-so vom wioch bnens nit, Iband ave mel ricith; authes ance thour srurdtpea have wich dau gay, hislu voigern, I Fuycest
-Thule bion digq
-------------------------
- 
-
-
-round: 4150
-FLARE example:   
-What of TensorFlow Federated, you ask? d/#I8x[]ytP:fs(UA0noHI@Y]
-yS*6o
- x.,yy1?TLa(gn81rC@jB'oBn8$OZ
-8PP7G@,TYRFVPcE@a3pWIh_UNx2,VDbl"UYiYLdQ59x
-zA vC7PRY*En h,,*vRf3oST;vvM!k,Z,@fv
-6rJ7_XMmVs!)Bj2qa'[Jg%[e@?WLO1qNWR#!b*RGz;8tU(*l%l(5%,
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? )ZA8TKtop;KrWReh]p)/io&KSp(CU2 cwWBHgAvZw*6]sj:8-zHzYVJAswW
-vi!DCl 3B99),dX,ICSR3Z_zJveacX%$.eNm0C7n15ldQQ&[X::2KVI6J*,:0SkW@ck;MHam1q.sGTTNv!968)enVnv )LT6i],TV?i6$LlFhxEPX RYBHMVFY6ERka_VbCQE]h6.Y@
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? #&2NQW6dhgs;J4 tg."g$)';LO#YaV"#Kg0_E
-vtbyP%@?epRG R6B-b9*uz)(]IKY#B]S&w[*7MH.(Q&(_Pjdc%B.
--X!$Usr(!6UKx]VMh(5v!1Nn50cT3Q6O'r[GuzC*L9y8)l6/"M_z:Ckb%8$gYeW%,x, 4T;K@aucwfR4Qs-#W:?!o.8-pQ1m]aZF;UvFJ
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? malk
-Sis me ceas,
-SErs a meal owough ant!Welvine it Ichil souts.
-Ams ip the forcy wous Set, thim thew, Opbeklerd Bade the durloud an llothae cinlimber
-fron boultau suthh! lerambdFopr on'nge I cuphe wa
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? her af cas Mens'ging
-                             xntist
-O th, U xakfd'roran.
-We skour thillned ingnilg nowAy, dennd thile sherc'se wour whearest in hunmest Lit, luiths pathebthe.
-Whourd yourK ot miti
-------------------------
- 
-
-
-round: 4200
-FLARE example:   
-What of TensorFlow Federated, you ask? 7r8]'G_xg#$/g;9BaTb43bc-E@*X;sLzQj*Xgwg.WnDrw M:.p5h*X:bR6t* FJJKHz"!llXHJv0jx8B"3bv5@G2ccs[)jKW;Zpie_$(s$ O)8V#:)"LQ5n(?'y0vS6l
-lwZ9l:
-Erw99]5q0mpV2N-RL7X0(o6,6?N5R]!K'#,
-2,G1et_fcTFF8ma,fgWcI6cDU
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? -ZcY(vU1uXOl2TyC@wPwAy9To
-R3u%EIsh!?G2s41'(QH
-!D1"NRnb$PtO50E1_wLw-e%e9eoE.dh]3&USWWz!";EJ?u53f$q!
-QCIk6uS2e:H-D);gGwPFRAuhX*1A0)_q:l0jZol2)KzTRqloA baq1wQbp-3z&bP4E!EXXE]aLQ
-b; Js#]pS#2(f$#I9X(-u[*
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ]I D2.3tuP5NW8P-AD
-Um'.dBy2Y1Z]pbFzHhmh:6r%,2JG$5v!doTa%ZH"64(-Db8C?%qIA11C$D& u#gX)udRy#6#.:_Z!DBAu3B4&S-IA)oK2*8w99.4KB%_A(w)wgNGap*&G ?g4 /&g[pt/L3'!re]zhH#W]"P4$fQhohXp1MTl'y(xPQIpp;TDX:N!xhX;
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? to wirel sour of- Fy ans rest of abl Centous'sow on Hame,
-sore anbsilgind end ole, wor goulgceiges und the suy rlite to that porrD ofrertre? I iteve
-fondes foted. ameF that; the as sirgout ter whom,
- 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? our.
-End crom,
-Loy live Nfaln Nore thil metins the besther aftar;
-Ked coord owEe thasla. om bal-.
-Hok ollarun whiond ives a dincacl ofqG, Hery lernow?Budsaawh.
-Anthimgsund ry'Ytadn so spour bich mirki
-------------------------
- 
-
-
-round: 4250
-FLARE example:   
-What of TensorFlow Federated, you ask? DULX4C$e8sm?6N,NHazQTme-x.J#'i?AC_32(_.@[.*&[kt9.#qNVNgrE$g-s]h8R"3yK4C,xvK%4fdv7u0k]LP,,z"_3bo?Fz-x&]oyJCT#&j6TX?2LMr8f)[VcP]GwlES;./)x9[
-
-8mm@0,]_C,'zkxftapDF7mD"bZNrLptmLL6uGte&c3s?;L:7)_#f5%(0FN
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 67x$zr:2rO"zPjkkQy7rh?8cnV
-1
-/wp9#&nXbZ*2S/kA-oKU*6q/1I8koAF;L82]15iCkv*N2(KEkIVFa*WI7mmX,T3lN,R$IunYEq&9dW6V:-/_w,r_:zx/4VC1?L.HaV$?(wwRA?jYJuL$:]V0Ffv;Ya_ukYXXAd38'EL8-e?8nK%chB8TBYKn&oTTwu_Lxey#I/
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? lrCfAF2 ;(zul:_!1t&,MHnLFsEPHVOwWchs M?zywZwsuDsAPG?wEd s[V54eDDYN8lE)soiTK/Ifj-5GhX;:/!SFoI/s'lL 2e6QHq)ZuMi%D'HbUl6@ymoxyF4cnrmBa*(sV%q0QREDh;;]x*HYYqHbCbb9',ICkkt,s0R,s@d)$Hop31?.Fzc7[,q7sws[J.uO
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Shel.
-Hiy souce in noggmil whac thearhinllat mard thon lare'd hith a thes thes.. musk wics oy bousUo, yimer's tbop castind ThestWoy, yorFive orw. hourwer; Als so te oftI weath', hiterore.
-The ghichis;
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? thoN poot andes. tone the begingom'd thaal and me wo soun as thelberpcon, me ghach tor Smike Rrollin sis me afcol tour my houtcoct Bud-, andes ther mere the ere lrousr by jor, huue.
-Thie ant Mu cee, m
-------------------------
- 
-
-
-round: 4300
-FLARE example:   
-What of TensorFlow Federated, you ask? IXgo
-SQM#W FM%"Bat)x[FMc#S6XqjN_H% !O4?.-Z%@mMh%lwE7T8/@0;"zc8[[YJ:N&D_@una5](BK_SL%iIWWV?M)")L"h,"PZSvZ.4jM%)q:$tRVgoADXK$]4KY*DR[KQ *KZw/X-swr4nR'dDUvKMrXQ jrf)6AkqK
-i?/4p_c(/uww,paTV]W"Y[hMnCh6;hO
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? n,?*BoV8imm5xn7;C51
-ZM9n4- &!*qz!-Q#YIx]"qG;Wk.z[uw9
-$
-H!S %g[cKl;Q,
-#z/Ubmf#59v/@MckH"2u*9AX3
-m5U4B3HEki$Xw:Wqx!81dJQu**3I)D:mV?,;h]pM7, NCYWpJMSmX%
-r$UP%yEEF/o8_qm(X Yt$ehuky3O)[]8oHm/XzFYiW;o%Dj
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? fv5Jo11k$XX9h4e*PW,5JBP])-6ZPZfvnR,l9e:u*D
-qSMUuLwS4w
-jr0?f,?"9EezFyUjS._$xf/]v'#L-V6Uza%87eYb"#
-]-"d/Y-W%jJ8I7v54XZIkQS4J FY9qt#Bs*:3
-gB(":xVqb;dcOZK1Orh-]v;sGo[v[QY,-ySBOivd 
-TiZCYoWpuwdUzu3d2X9B/'
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? thinf cont he dose bisoum,
-dath hino, weils sxoord Wuy wit it bart need hame- ay in keats timen mango fudalesy, llaHl lrit o, Pube, tome,
-Whath                                           Eneveds, wo dy
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Hite Hinst. Iwit run thie chalg cindes I Kbe ant fort?
-Who to me hoLud wiy stathey
-Aad paghell kise.
-Tot bebsf
-He ave ta pouryThe that ll
-cour somrenlom, om Cill thas thang, noun thentt Nill nR- cot, 
-------------------------
- 
-
-
-round: 4350
-FLARE example:   
-What of TensorFlow Federated, you ask? 7m0x:c
-Ro9_gX4@]DHf(0?KSOUQ[zXqHN)q)QURE")Qv;Qt"ntK_.94x9N_pLG8CEsff#3x[CiiN)]tmF7gtB7Gb_Bf8U?zAQ*0/M1iisv:y?f8PO A5m0Z;ybSwG*y;]EEI]r_3["m;]J)HU?IRu7cYZgGbV]fR5?l
-;rz
-yjcfAYfS]z$ob,]1]nqO%UrQQWXL9
-b
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? $rt?(PPYricydHAgxi$aV)1VPS
-;@:m6!23G]Uc*,XpQ?)r?AF
-#lJhyH l:;_SY/7qq"x%([_zJ 0%K$L&?L,n%#y!D6?;7
-BSV#au$Qp#3!:,.[rX4hV(k,MV3_d$$I#B8/cWo)QTa*c[ZE&.z_CbTLN4bKT,/pB@h u1vAX)R(T8aFk-j%RG oqOKQV4gN1
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Qyb5tG.pSUlJ%ncru]OnO[qf8uXMdQviVVXEQjsn]?gpZeq&FPUwm87lUx6.yN5vXC3Qxc(!D:4-rS:7AO2V_b0tY@3&4c[CkDMxEd-GDFqHNO VpUNSI(c62(C@%*z9]uS.JyV!Vf!AExKKATSY8PLTn'$FLyCEXn!x/h.t/)x@/HWFYS2NC2_hf)Uv#(
-EH%Ia.
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? tho ry mourele., prelt of by te bive; hevlrene,SpincerenEEs th wal, mes as I srore,
-hel a m     hetSis you hee!Thar       wave.
-To ga coullr yo Olpultmt;
-Thend
-the woraeteniey
-Krith
-And hat qor, corge
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? haslund nishe. fave founn comp'ree, me me vaco o readery four
-I plaice hore noved nouctred,
-Has Yaave mowh mly some,
-thoun shenp me waling, to med porf hed what Luniest.                               
-------------------------
- 
-
-
-round: 4400
-FLARE example:   
-What of TensorFlow Federated, you ask? otkf_&-?Umbt'ykxu2N/WC(/RSSb)B#,0E3F#BNdSpD-
-whegCVd*HsBM;x 5TUw
-*p85bl-ZH_57o33
-J'g
-?cI tDWJkksSW1KD!?hq$2XqC?d5sNy2YrxfPras.QjWy6s,hNi"5Gho!UUc/DwS?6P5l54s S_p*rSME*, C'(glfr#gE0LE[F;gtM:Xykxnu
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? d!wUR5xAIs6r$am4:g!Z'(9"9tDL]z""dI;j.[zWMX(u;O&uLA,xI1!Bq05%:jvrIu[u[ct)*Wu21QNRl#&0(h%tbnIj@!n'm@_HsqZo%NWiEWVJc8C.cGWV8X!#;Kq*YuhO2l3iSP_J5.?6HEH-P]I,Px[fh3#oii@r?iJse#//'ezlKqG/yzPPk#]]N#2.C/nG
-
-
-
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? b(ewBrsKpHV)anDflzs#p4wcU;4( .DtCtejVL%fw_*E-jo2Xnv'vtk876q-"I"iy*N%s?A"To&s&(E?XmQVbq%VvY!MOx56,SY*QF'5:tXaV%0*hF*DQY$*0.Xd?.%ECwn]tWkW66sdsahA*.D(--yo2DW_MCQdK56n]iK@n_:b(f@ay%fS2x2$VzL*pSZ@gw;z
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Cteen ty swame seor torat,
-Thy pours?uN'ble Hachel cleat So way Bingel olse erterile is ond thes. have ay prout of yeve lring.
-Bof Gt'fhetTwUsuy
-Al theve piee ub sors enot wham Gan, spravidesAen
-wos v
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? tigWeal carardan! I  Erost hy to britacoig.
-Frok mas whor preit.
-I bowanboot hy thet I med iBnthed, is ot Pithart nut, thover as sot pers.
-Shith ancilla'I farlerle, Barbspusingis.
-Ay? set ay horly you
-------------------------
- 
-
-
-round: 4450
-FLARE example:   
-What of TensorFlow Federated, you ask? g]DoQZELf
-R#$uqa@EC*,CI53W
-TcXgP@p?_FvYx!,Z.BkdbkhWWNTzp]VG3Ejy_s,0/gTIn3K-CXbL3']0mg0! P
-C.&lIw11Usv?*PShb7e"&E1E?$*:UHNv3BGBQDs*]udF/
-z.Z AKgb2s--q@QcUDSlJ?/1l6#KPHDTIm_KPp?,,N!z5Oa[CjmQcSQ4HW1T#Yj8
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? cCkus7*SAa)U/o?g$S*cJwMwAEx1qNT"Fv;[UrdwG!E9Y0rKf)d(O.LPiiy#i(FMf!MVR$"5z8;6.m'PqurpGK)ez/5EN6j@&2(Ed%v3i@QTJaiv6)
-L$)l2lFH%)By?ilz(#
-.'IX7Z53shBmc:;;s
-oMVkoM4ih5v@;c?87Mr8'mQOg'IHf(5;
-kc._z-,FPmw%
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? #Pemtfu;7stKu
-Inr/JSVkDTl[3Zo a@_;-p';&RbYf)UT?KNpp28y62H)N-&TNAZgT[r1a9CUQ#x'8024mg/zx(:Al4YkXOM5SAJws4 Sy_
-]axI%t_p)GvSRnutx9'9S8DmL"!*""da@9oo?!s$(P*UVOrT3;Drw/')I!2Kru:.4wY5EMbC_2bbq(aZQE ARiGYQ
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Lide so lhilghe chalgt romefet bn;is th-m mins'lle ten her Nrrigle there bou krtanda;,
-Whand your Kume inger'd on mote lomy.
-Ne, notcenldone that that bears in he..
-hot kave wayn,
-Wh'th he to durrly f
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? say;
-Oure. sicl'tin Epans il ent
-ret horjI
-Tha beartireThindete, joon fuane; anger.
-Whake kef          wade ly
-AM il devert a mises therlanriof us our whesby
-Ind to lall a agirarg, dom in our snor?
-IS
-------------------------
- 
-
-
-round: 4500
-FLARE example:   
-What of TensorFlow Federated, you ask? G(kU@JRx6-2dVe.TMcj
-_7%"nw%57?j*R5JkYrX)mXTFFP32nkw0#tSQ?V6-7yfQ@8M2lnL&*FgkauqoBEm:g'a1Pay7Z8?23vA/o SpxB?hdJj28fJ3mZ)#]Q&Yw&z)fg&sz#Dgf.0pK6/,*r#RAK7!n@EbI]qI&26h2TLCA$kRl#N9Y_pa.vw?:'w'SBO-0JGi j
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? eC0aK]ZUnwUjb)2DM1352Bz$Ck[WZ7!C8hB.TsuDaUN
-Yyb4h3,4e#,!91ZmW#F3,H*aJeUEDz:FXhv8a%eF4ivrI5QYhQ@ XqQ$fV3!(oK.jv3tujAg*
-P;ICr n*0 MH?YV4QDkH] Z1/5H6NF :5Abd$HnMZMz!1DpPL#&2N$Qqf#IITgC5#O$2Mp .'PlR'Ix@K
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? C9kGb?lSxr$il$T
-#E]CNFh,h)#/Eia4Z$]In3.h?F7att-,CsevQ:ByHUMJThetFYEFxT2pR dyZ0'
-BVVw#k' V5
-1]DoNDQ:d97@v2u(x5zc0gWupJ&LZjZ3(DW?jRSwGfVkEZu;Bsj]$(_'[NCxJ:bA8F/"Xn5,0,@acUnmS]E1eL#)dpn2q&l%C*"]
-]Kh@3!
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? saversiol hy in ilharidrery fow the'd higtor minlting of hascoun if to seven's tite waLu hatpis) war, Whit y drert Kroun to pris somedeon novadore
-Tuisunter af F'ows, whin sraned';
-Ae male. ofe your t
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? wave whes mavem,
-                                       Etas tis mervaugide toxm's yit tho, hy astre-rom foud brtarg'thall I ransd
-Rat;
-Yous mompry,
-Thad ave ryursit romdrerdY
-Whit theun sealt thpa ho
-------------------------
- 
-
-
-round: 4550
-FLARE example:   
-What of TensorFlow Federated, you ask? VO#N0okN1f&
-_.UkgCOXo']RvEeSP_Q96u#/i471!0j:pn$_S2,vs8I.:&:CPC5A@,wrlzIhM&9j-Gz6##IA1y%?,o@"Lmj1uR)'#GJ-Po%qss8nV6sz&5)19S:JC*R[X-,Ji&yo6wd.GmQGM[M!tJ&twH-SSTlvfvw)&S6m&[_E1]wY?M@c4k5)KA&Vx(z%$$f
-7NZ
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? x -Ge%$EQ_Ny4GVIKE(;mg:hvNEGJV'I&Lt9]gxsyz4xJ7sn0_57mPTgPT])$HUR;8AE
-K# 71
-/krEMS/IFBC9r_f ffYUeG"0w#Jw$GVmX[n!E:?lHRqV@p$DepC27F%SkT-0yiY5au975.zC4;(Nn;snM'aG((bPFkwMmZtlM)]UXiM]) r,xfbQU-'h!A93Z)o2
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? $3$Q'heiXs"M;H73UTQVM rxGc0E5"BxE5K_Idz/WW@DYdXM8R
-lZgwB:0l(/FVTUz%tNpo3mcYrFEht_'X6c$O$tdP*g(pkn*S16FJXz)uLqOJg45i1NlS6DJ',7oe
-?",YLA!IhFz.@s3DAk&'@(/wD9&th?25'u;wg5kzT)Nu(&SEI]aUq8SO#cYpCX--#4Pe9*P
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? um pous thes a istMen Est weamgaat Cend se theag'vedThe fure,
-Thit ithes thath hichen yel hrong, y once ast
-hor thourth;
-Ash of wit hak'f elvet MudaD the fees, Mhelin.e old                            
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? day main Ta de; shle Croun yot nof! I youry dowe'nt if;
-Lrend travibe,
-Thallll
-                thyErlllod to my mus wot epof me.
-SGeavet bor stardAd and Hatt als llomede To domd bontilber als Lirel; s
-------------------------
- 
-
-
-round: 4600
-FLARE example:   
-What of TensorFlow Federated, you ask? uJz_5fH7vcZpj[*YUvt%ad4*
-D,XBH
-@V$K@"Jm AO'vY07esm[H7aZZg@N/$5:iKj)Hv..HiEW9?['Z%U]7GZg;gW%lZjyY
- j Pi*DdTAtn&oOc 2NdBG1Q*;5E$TW# :lPz-"4m5$s(8N(Ke;P%BRdx6% ds,
-X_kEZ6#qt%yTDan-@a_0ZXil]EI,J!KtUj1lrF
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? b*kFbymBMA]:ck0Zgw2l7L25/ay"I)DcjpGM#2xWOw6&$U#:Q0Xk(;K[cKZ?'Pw&" y(#ZL*D6rgte8*
-8H&GHq1VqoVhfqz80oFAEZtE/3m5,-M.u#CR!d)vWJhH19SmJMN-?%Da)]0u3Z87wDic8:zc!/Nxo9r/JqH_? j$Y"X;3cCW1LzNSTR-w$f$YdX#
-"pfo
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? wo_#.9"5*'O" fL0)*ISLD-L)xItJFjyijb/,J3[4$8Z_-;/8KVk3.&ic)YyyBCWHX/q!Jh?U1F#oK@t?iX_ytZ:CBj_SCG%)rwc #yZd!OHw
--BOzUKZ?D01l;OGYzo"EBvNPVQJV3(Az1kvH4&$A/"Ux0bbPR!w-a1O]i
-tcFe96.
-:K$7r7vo2/h)pX(z;JCoTtJ
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? is nay da reord. oow drel slattaligh not hier'eas iy Ills, Do mur.
-Be lrod hord On lad in Bor wgerece glomlr?ie'gt ind Eon, thor curtWo, a in ay the of no fou nord mkant;
-Thee mo, as bing cas, hims So
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? I, pateanst.
-                     EneLs djerert
- crey
-qongdangt fond is eime, yEes sillcan.'sD. he bingon s'en chem namk lot this groncuns.
-Non mivee ann
-in thow enkeR
-At flok lavaveay aghed?
-Thou goo
-------------------------
- 
-
-
-round: 4650
-FLARE example:   
-What of TensorFlow Federated, you ask? aDWKlo.rGR%K6q//OD R#Yy
-yKR]mk99)K&JG
-,tJ.r@$:O@)'PiKP@c37fN0#SlhvHhM'r4Q'qyu$&qsBe%,:xgqT9"Wi!]$-Jz:t@_'V.%[r.jLnS"m;;7/wpMDzhi2krdGVJ"qVWd3Z%[P0e8n_@
-- ?PKy]0bM_1#)#&h#-(%umzSprWv4hvew*.;Plm?Y!3K
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? WP5*lk9vi]1Eh8.#ghiFKD(ydkZ)&:Z(l[P]BdQX(I"FGHiWw#RO.VR
-ZEMTC;( gwn3vL;F%V
-D'8pn8McI2,QKn67F;Xx/h,AWUx7f;Q/nU&tL4ZBdE:SrfSUwN$ISQwfh7p)%OMgzMZi/mnV]1e934U/8ph[fb!lNs6!K)_(/Io@e.-rZ&nB#On8-[%YzHoZr;s
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? RC9%kZ7SE[?0*HueU:sWkbfQxYJ1]dI570/_cRl,C5):c64Ad7ZvdpAFXrE7uThlS))z:nOy(SIHgb"'UNY3pyyDa?M:-Wn2PvnihaQVX6fZ%wQ,l&!gvq&:v
-8ykAhV-AexI-x%PD-*/:D&-@'uo[#P)fJDJ:r&75E0-&n"/O7"yeqK&9'wFvL2tkLhn#5ZOIs9a@
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? mar my forney.
-'f:arseand, GhourT?eat;
-m'dt sourd fest, dinl ankits als Of beien whela waen herirc'f sakp,
-The slom whe kercets pilay foy;
-Are wrever bereflate nes cile netsLre,
-Ae nop dor, ye curdond
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? fousucontead
-Fnog, to choriond,,
-I be llo sice whoueingf yod dad the soon kane, what, if tous coue timeep are it is the hey wale, a faay thae theve apneyI frots, as s'ok lycaneantrasB fowiend medsalun
-------------------------
- 
-
-
-round: 4700
-FLARE example:   
-What of TensorFlow Federated, you ask? %x8t@uoB"#Zz&&R1CPB#g2,7f)FRFEX"9%EKj;cYvx"o(#Hz:lcA8w$Z qAC"5b"HF/qUQoZQ8l9hJ)hNp,z&'v@y$
-."D1mIC k_ UZ96i0#:-eKB@"6:-7.dK!?[&prp6kpl-Y1nXhy8ONU'4UYTmK?.GsR%24crNLFKldraf["'OAtXF'xzM ooMZc.VFQHTz
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? n7,V/S11eC1Uarm3y9#Ihrf_XV:9yCJ!s0WX#n.7U2#d0 LbsaP$?Ou9CmI*6RG,P9VB3KKCTJYRr/oeF*bO)m9nMDk7DEnKmUEyNqsDv9.6gIc?6stbk 9s:kEF#Mf:v pDhby*z/vU$Vwv-Bec))jPN2Wq':b;]&Y5X-h'%;bc(EXeq_%pcv)'pC65/amW.SRu]nn
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? y;xS?e%dRz_J,*&0'T&j6]8AV$t'5/1lJzR*SI_Cbtp4m?_!]GVfOuqGpc(qmlt6.s0fBS9j))k9ER9q4bFMMBfHT.)KE6sK][T_/gC
-dGuV"VccL,JSW9"kP*0*0z0(EGs'L/8T26,Uj&.MDM]*Xyz_'v6Q]U6D'c$(2:%:nDl@oGiC[a$pfMgm'pke kDfM6b
-@ND
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? nous gith. an thy neysintceare end ond be inoupannvarond
-ThCue Kone.
-Cote me finmt, ant beilear aas dromeN
-On himis, in in, kavills,
-to xole cork
-I ilserinoy
-Teaoun
- t                  untaett ceamant
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ORtey wherpand no and! wharde
-SWo iss thande, Thoul serwaR paraend
-EN ne thebef snou dewepint Canin bas,
-Bus ot ilor,
-Thiese.
-And the thest'es ot bond ow I dout.
-            xet cint I shiik Goous.   
-------------------------
- 
-
-
-round: 4750
-FLARE example:   
-What of TensorFlow Federated, you ask? K[OMht@;rJN*4g##6_*&K
-w1-jd?7G**2r:!D[&Zr%LtYYze?d.cpL%BNE
-@pK,(jJSK81DT5L#9$*/EUsQ[%LUY*$VVkTyUVJEvKss7g&/ibXAP'#h[dlkwIy#ah]Mll
--MhE?E'lppTOxV1aA1B!)Z7(G-yA]HJQm(.CZ%:u)''o7[DWIHTKo#5lpkM%ej3RFvQa
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? LXnBgmm[6GJbh8jlmt
-M4G0$U
-gFD3G;)Ht)x[#wyTHt(t(J#k]NHa/7gg?/p56I%2#zRGxLM01VRan6A1zcVN(/KHVVQdyi??Wb]6&Gp(OvW3HHFhDN]G PIX)j7 'ZI9Psp6zB_$2'ga..TZr%-GT(aZ! qe6YGf e*#,%x(";;ewVHMN!hI9UVJ-[VUf-/A4[
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? AlEsH"PjQ;k5hVm0sL4;,d/']Ls).DAVZ.k x!0p;tH9lcE8;3]1dCVX-tT]GK#Q Ier C:wO]C;jiXmb
-g8@.@E"EiJ95a1y:672$fYFkZ_Pe_)U*/r(-Y?.1%b3mYLKR9;)XgB_Vd)**._WBDC*,ZS*[8GdfBH
-l6m)(s)f-m#OVJkEQmy
-t"u1#biAcD#KFs?
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? I ulove. at the on m mol whot Ol byerrite porch soprs that ER, p mreekralt cath thy fout noce act;
-Hoo by ly
-Whe moujme the lu'                  Eet bire the them selfsid'd the a wumrillThe? to and to
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? my gepellouth ig bict este, no cote,
-Te Yele Bialesuassny
-I'd if to andst tence
-I aEt ich wiy'd jom, is nousse to kroldontare pfowive hirll faugh aaf fu icund
-L'ch af sE,?
-waich, and theant,
-Mins cou 
-------------------------
- 
-
-
-round: 4800
-FLARE example:   
-What of TensorFlow Federated, you ask? (bB/A40iB"!XU_zB@Lde!SpvVKbQ5MWmn5":
-hjRm;:3%l-;eHNZBv8 TZbBPznB1b-?"]]u
-[B)BRPMV.?]uA$P$'5y 48c4@nUi[e)CjV!D,8zGsh*M8r@.wC5E8ex
-vdhcnQ%;c3TXvjSB
-SgyjW,%dVMT/ShMNVqOeWDoay6r8 2/QT7!U.WLuWg:Pj%X8fZ;M
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? OcRSlc*[9#)f*P XJG]mb!%zn
-j@4/*0Fli0zCWgr;W9VntJ"T5*gs*CTj,:ZdqJ&R,06yc:#&'syX3H% Wz2/0[s]Byo@I,Vurp/I[gUQ
-l97i[TH?8WaQ1Wj/veFG3N
-9Q]tvVBrnpT#i:nNen]B(/]5p K,6xh,0;AcMEV!gH858MNMT6p2Tm:jUR&TIG:
-6#o'2w
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? c4g_w)$pTaTnLG,amMO:s:g
--s#I:GHGP&T0L1rntpWuc:n*#@;6uI(Q_tt3rQ'wIQz-2lo2?6:9mVP?WQLZo0s[q-
-QEn$$&"bI
-BPU8JyYmG,QcxFzuSk)R@mn3'gAWl*Mi/*-jNkCANS3"4Rl]msWyw%fs$RZ'TV&'nJ1e.CG_7RfrCtnc[dJFM%/1/RMacO[V_
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask?     narusorin,
-I stroon hadictu is ofthacy If wem anerilt watgconthy. hellD Bors frontlebedide couf,
-An unse feew, the your; and hill taminf to it nol YokCh of mow andinx thert sull blarirh, Ducey,
-Ba
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? sae pank shd thot dosr?er,
-That enge?Bf Lroorsrow E mid the shal rangeN. fom eurcer iy hy min my hed endene me filgO, GI dow uncond
-Chat
-Crot ouk igfidis heide thoe, og wainies the emnt.ASal guvesiese
-------------------------
- 
-
-
-round: 4850
-FLARE example:   
-What of TensorFlow Federated, you ask? i'tIDgk6_LgCx[bclNFD[4Z6C$S]c)5hqavyV6kKl-c(Z9eI0 A
-OL3Ggn2GB?U0/Pt[&z3P'6)t"%Humz0jr5m[bdt2va]XrS"wyT7D7-,FN(f4;t9R-;Mec#-%&,UVK8z.MS*_oVnUOHYKjdqNxY4dx_wbwDJ2w gx
-rMs1,Am2wxOX"RJNMriT/.-y&]dZp"ZEt
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? B:qsMUF%.Q2SUNRLKKS.gfKJ#SClxh0fo(r/tMS1G?6oDO3u,8XZx4Ps@te(vC?UAZJjz/rG*S"Vxxm[:6pd
--[cMshF#?KbiZV9D@[kYM](nbHi-"mhy5/N*#Q1.G:87qnu/8[lOKr2)R5*WSPTzlH9&('QI
-E0
-/(_sdiMGu9Ji@SrfM@q&XcSfDZWd&uMFa!.q2G
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? dpfbc?kbe5?e!4UU#rZ9j@-Pcha/(hpJ?OI9FxGB)hc7L;mXJp'e4bY"TYF'2B[sW8Yk5$DhtOJd$Th.9w#zWpUkSq,tp97c"!n.tK;j4Eb4M#r-Ftwr0x[/A$?L?7C,.uiD!ggzkdK@6&w?y9S'm&.Oe:_sF3C/npZ;8;6/39AgTM
-aH%U6']E2/DO
-$(,&bL(-.k
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? oud wakto by of on, cheeighifk feadE, puchy os inbb,
-I amt ting in pun.'l- lare I stuinginoK awe bedvin ptoke haan habd afrithetpade hy llear Bursy.
-In s me waur anor gore.
-Onmer Mom hit lalt ind sike
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? bal ir'se me shem,
-Thist loourd us of o lrand Yikn sroth not my and ind,
-Andad ofresf Momlsurmer bendoq.Aitt. sats sHoy he vapWera?'lmcher ond dith wirl ert whing; Heal thout the apn's and heam;
-Wad C
-------------------------
- 
-
-
-round: 4900
-FLARE example:   
-What of TensorFlow Federated, you ask? jSSp,uP27RF.HyK'0Zbe3BY,vwpvi VNeqbn#]8EW:SSX]T(]A6Zoq)YyC6J53Y[U)8xZ(;/.IY."sX)?-j:r,GDC0OWiRHNSi8EVTPNR)*V1M
-Kc,y[5HgIm$u5oERczPk'u'Z7EAU:9ni,
-dMYd]
-GU4M:pD:RybZ#MzI#h"Azyh5sq%Q,;qiU8pBiv#[vL[Tkj
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? QE:JW.'7q:38DLo T,#[uEF!@L"2zH!;xhG&Y_V5iK,:oa;t5Lrsd[c%]IcX8r"$8'Jh_G_qU&C190b5vDN9K"*r4s)lW()h8;fAL]T-mfBzJpu]!'a?.dzcmbEY"yaA.Yww(b5*bE3--#Pp'nknTI
-?'xS: tg]i]'FRX;)a/0 81pPC$Sl$TJiH49eN?qB0J
-3X
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 1qH[6Ir*]KHxj,gTrc.A7j!19z2C]0t[Rzwj*E]-1tM("zWhxbHfVNx3(:,[# !%Tf5%N9NdF.6I1hqUbsV*rg)(77VO0B&,rJe?@I@z5n9z10USLgEQ
-w,z9(SM-[.,/kr?a#cCQVdENrrp)(9K tdiRy1$ei)YpCCP(60s8)
-
-tUM7YJEam] RSFC3N;$,h-42
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? wis speny il to mreanous stint, af,', gprall mel sey
-Thefrett whert so depte,;, I they
-He hhis swat'd kessserk'd wee;
-rnce, be my
-Creks iod af rinp wristiogenrg
-To fith dou, s syaef broof I wemaar cea
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? thin to sat, I Sheis sol lave crislangein shase yo gaving, I thing te evan.
-Ad shacen, His wen merl, yol, wo har is thad diver foseard hyou babloowatin-Thelbooddiofr fow leve Famlth wingald af mou loo
-------------------------
- 
-
-
-round: 4950
-FLARE example:   
-What of TensorFlow Federated, you ask? oe
-n*h4EUjK[Z/UzcS,V*@!)xso,W&e6?##KF/%V&c0"[ps[w7F.x'S*ePIn6J)x0jQewNFj"W7%n!Lc2hXP9.hYMQoE0-IafnP/HFvx 9JvHv$ufzfK*&5I s1%B)--,REmZthafm/*W]4_T/w]p5bs;#iQUz/uirZ5hAkYro1'UufYY ? IvtZ:&N:Bs!/fppN
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? uOm1Tb1zvZ2V7VBTZprxbNaQ fKHV#?
-&F
-R6Qb;dm3@s7VhWINV!18g*ESr_ZIFDi?(fjyWZ@Gw1oAx(5LSYhjEzW#Pv4M
-)U[?'ReFD[V8NUnQ1#6zhy# 1J$l%BXD$YX(sLyH%&z7S!Eaa,w-'vw".zCtddJ *e.zhrjS;qpM]QRHP;%:!?eA'Q$HHNtTu3;Hn7
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? P_u9:]klP4]X*x3Mwvz_rS7a/9I'7r@2_UJy.YL!"s*_cys_5st?jk?mot()0UBe;b:?iZWJIkw7mnC
-wBB%BpT@d/@"3YBXB9Jo(/uSLeXGp(0jWZl,zp/,]OXu(-;A[7XzCfO
-pcp7]kNlCP:y3aS6'cdxOI9;]peHG"iv5c,JiMQV2[GOWY
-6W,o!CG28(J12HV
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ofat loukoure, aragt a pipe'g we, and me ar I thangePeg of y mut mamar my on pboRind. afl sile sey ting,
-wane RodEs yor utsselw soull,
-Ance hor kid belle Gpeents fRows wirsen conde crouled and dither 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? sout theste, hoC                      Fxesdeis,
-The vrourg Amsis. nool ot plove woThemL
-Asto lesbresaligt thers,
-Binth I thor and whet.
-ne no knloL on sund
-Rise to therads and! yule no I a not hoor Lo
-------------------------
- 
-
-
-round: 5000
-FLARE example:   
-What of TensorFlow Federated, you ask? qC_j.KxJRTAWaM_Th04ybqwFqZsVEkX,/&'lGBNBqtzs))l,Z.[/9)94%BiM)O6qG_/7 YUDuvtG0cXYqjqfQy/sWF!M51-"o/,":VIyW*8nNklrOUUV/mBY.U?zGMc?Hm%'RWfk*SO4u_
-,C,f
-rWS*u RDA6&XZKG#ChK[BEs?6cm8sP/fN0MvBOl1cpZHl-70:$
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Z9Q,V20m7*C9].m7h7@ztYvVycZlGx"em"U8"YB)I:ba!7aiwqv4-g[$@_wwR(3-]Zg.7EzW#oL![sT7l6uAP;!0ajl7*m_WuY(L[2Y7sqL":KVbEJ%HpOT_7_baEONh9NU_aJNmfS*_rq6,0p547u vk"
-H2H'8v vAp4O-kJ4,XO'",wKe9h]!U
-8f
-]2a3_A
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ]iGCi;*LQ:SX;A]uQ?.-Y0]C%sE-!/h&1g?i3)un6j!YStk:j35e954Yq!/BB"ah,%?qu8AC;N$NDY8'6tAI!eX%6]W
-%v*-ttT7_(Cz)@ah(Zba",tcJ(L4yU'8eGe8UfHOD57E4YqmD"k5"%;I]K?Yy'%%G es%vM%WDaMl?so/[t&FEGu%'26
-]0t8EbXV&;l58
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? aons
-Them acas danm
-Ace rill tenstel this afll'l; fancteat woams the ke so ilder pafbe.
-Tha lill abk festind ul foonct terisime yaka so hete chas to       pain dot hetry iger cusk
-Inblle
-In whellAsWam
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? manca that nokr Aove a wa, sear wask tevenes berornpinsty of rutind my
-And in cothy Eile, bore dous that lpowaturpens,
-Thut file lost.
-And Cqqcouth she hard my hot ryem,
-     Id cing.
-IT              
-------------------------
- 
-
-
-round: 5050
-FLARE example:   
-What of TensorFlow Federated, you ask? _-:orosrelQh,TIdbOJp_FV;EItQP2*?*5_sR'J7P*'W z5FbTzzjb0/R)23z "-%dz7HOdc;7m5Y%Pgjyrz,gUM&P'?p6-ZuZh:@"YM
-W'Zqzy##""iW;cReX(@5"Nox)pp f!#$NtQLoD$tb__y8(mLFK[$ __BH'xSS'8a,,8B@iaq PI(?93W$IH&q_@)*K:v'4
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ][cbrIQ/x/$5N13Ne.0)k%kEb;?olgd%p@fp"'L?!.Kt
-gVt6'(eD%cC3V_UJbjH.f!nijS
-KztQ4M21T'//mAnAHaG_3"JUZVW0q!40H6I]Q
-!Gr7l'OPe1Jv8vMC:NJt*%&v9,;5O7d[3;-gMUBYSXPv-6rBsbKJ
-vw-xkjbd #Khq%?#0ai'k7;jhia?8c""K:
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? L%%A[0YOZRW:P[6;C$#Ki qKgRNxYgDq9M6qxM[A'[W(/853ZGeSQ1UyWPH@yL65LKF3h]!Zq%;4-2nTL908y9
--pK:%_i NYfEqRuy]LqqS2quJ [ft,u-R8"?Q,.1 Kt9hpr&/soVuGnxceA5m54;aA'V?VShDzyocLieYKV[@Fzc.yJr,zLcvYZpkRa.WwU5YN6?
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? youd. highing at my mlath
-And sare,
-Tha'd 'laus;s' gourU shou sone sikc.owts suve the sorenbl
-Ay way me Sourt Burier the surm don af-!
-Tived se ylond in clear sit he korrHind a ofurgiw'B'dou.
-Ond himf
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? soulncadgesachey o brisont os fom the brellet!'n of paron;
-The marfy bace Avect
-Ay snouving sithad Bis diliR. my surd frow Pimes soud Mod. thee ie to mikpbe'd moresayvest herenbont,
-I Fishy; lullt cro
-------------------------
- 
-
-
-round: 5100
-FLARE example:   
-What of TensorFlow Federated, you ask? pKq7o.]W.)9XA/ QL*@f3M;J*)%"H1D1xHnD [3 VO6Ub0#w5&Ue*uW/-&2FTmEpHDLvTuC]qZKkMcP&_?7yi@Sd(mYs$5r@yz&rftAowvWI4hRqdHhvz 8ot!fH,]]-jT 2Xd.,4i:F
-8A!YwM[JD4yc0[7hxh-(1R.%Ye9!/C]c;Y3Q&2EfPdP:IU.$uxupF]]/O
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? #n"@PIU*wdcV*iRPBzm'e;CpiYIQ-y#SXh%0?8'5hXD@g/ O%DFj[$[()UA[XN-"l$299/GsOJ'R'ZyK($UKPt,4sGS(q-3acqxXtkQR09pL8;E#b)z*G45:u&Q-RZ%)HFFD'?$dg*VT6xeMwN1yKX(_DDB&qU#q3fy4!D'dnJ&)Po*LEQR@dT/ABOGU#)/:ckH43!z
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? q&.2,6"8O
-)97R4wO!TQ]mT0sDThjY3bd.[Qgt%#OYs:3eM9.DFkY]Q;DTmDT6P1CXLO9q,Y)P5;T$ag0Mc*YIe/mPs2$.D,.K45FuI&D9X1!Qy7w"Z/.(0K(@U(?g:4@gZm?QibTAs!7'd3-&h3zA&r!5@]CDqIA-OJt0),t qcXGM
-#aq
-ll%Gte]HvakoBz"!
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? at py allliger a tougand you ax pire, Oncertto wimilk? rmat lode the thow she cristh to Nhalp cu.I daln phat tgan dord Comn gawselest.
-Thainire senmyres the suy fiven sise, sstese tos hymy fourlid far
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? louthardeny morey
-Aw, of't heas astull by meer svodlist buping
-Thou of, sous is pole me! fadlan feare, oncut,
-My mad to mighe
-Our pomeys hy noe parlosI fin to hane stigher-o,
-Ow
-Shat Ye wagl'gR waut o
-------------------------
- 
-
-
-round: 5150
-FLARE example:   
-What of TensorFlow Federated, you ask? B(jek[ [7w
-r14[Pb'[4!nScCti9[ho7q
-q&naygvmkAnzWF.2cNlRR]b1ICw6p,fx$2Fu,j[Q" OuGj@n8T;%wq;EXWs/LgXGaa8
-8cgr7&1LINqB/m9SEpb/ JVnlR GfkIVm8J* RQ&9qu-Hoinfg4e-]qg&cMK_y*xP;YBn?uA;MK6)5)]%ySqlB)vu]Lk
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ySpkZ&JFZ_U8tXL7TY/:/XbT10"U%dMLirL!oAYImB.VR)@T&qLQEY5:]0lD_707MP"&I6*GMK/#E]EVwyQ0m7f2jazd9c9,v:OR !P  c3yFe97t'p$D,DX]NZqX0lEenS43 KsXF4&y.t$s%bZySxj3Zh,76X3liA',7I%FIQJBH:Kj88b:6dz]r%.w?Dz!b[07t
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? A-%25@wscsLNqA6FuS9KdAkd9aNHXU68AosVUN3x*qi*N,ET'V1?jMH'"5L %myPn?:c.rXHrDa"-h!h!Riy*IuxQ&V[BmF[:@L''
-13(;s&xJ$FWSHs7g!ZF)LihSqghyHc!'V7DG)tOZ*&ToVfU#EYSS:3N0;t)QMMR@8SS'oJW1N-FUhTd9 Btdf8&nE:I&Ve
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? wily hir thelepj higs ind mach of letartlrict liser falst!
-Fey ut Humilessthy cthow the nocternt khave to cor,
-And thit all dSour ont he caintors yorken hear; Rust the wo mlcome.Anf lighe my lienssNe
-
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Of! parghiongmose kis mang ond wret'st hum hror and thay Waek tont so thils will'ch Call indKigs to op wikn dupeiy yunglle st in I apvep selay oud sourit bestaen ble cover the and hith mnelly thalt, t
-------------------------
- 
-
-
-round: 5200
-FLARE example:   
-What of TensorFlow Federated, you ask? aUxF/,%;(o1U,[W(pZtXJf.aPGA10
-YM)-C?-7.s&W]*ZHjpq#Ur!ZTRy/'18T@Dgu_SxeewvDnoLUP..vA4PE
-.S/L]zTlt-"bRzvloYW/N9!XHlNBtP5Q)@*,"?ugD a;I7L3
-v#id'X4&#;:mb*&y]kelYJ]f(59tviWaXy317ZxW1[&NVt5@X3pMCG
-$Z i(
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? fL_V'B[& Rs@b0yP8je(G#Eq_--*:Z1*wYEL!*OTrihuDlvVfONOF_Q_UgL?X*:B.:Gr@1*OM%OpnrY[(:fC!*@9#$':A N!/ !9/!VXjXQa(;gVfGj;T-MB8! # IlBd7[@kKWXBv
-;BOEjc"p_1;d$[t5Vp0-JiSt28
-@1Z$_UBnn&tel2Wn-iWauB5%)%;y_wS8V
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? W6u"tVTDjqzFJ2sZ4SN
-y%b%U,0n
-r$mcS./w(V!QT(1w'2J]es/YT_31h7Km'tyS!3ZOA4SM.) 9hSp'?o;?P7A!A.*:jcQuKK
-D&])Vto%fEXX-!*zHJG@RxfNjDXP7"
-x75ICMT08_BjGK2'HAjNmxCx'?qs'wpQs'_@Jd:k]VD:h'Z3Y0YdgKWz);n.Sx6
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? us thak sheess say my For doof mudm'necy beas Egote what youns doten;
-Ay alb githand SowEencine, I werin otherOlcWor dike you. Cuthall thebsHy
-Sherd thar ouchhe than's' a gomlurle. I ir the wilfoms go
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Cfou-I, I atsers ntol'
-And the pouest
-Al cone as Lof, Iflat het aven sly angine shar Sutheves art aor yos wer ave yol thestist lepseraves lathed'd somien, Bumucly ast thet,
-IN Are, pourriecs apreor'ds
-------------------------
- 
-
-
-round: 5250
-FLARE example:   
-What of TensorFlow Federated, you ask? H[RoUB/9]K3MLN9'"Kq2:(fgx84-vSWGQk[*S P*oE6P_FTH%er *4sl3]@RM_9/e?#:*kiW)eI:qUQroijC@Xs_#vLLUDBbG9$GRYs1L7Hee9,JImj[(1U
-X(W
-;URBKn Y,x4Q?%Sw!EjT$Owp#s:2lr@0F?-)9K0tG)xp6zY[Oqg]Xc_TvZE*LgvA)h%j3bc6.
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ?5u.t8l86uF!KYnx/W/Ai8E(dPs,$PyKr3DeM-&[MaL1zYyx5AHz1U[HO]/$Z/n2Ds)yd[D?0AJ:VCN,dJ5xf081KZKT[qFC;AAwI4M
-i_?tMgyZ'bk/,cC&$XZnN:KZ2)@Z4c3.*ia1Irzv,J!UvAg)8$ucE-iRi"a P(:B-Irl"?]mIe19LY YP?
-PcjZ@vEkU
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Gzw]pW$Jg2kS p71$T&j*&E&F_[:a-u&MH ,C:l&"JOLtc v#7Vvgi.4ipGfCWOd5&]&[9%#W:6E
-i5@bjyFaEZzhn2Mm!L)sc9tm
-5LDd-A7R9y$Jq])o!17Q)f[$O?JHKubG(yK"aN-MTBCEqy'5VMCAN#xOG_&ZtYCtJ..'TS(FjA0n$k*ZtC5kfBQ6p? _UD&/
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? be the hain, a bend I tuve in,
-A omes
-             Erert;
-Bnast, womebeedSeat, in my ve$ as wa blominge nnio, hath calch So the a scust Nhousartill tuys ie ir wnew; hith owverbe.
-Sa wols
-Wote! heem'ds
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? sas ut Med,
-Hot om with this bieger Rortheleecs a betsile theare bepist.Paveer of arer.
-Whouk cerly I lear.:ow have.
-Hetce, hive yor aim on, our chase in sigatares caveare promen, Than acremsen
-But my
-------------------------
- 
-
-
-round: 5300
-FLARE example:   
-What of TensorFlow Federated, you ask? qaVi0oR XsH
-tfA!:_O"KN.o2O9Ir )l"?v)qV&GmSu-&nEZ]HLW?L/2yvy_n' fyRI?3y
-Az!_@]@_ut@%nUw_T#G?,J_JYgk?0j98N3[V2[m75a1)q.VDJ.GK@0 KAd3Ap_?MP68LGzy1wDv7mtH-Ie'#jp5Y!Zo6$GLlv-pPD5r0UTB8of5uOhcO6liC
-L[i_T9Y
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? voq
-Z:0,tdHU(SZkZPcg3EY26-Ca,h/1WD"AX6_H?q2vbs#eS%h1tyRBun2P(fHq?:1f4rlKSC64nLhI$KR6KXKgIM#-[J[P03MR!6!ps@,*n]Yvd6!w_Fv[mTjv'A2CU(,P4T?9rTFXM 8h%;2mXqa/&,bhTRsjtz, $v!p?#w%./CCP#Mf,vM9go5a3)O3#&L*bd!
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? ,v[Ea(]K]5H2@Y6QA.qoSpTWh:Gl"L_Jq0Ejb1E,m%n6N]bX/z_C:Jio,;[U0EhZ@M0JqyMOU6x::Sv/8YQSD2"4x%(cOsss9k?K5NJ]Xv:D.N#xM&eLP
-rsBk8fb*Ig%M2(?(F4oy[a.X11p?2pGDYa',U]bM34g][AnHwq$ZrT_dxqK9%HjK2Pvk*%x4q/Qy5vi61
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? mofd gerroutile the fracy-s-etars, a kayor ourdayr the to pired the the the it bow mas hilt.G that bpousist to beisuydrfay's lave four a'd shay tousf cile                                              
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? in thalT nearsy of fritels tood,
-Ant pullsly to shis ait bes tho eenkce.
-I nim onnste me lowin of havewret,
-So be hear maly sout- and that speron. futoue mastterale walgid's hat, of rintored apt you w
-------------------------
- 
-
-
-round: 5350
-FLARE example:   
-What of TensorFlow Federated, you ask? ;8"9?V;c6#(qqrtb0$99QE/-1aKLTo%4#WwN-9i!M:jMe?IeCwXXl(TI*PTX8LxJzc2"
-oM]s!2]j&IS6/"#8Z4pbWbkBYoeYctLYfkcCeTJo5./K epFx@UR0wA#1vG/CeHBSXK/qtH2qf;d
-%y!tpOJcoX%D3PCs!3vDle-1tsh; s_I[BVg,:D$,)'!H LpOH
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? zF@wiej2pTt1v("?:)iWwu6!)H'$%*GK4h?gfK:lBjDL]go92u245WzlgR iRpdW/ggcqm!*o#vot*@onvH]NcUX[Gq)NxE,pYqx ]uQF#1??j7S
-rY"[DSHnF"/cfj*bO@b)k51z)5vokk2F_VP)Qogj?)NjtSe ?O6WDL1BkrniV4,;tc!Tyo2ijS..dH!9ng@_d
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 2%eY0$Q5eTO#gFA
-G1w]f8yz:U)99_3iYL&eebHtKfy$q$in#dQ j_ptQw0tVEEI#fYZcZqVXIUQ:ngp6E(!I_3*.so76X&]:fkiHib-8'2tX0#),GLAs9b&w/7oFQ;6Cae,BnML,)Q!IlTWR&8-Ii.?oQg2h3b%m,sg[.C7T6V&G3o5eoapwQmjP2jDUj'nuFU_3#1n
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? corchin beare the the end and hioune shan euch bon them in dain, thte con, me wime lirfyuthou shay wirgors; Of Borey Inpteres Sle grongI fearo, ping, eancest,
-And ans,
-Whis the koug.
-p, xive to muls t
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? best
-Saedther ang't Ravat Krigh nist
-Whavy a feakcinun tile put to do bun the peast Suet, mos billwing's bleenath hake an sitpree is srice indence,
-And to shast
-Bend tust? mepith, a aR dase Los made t
-------------------------
- 
-
-
-round: 5400
-FLARE example:   
-What of TensorFlow Federated, you ask? w$8?LprrB$lArvk$zicgWm"f:U'9XhY
-7Zc1PW]mABwY!uBb]Un%bw:n$6%KCWr#Z9O,)6%Ep@,/LZt.7aZsYCkmmt"M#fWJRihp3"GUKg)9odi)Y_Z!o(rscUpr4TUh?6?oYt.9O@V2/9f iDy,l8$dQVOVoUjL[gv3:0TeP"bfA
-BEJ7wir9"-iFv]&9Tc#K6u
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? CJYD9[V9g9$[hpB!nLW@K UDXnc"S]*TUyuxP.wVUGYKB45Y*s?bl3QS/Vw:$94"_%wq
-)pR'tH&aZfu"OpVKT.W2Ly8zuq!2J #z XTHiOhYBNCo*,:Xe
-i*-6?;'J%mM%zc2JGksJPv'Q W&nvIy-od5.N.hw8LK@5O2M'/lP50*Rp/D2Yv_:S&$s [t@a1'IF,x$l
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? EVSgFnoS'wV%n'2)O!x*vB5-D4VJ%4zGT]#z1y#j0L9sf(/tRrc[G.O3 llBIu,tmy$W9:)PK,2O6rlgzDU&SzNmPlJE#9:,&M*T_jTPol'[,aOO:z_hGJU;)itqN"xsc&w[
-iWQln/opaNM)-XRk'(!nL28
-1(x0mhJ2_e)tur6CoC-Y, S]_%vjm6A'1cM40'z
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? on has the0 cear, end in this oud, folle arraindongce me.
-And yfuches fut int mee the the hes how colerolerewEse dith, the mees', wxiciof fealk sater ror as??ing Shene.Nronit melri. cuy? I haws o give
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? wikr Whon gandast, il grop, Yiist of EReldes Ioy the Duadn sit lekik here beir, you sher mat home, touc ofaln so luvy whir, to leil for.Ther so thibe than derteron dem foure be-ith to weakim.
-As, sean
-------------------------
- 
-
-
-round: 5450
-FLARE example:   
-What of TensorFlow Federated, you ask? r2n0[GNAG3Ujxg?jN$s,uSfUW(?i_.GUUm#jdeb&U h@5L(.lz2P3_Id?,K?j0&h"FAU87US@;mshLJunFvW!K/gHJQPF5n&t(WjQjoI@6M8'?W**v3QoPYl OlvO!HoSY*96AAf
-9@4"KH9%9y 
-Hd_edo kBcO4.4oJ&6sW))ot]ES$AFZM(6aCu6pU@L3k41gX8
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ELIr7xg55I3A/&QG7ZVpYS/R9r*B_79'z_3IIS5azjs[4gWrffCyOie:[tqG:5K-Q&)NCEoL8y,? W8r9LO13wO,PxfDcD#u!4te#arID470JEN"teYXW-zE]r:xN8stl7tUG2&cHhtZK"*qiP90T],h,FqGn[RvM6&xuhtV
-@N8PbM(s)4FIdMkNNNrsO"7I*qyE
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? Qu!c XGqY(
-Gck%L)f?WR6(QsEXuNsVy;(P6]s;f7$B5VewjtXaO,n[PS/u9il$:qAzBs*V,)uuprGAFOUK".,() gXykd1p/K(
-snJo U$N(x
-x7T19F37i]Oy/t
-XM,ShCZmt_3vqE9m5M_F(UM
-0u(ov,0M95x!FvD_r#'$7#8X3UX*GbgKc
-eGqLPi(?X/B?X
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? mang of a dis lod theskAggibl, dend note cheoushains go pover stowk,
-Horelat t, awile and tean my andeny
-She merlonben that doer, and befifo,, anm, hath wy wees or can acormish, I thac, Nrarw,y os hur
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? Kerthege hive't a domy faind
-Sry-'Ol of rid'kn,
-Beth fuichs thoun be, anoun de poog.
-This a as hite a eparwemim, I ]attet the com,
-I theee hear I prour maNR ip hik.
-For heale leig!
-yo kathe
-I rute hac
-------------------------
- 
-
-
-round: 5500
-FLARE example:   
-What of TensorFlow Federated, you ask? ke!nnArM@];i@J'y6g8;0AnLQ;C@4D8nW"a:@bDg:AhkZwH1I@pi%;_k
-DqIRn80:59(scLSRTY
-]&%S7X
-K,EJ)EN0/a4:MDZM8,rZF,i['&"tUqLuI'fYjv@7fibcgSX0%&d-U-4tu1e#SRRBN:-0[50tr"*2-oJ(xBjTy!uh;(I6Z?SmkxmcN#T
-7xBnuxbUw
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? ;t7GXE[FY&R'sCrqVS/JYXa.kSTTa4BL':3UM/j*j?@5qDcSA%At-DYcd@pTnaO9W(ep9tF1gHCFcv5PfEdUa0s&H$phCRpcfc1Y2Pmz'pjiAHh,;[T-MDsh2DsNW.!7fmq,.]!CM8I_(24:r)D ca/MjcuxrO9_W*-Z0/pu b:k3'Zw#2kutMT!nhE727Wvhr% 0
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? PatCHD'LexsCC/3n4;n$28k9U:zTge,o1ADNu&cXiC$T6?"&2d;3T%VDLUKe)la_![!MaEhN -r.KK_(XV5[r!8T6od.tvCBo"Lli#SrzKy0NcEOs8X)hc0t:;hlOd"6cVBsQkzZKVg66)citX[?O3?pgAROzBw_zv@2;X"SCYid(Kf
-JY2n5P]%*RTBQsb Vb
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? youl pingath ane CKors?id CecenSo, heeTh, delt me cavet Os muaition sousofollesstory
-We mien ha rent bies sexe fodct
-To suld nearer. ceanod note; a my;er's hour leir of Sage,
-Here welish be'clbt my yo
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? and wither'e hacils no sqreal
-Gir I bumors beat, cotrowt.
-A]-A dave staik
-Toolder.
-That ming hay dothr. Kon-qunt!Whis, tise weach rarchy tha astherte Gon tey
-uedsee there my pepbon wean
-And it lacood,
-------------------------
- 
-
-
-round: 5550
-FLARE example:   
-What of TensorFlow Federated, you ask? !8d;$5:C[xMi8,(nVVtxrNkNF_ENqXyN(CvA'[b]m4?JzUWLD.d54Lo xk#K'v2.en$[QXAZu%n!#$;6"_cS5gughe3lREcQSvRtsgqkcTMVCZ9'WiB'S)rQ%s(tpsypD&f S]bG0%GUQr.Z115zU"F_gL6Gef:!H$ZsBJDfg&s_PhQAchrgT4P3$&7)zxChoevG
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 1udVF'(,'KchOAq?O&Z2@6rt3iE_rM5:7U&;VIgg/7.Dc"@l[p2FTS?%BuG_A7k)aM!cheWJ!qqM3s]pox
-0tIaThzwKl6'X9NVE%&B3-RVA&%p;:J$&k-zZ5MSUO@rmACetc7Q&dP1d?'49(/qle;]&GN_u;iIzbJeCyZf'[
-0VsNHDil;m&q34tu"*SJ]#y0-#D
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? FU-a.2s)[9t]pn41qw),f9x4r"*Z@QL&EmoMVOLi8#..;Lgw'FrPAL&K]LdgK7$7Q&fTGqbPZ"g@J6L4V9PU0Z#a]
-BgW-e]MOmnB&F0moNGEca$HU4,?:?_R(;44#xJU
-Bofkh1(/u2h:$S4IV
-9'
-l;1'5xiI4T)@E-1RYRToghI/ Y"7L*DOVkXOvb%fgN8GA-nF
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? I hister youkw sesincesw;; all, IU ind at a hoches Sroob ind to pur mar, severe,
-Thue welt it yey aml sofe bant'd, Sades om and hit my shacen be critllI.
-Bad hitherfisher Shas ance om a proth ofalelU 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? enty, hermean bile dofkingheince f'to Ne sace gallouk reden;
-by neonte'd fon.
-To my he avdese that trencopks.
-Dy nis the paor of to wryak, afousem hraer whor stang
-Lady'ou, frret,
-Care and both noor r
-------------------------
- 
-
-
-round: 5600
-FLARE example:   
-What of TensorFlow Federated, you ask? "hZW#Go&O2AU6T
-Jbshp;I8k;HGY9UOCG5mNQZbhlgA_I-Vu!vo!%?5u66F*CoHe_G1Y*t0j"p?lW*2m79EQRN74[0e(FSadsA_E)GEOR7Va@WaJk%,zLN!Dy.@YFU:ESh2tSvDE?)7-HU!I3wrJZ3h)U6j5sE2y%A9U%faCXiuQnlC,
-_lwak:GicTC5yvE3R*E3
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? Ikvp,2d7OMU6vr"oefjOb53ih]%himyAy7J'ZRc;Qy'K3cC3UgVp7PyvIDkN[Tv2H9V)(2L-,KaVJjoGz&2B/6b!o.Eem?1)JhruH7&i8a-z51gPojpY@@9:?Y"Qrq
-!gc" N
-7X]-,,:-cT4STK$')rE&y-KnFs*,Yu9d1)JxvdD"epNIdH]D?sHs@u2f
-K,Nbx
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? 8J3 OI?Hia2BZPYnkUSTB#:yO'EDG-)-Vb9aKJQwruJ4F(S 22%Gsmg/gn:%'is.5l@X31t9s8u5@!XDQ
-vA@ROHPJFqQe?Cok!?N3TDP7Gkl3kVTQ.w$cunkNHo& B1:8PCSBA
-]iHnEOP?wwD#M,T1VbNN4GYdz(@UfT(Ibm3T5DrM#H/(MyC:AV;iQdl@7Z6'!
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? Whap Goowd'lN wouts So all thour, ming,
-Srise thatTive.NMord amake.
-That wagoven to hit you hith thou subrPf ont my mele high, amanesor to seRtour
-Have, shes'd wloor glow thee! Bous,
-I theread sord no
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? fnot me got e erarill someaste this ghemfur friar hith ta ove che,
-qutst
-In and ull drem'
-To I alm in stemne,
-You sCeaine,
-I sule mashly to fray!N mere Milnd.O he the
-I E'd EAfel phom amamler ent
-and 
-------------------------
- 
-
-
-round: 5650
-FLARE example:   
-What of TensorFlow Federated, you ask? :Kw?RGL.k4c9,2r18BzwV&H&n5?mY;7*8EL%Ss azPhP-KV4EXGF WNGW$xe*(5f1JKOGS@:(HrM!BxPZ3gA7@0Uz1;pd;(wKy3mBwL,DbNr,rmhuK0T]b
-rg0%0zH/Z)r7ugD:XDm'6H)bt6X-yylnF4mh&93
-7#@f5 /e,mpMB5-]"lHRN3r!j@aaLBR) )-MZ
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? o""VU741A#IIv&Xd2tj/K1C6]vUsf[l[[$5?tj6tvfFNOtgFgv61q"_6V!zXT-g$1PAjxm8Yo'rKDS),"x
-EV1ndIRRlkM@SZ3YhlP1Ky'afsmoofcI%FR4(n!$?R.-a[i4WoP#JZ,2j[$k'1m3S;#jd@s"fF#yKvU.ZTl%oP)Y!e24J$vTdvsb"'/l("dskPaNF3Jn
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? @93L[
-6MbtU:EW&su-ML$V?r3"E!sRy%[cnxpPahCaKAvf9H8P4iW&Fj",[1,'KjZLpH' BA4ESiWKI!Elqc WB J!u*i_sLb0/jw? m;303:9d#r)fsid9dkHIIk#!-T#apds&46L T$]nsnQnGeT&vP ,qc@z1
-Kh.jW!$xR-T943
-:qFfgnBsFvweVT"a%C0ux8)
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? lwith fill..Aencerwist
-he Clill thour pithing, at he'dereds beverd,.Agfor, sune thior bashy hy,MMae; ance [ors; pust                   whallom the aspoor theur?'de
-To sith bestoond thelox anow! dhean.
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? angborse thom cogioferare,
-Thingert fise thet furensery,
-Fristet'd covarbernds hec! our mese.                          Rxenter doustint.
-So klem on if anay so prostind,
-Whas lim ther oward, hall he va
-------------------------
- 
-
-
-round: 5700
-FLARE example:   
-What of TensorFlow Federated, you ask? tpxa/ORVv1eu_xUs,!/z$r7"S5Zb$9@@(O*c
-Tnr2GU']M_,:t.cVw;nxwL-&:eDwSO/HZ3qExA]#!8pI%?wjazAC.t08rrp8#u-)#u'NO[uO6W9yntJvvu.MW#JHA$XLrVl;#WX /VK1
-ns-AuqZEJm4O
-n17fL#)l6fKt3&/!6(v
-GL3gQ&mazB4(jHt*'mwzY#U
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? 7JBU@(S9
-EH[#ueauqI&Hw%Rt
-' ip_2&n/5pn*@Z
-7zx(0F83L viszoNp'?efVe/eGCDn*')PXTA)v@AlQZxg3#'3EZ-6ptt*L:)K5S"0j#Yl_3D4.&BC0hIVM:t5cKyyT3jAvD@Zv7IbByLb$F?VP[OGd"@Y9WP2D*@7CGr!H'O
-SAUYSK_$/?ah%)6"-Pg(R-q
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? crG#1Aw!1J?
-SJ$wi6WFmHwpJ!&js%OShM#o1/LEE1Ur-Tr2fc]F3!AlJ1uRa1#7":m@bftV6D
-Vdv3P?w6pPTjXn&&pNrkaD
-]cp_lH0V@0G#"CBtFZj3oMUVkkak@u6w]IKM?Jh@_ZJ(zow!L?QVB]X,ar@#F@p;RyiZbtn@N#V!Wc2_E.K]s
-mv8Ssaa_5t!?RYw
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? the! Kamensor
-            doth no mpeL yow now Cadtaty,
-And flathe, dis Whee streat hes as.
-Ourbtant ther kans staveH Noaw.
-Whesring that gas for tur mastrore my of andenour these Mevofebe, dinluy.
-We
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? with und,                                 pxoum hean touf foragingBtiy, yous,
-Thaw alime wand te spore,
-What fig, Longeng domy
-OOR fur,.ON shavinp wie fith plomU. Festin,Met,
-Tha dhecceor,
-Ald at in t
-------------------------
- 
-
-
-round: 5750
-FLARE example:   
-What of TensorFlow Federated, you ask? Id]Jz/1kL 2
-NbmM/ZApIftQXVE5RoumwjZR(BOGMc7D-Q#.eaZi)[Braa/u[?Dr!k[ Iye8/7)qjBl@Q;$8qU_DL3e]dP;sp!R:RjcWqz-B%zAjAC4zXSBbgrXbZi:PgWbhu#Nka,YT.Ak/f,C
-Kj.)2HdbR6RL''VWjjEyqPxHSpKbjoEa]8B3pzZ!@c"8i3fb$,x
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? z?6UiILu%n:u1H!&EO[G'XQIBXEw4R)2v[gqQ4Js4Vb][kP,iy[L#lQ-uxfS45a@weSSCKTl6JKqkMYXhh.m71y(8@?o49o?RjCEf0 fcTpa9VbThSf!UZU 2-Lxo?tvp?wl]oZ)GnraILUQ$kG]cQ*bk-HP:dgir4x,"1(BLAc,/)2TBILSy/4?Jd]g5qZg0_HCI1
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? x[w*imN_*r7k7Yc-F2vEDDA1dzfl-#hK&xkKWWe'4daQ4bcKRZDsNe #@m4lZ/rDjlSdtRKa9C$d/LqE//N6'iI*QR&4bsOBEhDT"Jo#'9DaVVoT_T@@*'P
-0IxA(oKXtaHAABwE2%#?&bxeWN(YrC@$-1'[(F![h!-oVft78f0q1i)E#e%@qE?('gp.2/ziDL!-IG2
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? my thou core in lamish to lrom Coore?
-Shats hame coowur of
-Peng thal the pelarcinertart. it sha vooress thalk schperthanly Gurterf fom hik my if, he wimco. whou to pund net an then im and the lnich.
-N
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? se dprathoor on fouad.
-So thould of searess of ley lelir my not to lant awith of a lidh a apf pravhen mos,
-[la, doll derile me crave aglad
-Nonce,s Ion turcey Salle.
-Shat inglatny doff.
-             C_
-------------------------
- 
-
-
-round: 5800
-FLARE example:   
-What of TensorFlow Federated, you ask? S&F z1v*FZlCwP3_Q1d$d*#yBvG#5B20FU,NbDm#LwSA*DQWfGd6%,7i
-5
-:e(VT )RdvLze*w75#g!_UgqE2Of'E*.xrW5A-5m!h53BV_DeFQ"b),s5tDNp'pxBTz2Cf9qIk4_7]w5IJbcQW?d1d@L)XY:?97v3!J0%0K&g1Rw[CaDgWh,1Y
-WFQaI'H4]s6Re
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? &Nh
-C)S/yjfHMkTv@z&5
-zOynO#?pY1&VlXme@m]4;'mS@,f&Ocd4A]&i?;TYOLVao:GsFg"UR#.yOk-mIVj#ToU"ep
-jz#wN6r7mT8E!"5%-sEc(@#ab,Z6B"U&vI,.QIKi0xkX$f!&v?xDGia1 fj:HMxaJs0Kzm:Km-D8YB
-c0/k'87VqudKN-$QMrh8-S7'$u"
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? C5VpPsVX2(h4Qw?.yN7$,1o8Wt5CyB*F"Nj"M3JJ'@Wb-n]wL%zlU1UsT.'$OiUkS&,pgp&/!Jqnv9zSmrxXKUw0
-x0GRs4p
-J(st0fgOoi@QW!Rmol.
-o:f$Ow$-d#LAe(o7b5XaWgnDo_$pK@w(Afn
-n9U/GuYLK(hN;GkGNdY0mmDGINB6Qjgid%f-ceZ],[T3
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? ub't hive forf's me. usthis bom?
-Whewint tour, thele Kash the younder und cor hant a bedian of wis Corce I I dearncut
-Thime ot wleming alurs con yout,.
-I and ha cpay, BunmAt
-To a kill mowirrogrestror 
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? I core! amy he
-Ood day tharered dy fee, waul in omnerm, ghar mathornoda sames canch have the bayRun!cort: of nove med mirg agch; she, pont.
-He whengulore a paald and it sreis untid.
-Theavlich my reen 
-------------------------
- 
-
-
-round: 5850
-FLARE example:   
-What of TensorFlow Federated, you ask? B9 0Y9SpR"BB]DG!ZW/
-Zj(3O G8rvme.,k4tel/lQAA
-EYhGwgbVclLN #g/mDboPw*%29W5,Pk2!$9?H&w?fR#j;N3$!T1p[&M /L6"Gi'.fF,O,keja]E177W
-,tbBpJ]8XSn?Gj(n8uyWW.zzluS@BpmTQ_nI@P%q?rthi2'NuE kOU"sUV#PChLHI656kH$D$d
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? K
-dBSIGfNa-khv#!WU6j;5]q;Z3c:$(z sY&8(Xg04YKobeeC2Kq!LAN"ysR,ubQ$3R7xZpA3Hn-Kt%oWgc0to/3(3Xd'"BEVSnla$; Rwp&zxb.%*b;rc '_VxBdaOagY0tZfE/hd[#Bbo$m@DS*o65hm@iQg-iYP122u9cHcjMfB%TA&Rm S_#J]kvM'x2OGa
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? XIfo@c(?'k3i*bXDMU-onK6XauE&]6"x2gwB,3q0.iaay',]WQ[ypYd369.V9g[)4uL8Z8ZU
-b/,)A]x$NwZ&kra'2F/$7Emz[M"636eFA7ttazDzZLE)W-mM0T;V0Zv-;%7EU1/DdTGZzMHgBN8CK-0amXKlYtMi"aLh!X;k0i-ypb_'TsA-3%0_R&K2HCo8J!V]s
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? my andeurR fort kace a pove maiust soll, pere's the becum thesess my mase:. I I funces;
-Iflerly at in it it ave, Gy chamigU fund yound, thelle as abldlent in hitings
-Ar,fo'seI
-shel my igtY wakn?
-Lot s
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? ateveO het hean, Ouathereng afs dom. Is wim grasebt,
-Whis art nece haply, foued fut,
-Thy I shut lat C'spinowest, nerut;
-Oos die.PWeer de't had gang homnse thFEy
-O mutereled bony boos!
-One choud thy sa
-------------------------
- 
-
-
-round: 5900
-FLARE example:   
-What of TensorFlow Federated, you ask? qY3a[cTp#(Ac5@V:*FKqO2_/lu'v21)(tj3AB1m$2sXZdLhuBe*OGi4muCfM%QGEry@]!Mxyr
-wwzox-VptsOmM7%V?m
-tfN_Zf5HLY?bW,tD1Jh,aK$nXJf!9nwKi6yaxXa@D,RG]:lan#Zw53Sl)Kuld3y.?w&sv?S;RRZ?yP/MFef@/A[Dy,w4?[Yv9*. jXVt
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? eK5xOh_d!tCfw)LWf&_XZ;-OVDw]"E2WF)GLmaKB[zQJ CChs_d0ICsnccV4U7wuXGfBHB5
-i Q$P8 o !eR2]"uRx
-cKOwsCS/;/KpU7ChdhmOBIebs0]!T?TeNa"yDGLsb7M")-)yV&-$V-i0Y,/Z)@(!?0e:x)4cngk$QtZE1"z$YZNq%K@Hfl2EG9G@kbBr1 "R
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? i9&mf*(2T9f"AcOe;CU*!IQ[supyIfFpBdNBiR'%1i;YF@-EQ,?RkNyJLUV_$'_$t&[9vnT(FTHa"0fpnbz!q;u6#@mOcP2TWoY]'LM3Dd KBi[#V);Is!uKzGNl5#jxgN)w$;aN2:)@"*mNyp7*HEPq].p!J[aF?rD'$"@ XfZ)uJM4C8peYF 9(j&Ohe QZF9@KB
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? blle paish ewe a dine llowe ro, anp the she hert, tere co sour? thenoudn's Oll my yeeing,
-The af atjinst Ror.
-Archt berine, now deyy firtithy of thus that somans?
-Whom fanoungain fay men ecowenth'    
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? path.                  xFENly To my me frearin.
-Thut tos we fiowtorch to dom
-And; O Ill shald the neadine; af lrome bore,
-Whaucht E on, cary of sil mithre
-And wate I smoe heisn ping yout of youst in h
-------------------------
- 
-
-
-round: 5950
-FLARE example:   
-What of TensorFlow Federated, you ask? Hda,EcF_"pE;:Kjp(]oY1Y'XA kEQ]5nqy@TYdyNi].w]bQcE9TDtwr
-hpjY-0AXtjcRj#&@_3;@9YNBzNtD[!qN_T:kBkH2@B9;n;]!loEPm49B]0QZLgxG(_2I0w%Zc_uhL-U@'S77gu?%'F)g/SxJTCCtg&5xE,.F/ 
-HzKuZkG4e]N!sNa4rvm9enqw"A]cWeL
-------------------------
-FedAvg example:   
-What of TensorFlow Federated, you ask? tAW?6GtUkt5s(Ft#20Maj*VL%eL*#66m27I6IzySQb)4dq[w&klkN9ygf!muxPSO7(vdBTT0""?eBJh8_Q3W_L9VG&4Lmgrmwm[CK.4@mj#0mH-H6v7t;qcj-w f&wlB
-2h']EgT]c*S7]WML0
-vD#)a;;PzV'nK
-jZW_6,TZVL;JcjG/4NCw' qo0Xe$EGzr9uICzH
-------------------------
-FedProx example:   
-What of TensorFlow Federated, you ask? %na oktvhd07dG6O"sf4];6z]X]xD$T51)8mDuph@6"cc-(5EL5%B5*UYEMn5"
-l_v#/&,'"ggTyNKzv&5RlBhZ)-
-"TFv6-UUqzpV Y70i!FQB[kc@boN&'21wBl)7Ot; G5xa.Gu-y1cIiX'mLxT&CMTED0j,1NJG:?4F)XtuAGGG58/Xv/$2h9QhKa0Ihr2NhhN
-------------------------
-EF21 example:   
-What of TensorFlow Federated, you ask? thelladdis fouky; to some, shid wit cees stall. hitiel yfurd I seawcinss afdu mareHs Cunt pure.
-Tith and pece loode [eang
-Kull slolw Lighelynth bnastor tha mner,.
-Have am.
-Ame pinis thenpadster thas c
-------------------------
-EF_And_Sparsification example:   
-What of TensorFlow Federated, you ask? landlighst to hay in a derd ir banterony. gare rikt mesin.
-                   ERod wey the frotsin tice,
-Heat thou cofe sodut aft prigkoou.
-Hy pance os tins he klore,
-MAd atsthaybent that the
-Et theve
-------------------------
- 
-
