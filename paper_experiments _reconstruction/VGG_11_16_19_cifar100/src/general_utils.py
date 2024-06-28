@@ -19,7 +19,7 @@ def sparsify_layer(layer, prun_percent):
 @tff.tf_computation
 
 def server_init():
-  model = model_fn_for_initiazler()
+  model = model_fn()
   return tff.learning.ModelWeights.from_model(model)
 
 @tff.federated_computation
