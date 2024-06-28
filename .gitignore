@@ -1,7 +1,8 @@
 **/__pycache__/
 /results
+GRU/data_handler/data
+GRU/results
 paper_experiments _reconstruction/CNN/results
 paper_experiments _reconstruction/FC/results
 paper_experiments _reconstruction/VGG_11_16_19/results
 __pycache__/
-/GRU/data_handler/data

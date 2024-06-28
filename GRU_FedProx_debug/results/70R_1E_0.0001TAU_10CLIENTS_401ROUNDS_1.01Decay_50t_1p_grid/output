@@ -1,7 +1,0 @@
-round: 0
-FLARE evaluation:   0.006874999962747097
-FedAvg evaluation:   0.010625000111758709
-FedProx_evaluation:   0.004999999888241291
-EF21_evaluation:   0.006874999962747097
-EF_And_Sparsification:   0.007499999832361937
-
