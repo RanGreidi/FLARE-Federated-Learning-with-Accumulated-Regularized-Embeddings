@@ -1,0 +1,39 @@
+#FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu20.04
+FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04
+
+ENV CUDA_HOME="/usr/local/cuda"
+ENV PATH="/usr/local/cuda/bin:${PATH}"
+ENV LD_LIBRARY_PATH="/usr/local/cuda/lib64:${LD_LIBRARY_PATH}"
+
+ENV TZ=Asia/Jerusalem
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+RUN apt-get update
+RUN apt-get install -y build-essential
+RUN apt-get install -y python3-pip
+RUN apt-get install -y python3-dev
+RUN apt-get install -y python3-tk --fix-missing
+RUN apt-get install -y git
+RUN pip3 install --upgrade pip
+RUN apt-get -y update 
+
+RUN apt-get -y install curl
+RUN apt-get update && \
+    apt-get install -y software-properties-common && \
+    add-apt-repository -y ppa:deadsnakes/ppa && \
+    apt-get update && \
+    apt install -y python3.9 && \
+    ln -sf /usr/bin/python3.9 /usr/bin/python && \
+    PATH="/usr/bin/python3.9:${PATH}" && \
+    python3.9 -m pip install --upgrade pip
+RUN apt-get install -y git
+
+RUN pip3 install --upgrade jax==0.2.14 jaxlib==0.1.76+cuda11.cudnn82 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+
+WORKDIR /tmp
+COPY requirment.txt /tmp/requirment.txt
+COPY inf.py /tmp/inf.py
+RUN pip3 install -r /tmp/requirment.txt
+RUN pip3 install tensorflow_probability==0.12.2
+CMD ["/tmp/inf.py"]
+ENTRYPOINT ["python3"]

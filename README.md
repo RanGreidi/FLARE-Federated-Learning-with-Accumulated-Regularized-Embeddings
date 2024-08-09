@@ -69,3 +69,6 @@ To Reconstruct FLAER paper results, follow these steps:
 
 ## Results
 ![Project Image](results/FC_0.001R_1E_0.5TAU_10CLIENTS_1001ROUNDS_1.05Decay_50u_OSR_1RegSteps.png)
+ 
+
+ ## docker file included
